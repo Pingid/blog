@@ -13,11 +13,11 @@ Louisiana Museum of Modern Art (2014). Assume No Readership. [video] Available a
 
 Wilkinson, A. (2017). Something Borrowed. New Yorker. [online] Available at: https://www.newyorker.com/magazine/2015/10/05/something-borrowed-wilkinson [Accessed 15 Oct. 2017].
 
-## Styles
+
 
 ```json
 {
-  thumbnail: 'https://i.amz.mshcdn.com/vjMb4JA2vT9aGMWiE1JJHCcehwI=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F188327%2FGettyImages-174509399.jpg',
+  "thumbnail": "https://i.amz.mshcdn.com/vjMb4JA2vT9aGMWiE1JJHCcehwI=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F188327%2FGettyImages-174509399.jpg"
 }
 ```
 
