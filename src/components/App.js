@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 import ArticleList from './ArticleList';
 import Article from './Article';
@@ -10,9 +10,6 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <div>
-            BLOG
-          </div>
           <div>
             <Route path="/" exact={true} component={ArticleList} />
             <Route path="/essays/:article" component={Article}/>

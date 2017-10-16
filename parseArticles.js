@@ -46,6 +46,10 @@ function parseMarkdown(files) {
           output.title = text;
         }
       }
+      // Set Links
+      renderer.paragraph = (text) => {
+        const match = text.match(/(?=http).*(?=\s\[)/g);
+      }
       const html = marked(file.contents, { renderer });
 
       resolve(output);
