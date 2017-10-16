@@ -20,6 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "parse": "node ./parseArticles.js"
+    "parse": "node ./parseArticles.js",
+    "commit-blog": "git add .; git commit -m 'article change'; git push ",
+    "blog": "yarn parse; yarn predeploy; yarn deploy; yarn commit-blog"
   }
 }
