@@ -14,11 +14,17 @@ function promiseAllP(items, block) {
     return Promise.all(promises);
 }
 
+const filterFiles = filenames => filenames.filter(x => {
+  console.log(x);
+  console.log(/(#live)(.*)(.md)/.test(x));
+  return /(#live)(.md)/.test(x)
+})
+
 function readFiles(dirname) {
     return new Promise((resolve, reject) => {
         fs.readdir(dirname, function(err, filenames) {
             if (err) return reject(err);
-            promiseAllP(filenames.filter(x => /(#live)(.md)/.test(x)), (filename, index, resolve, reject) =>  {
+            promiseAllP(filenames.filter(x => /(#live)(.*)(.md)/.test(x)), (filename, index, resolve, reject) =>  {
                 fs.readFile(path.resolve(dirname, filename), 'utf-8', function(err, content) {
                     if (err) return reject(err);
                     return resolve({filename: filename, contents: content});
