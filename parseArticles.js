@@ -18,7 +18,7 @@ function readFiles(dirname) {
     return new Promise((resolve, reject) => {
         fs.readdir(dirname, function(err, filenames) {
             if (err) return reject(err);
-            promiseAllP(filenames.filter(x => /.md/.test(x)), (filename, index, resolve, reject) =>  {
+            promiseAllP(filenames.filter(x => /(#live)(.md)/.test(x)), (filename, index, resolve, reject) =>  {
                 fs.readFile(path.resolve(dirname, filename), 'utf-8', function(err, content) {
                     if (err) return reject(err);
                     return resolve({filename: filename, contents: content});
