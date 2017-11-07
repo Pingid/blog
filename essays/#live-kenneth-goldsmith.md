@@ -8,17 +8,17 @@ Despite understanding that "Day" was a conceptual piece and so about provoking t
 
 ## References
 
-Taycher, L. (2010). Books of the world, stand up and be counted! All 129,864,880 of you.. [online] Available at: http://booksearch.blogspot.co.uk/2010/08/books-of-world-stand-up-and-be-counted.html [Accessed 7 Nov. 2017].
+Taycher, L. (2010). Books of the world, stand up and be counted! All 129,864,880 of you.. [online] Available at: [http://booksearch.blogspot.co.uk/2010/08/books-of-world-stand-up-and-be-counted.html](http://booksearch.blogspot.co.uk/2010/08/books-of-world-stand-up-and-be-counted.html)[Accessed 7 Nov. 2017].
 
 Frieze (2014). No Such Thing as Writer's Block. [video] Available at: [https://www.youtube.com/watch?v=9Box0FF9H0Q](https://www.youtube.com/watch?v=9Box0FF9H0Q) [Accessed 15 Oct. 2017].
 
-Hong, C. (2015). There's a New Movement in American Poetry and It's Not Kenneth Goldsmith. [online] New Republic. Available at: https://newrepublic.com/article/122985/new-movement-american-poetry-not-kenneth-goldsmith [Accessed 7 Nov. 2017].
+Hong, C. (2015). There's a New Movement in American Poetry and It's Not Kenneth Goldsmith. [online] New Republic. Available at: [https://newrepublic.com/article/122985/new-movement-american-poetry-not-kenneth-goldsmith](https://newrepublic.com/article/122985/new-movement-american-poetry-not-kenneth-goldsmith)[Accessed 7 Nov. 2017].
 
 Louisiana Museum of Modern Art (2014). Assume No Readership. [video] Available at: [https://www.youtube.com/watch?v=FAJRQJGc7DU](https://www.youtube.com/watch?v=FAJRQJGc7DU) [Accessed 15 Oct. 2017].
 
 Wilkinson, A. (2017). Something Borrowed. New Yorker. [online] Available at: [https://www.newyorker.com/magazine/2015/10/05/something-borrowed-wilkinson ](https://www.newyorker.com/magazine/2015/10/05/something-borrowed-wilkinson)[Accessed 15 Oct. 2017].
 
-Writing.upenn.edu. (2017). [online] Available at: http://www.writing.upenn.edu/~afilreis/88v/goldsmith-bio.html [Accessed 6 Nov. 2017].
+Writing.upenn.edu. (2017). [online] Available at: [http://www.writing.upenn.edu/~afilreis/88v/goldsmith-bio.html](http://www.writing.upenn.edu/~afilreis/88v/goldsmith-bio.html)[Accessed 6 Nov. 2017].
 
 
 
