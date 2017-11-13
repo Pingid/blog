@@ -4,7 +4,7 @@
 
    EXAMPLE
 
-   Oulipo is a loose gathering of (mainly) French-speaking writers and [mathematicians](https://en.wikipedia.org/wiki/Mathematics). **Mathematics** is the study of topics such as [quantity](https://en.wikipedia.org/wiki/Quantity). **Quantity** is a property that can exist as a [multitude](https://en.wikipedia.org/wiki/Counting). **Counting** is the actio5n of finding the number of [elements](https://en.wikipedia.org/wiki/Element_(mathematics)) In [mathematics](https://en.wikipedia.org/wiki/Mathematics).
+   Oulipo is a loose gathering of (mainly) French-speaking writers and [mathematicians](https://en.wikipedia.org/wiki/Mathematics). **Mathematics** is the study of topics such as [quantity](https://en.wikipedia.org/wiki/Quantity). **Quantity** is a property that can exist as a [multitude](https://en.wikipedia.org/wiki/Counting). **Counting** is the action of finding the number of [elements](https://en.wikipedia.org/wiki/Element_(mathematics)) In [mathematics](https://en.wikipedia.org/wiki/Mathematics).
 
    ​
 
