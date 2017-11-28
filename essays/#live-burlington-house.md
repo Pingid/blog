@@ -1,6 +1,6 @@
-#The social effect of the 1935-6 exhibition of Chinese art at Burlington House, London
+# The social effect of the 1935-6 exhibition of Chinese art at Burlington House, London
 
-##Introduction
+## Introduction
 
 China is seen today as one of the great powers shaping the global economy. It regularly appears in conversations about trade, globalisation, environmentalism, conflict, ...etc. This is a long way from the late 19th early 20th century China whose population was mainly farmers, living so close to the breadline that a drought between 1876 and 1879 caused over 10 million deaths. The various uprisings towards the end of the Qing dynasty left the country split into factions, run by militarists and warlords who exploited the lands and people in endless conflicts for supremacy. This isn’t even accounting for all the imperialist aims of the west and Japan who continued through brutish force to take territories and intervene in China’s politics. (Bickers, 2017, p.0-76)
 
@@ -10,7 +10,7 @@ I start this essay by looking at key historical events in China at the turn of t
 
 For much of the historical context, I use Robert Bickers book ‘Out of China’ published by penguin in 2017, which goes over the rise of China in great detail. Bickers is a professor of History at the University of Bristol and has published eight other books relating to modern Chinese History. 
 
-##Early 20th century China
+## Early 20th century China
 
 In 1894 the Chinese suffer a defeat at the hands of the Japanese losing Taiwan, in 1897 Germany take Jiaozhou Bay, in 1908 Korea was detached from China by the Japanese. The problem for China was not only external but endless uprisings were also weakening the state and the 1900 Boxer rebellion lead to further European concessions. This is the end of a long line of uprisings, defeats and humiliations suffered by the Chinese in the later part of the Qing dynasty. The Chinese felt disillusioned by the state, they had lost faith in its competence and worried about national extinction (wangguo). Nevertheless, when The Republic of China took over in 1912 it was with most territories still intact. (Bickers, 2017)
 
@@ -40,13 +40,13 @@ Between 1920 and 1940 there was a large shift in foreign attitudes towards China
 
 The early 20th century China had a problem, they weren’t being taken seriously abroad and as a result were not being supported in any of their territorial disputes. But by carefully pushing an image of China that was both grand but also humble, not by pushing their own propaganda but by moderating Foreign cinema and promoting their art they were able to paint a new picture of themselves. “Of course, this new image of China, of noble peasants, of a people who were ‘wise’, ‘spiritual’, deeply cultured and artistic, adept with brush and ink, and infused with a love of connoisseurship, was as much a caricature in its way and as unrepresentative as any other” (Bickers, 2017, p.172).
 
-###References
+### References
 
-BBC News. (2017). China profile - Timeline - BBC News. [online] Available at: http://www.bbc.co.uk/news/world-asia-pacific-13017882 [Accessed 12 Mar. 2017].
+BBC News. (2017). China profile - Timeline - BBC News. [online] Available at: [http://www.bbc.co.uk/news/world-asia-pacific-13017882](http://www.bbc.co.uk/news/world-asia-pacific-13017882)[Accessed 12 Mar. 2017].
 
 Bickers, R. (2017). Out of China: How the Chinese ended the era of western domination. 1st ed. Allen Lane.
 
-Chang-meng, Y. (2017). Recent Books on China. [online] Available at: http://www.chinaheritagequarterly.org/030/features/pdf/1936/Articles/Recent English Books on China.pdf [Accessed 15 Apr. 2017].
+Chang-meng, Y. (2017). Recent Books on China. [online] Available at: [http://www.chinaheritagequarterly.org/030/features/pdf/1936/Articles/Recent](http://www.chinaheritagequarterly.org/030/features/pdf/1936/Articles/Recent) English Books on China.pdf [Accessed 15 Apr. 2017].
 
 Gilbert, R. (1926). What's wrong with China. 1st ed. London.
 
@@ -54,9 +54,9 @@ Isaacs, H. (1958). Scratches on our minds. 1st ed. M.E. Sharpe, pp.155-8.
 
 Liu, Z. (2016). The case for repatriating China's cultural objects. 1st ed. Springer, pp.13-16.
 
-Liya, F. (2011). Modern Chinese Intellectuals and the 1935 London International Exhibition of Chinese Art: The Reactions of Cai Yuanpei and The China Critic Group. [online] Available at: http://publications.nichibun.ac.jp/region/d/NSH/series/kosh/2011-03-31/s001/s019/pdf/article.pdf [Accessed 16 Apr. 2017].
+Liya, F. (2011). Modern Chinese Intellectuals and the 1935 London International Exhibition of Chinese Art: The Reactions of Cai Yuanpei and The China Critic Group. [online] Available at: [http://publications.nichibun.ac.jp/region/d/NSH/series/kosh/2011-03-31/s001/s019/pdf/article.pdf]( http://publications.nichibun.ac.jp/region/d/NSH/series/kosh/2011-03-31/s001/s019/pdf/article.pdf) [Accessed 16 Apr. 2017].
 
-Liya, F. (2012). The 1935 London International Exhibition of Chinese Art: The China Critic Reacts. China Heritage Quarterly, [online] (30/31). Available at: http://www.chinaheritagequarterly.org/features.php?searchterm=030_fan.inc&issue=030 [Accessed 27 Mar. 2017].
+Liya, F. (2012). The 1935 London International Exhibition of Chinese Art: The China Critic Reacts. China Heritage Quarterly, [online] (30/31). Available at:[ http://www.chinaheritagequarterly.org/features.php?searchterm=030_fan.inc&issue=030]( http://www.chinaheritagequarterly.org/features.php?searchterm=030_fan.inc&issue=030) [Accessed 27 Mar. 2017].
 
 Newton, E. (1935). Chinese art: The Burlington House Show, First Impressions, Sculpture in Bronze, Jade and Pottery. The Manchester Guardian, p.9.
 
@@ -64,9 +64,9 @@ Ross, E. (1911). Sociological Observations in Inner China. American Journal of S
 
 Scaglia, I. (2016). The Aesthetics of Internationalism: Culture and Politics on Display at the 1935–1936 International Exhibition of Chinese Art. Journal of World History, 26(1), pp.105-137.
 
-Steuber, J. (2006). The exhibition of Chinese art at Burlington House, London, 1935-36. The Burlington Magazine, [online] pp.528-536. Available at: http://burlington.org.uk/media/_file/generic/theexhibitionofchineseartatburlingtonhouse.pdf [Accessed 8 Mar. 2017].
+Steuber, J. (2006). The exhibition of Chinese art at Burlington House, London, 1935-36. The Burlington Magazine, [online] pp.528-536. Available at: [http://burlington.org.uk/media/_file/generic/theexhibitionofchineseartatburlingtonhouse.pdf](http://burlington.org.uk/media/_file/generic/theexhibitionofchineseartatburlingtonhouse.pdf) [Accessed 8 Mar. 2017].
 
-Tate. (2017). Activist art – Art Term | Tate. [online] Available at: http://www.tate.org.uk/art/art-terms/a/activist-art [Accessed 14 Apr. 2017].
+Tate. (2017). Activist art – Art Term | Tate. [online] Available at: [http://www.tate.org.uk/art/art-terms/a/activist-art](http://www.tate.org.uk/art/art-terms/a/activist-art) [Accessed 14 Apr. 2017].
 
 The Times, (1935). Chinese art complementary to European a revelation to Britain. p.19.
 
@@ -75,54 +75,13 @@ Zheng, D. (1983). Studies in Chinese art. 1st ed. Hong Kong: Chinese University 
 Image References
 Exhibition Catalogue: 28 November 1935 to 7 March 1936. (1935). 1st ed. London: Royal Academy of Arts.
 
-Royal Academy of Arts Collections (2017). Buddhist Sculpture in The Lecture Room (Royal Academy of Arts, International Exhibition of Chinese Art, 1935-36). [image] Available at: https://tinyurl.com/kpw5jvr [Accessed 15 May 2017].
+Royal Academy of Arts Collections (2017). Buddhist Sculpture in The Lecture Room (Royal Academy of Arts, International Exhibition of Chinese Art, 1935-36). [image] Available at: [https://tinyurl.com/kpw5jvr](https://tinyurl.com/kpw5jvr) [Accessed 15 May 2017].
 
-Thomson, J. (1869). Canton night watchman. Peking city guard. [image] Available at: https://tinyurl.com/m4ljbg2 [Accessed 15 May 2017].
+Thomson, J. (1869). Canton night watchman. Peking city guard. [image] Available at: [https://tinyurl.com/m4ljbg2](https://tinyurl.com/m4ljbg2) [Accessed 15 May 2017].
 
-Thomson, J. (1871). Pailou at Dagao Hall, Beijing, China. [image] Available at: https://wellcomeimages.org/indexplus/image/L0056443.html [Accessed 15 May 2017].
+Thomson, J. (1871). Pailou at Dagao Hall, Beijing, China. [image] Available at: [https://wellcomeimages.org/indexplus/image/L0056443.html](https://wellcomeimages.org/indexplus/image/L0056443.html) [Accessed 15 May 2017].
 
-Topical Press Agency (1935). Sir Percival David, Exhibition Committee Director and Tang Xifen (Tang Hsi Fen) Exhibition Secretary, examining exhibits. [image] Available at: https://tinyurl.com/m5lo2e7 [Accessed 15 May 2017].
-
-##Both References
-
-BBC News. (2017). China profile - Timeline - BBC News. [online] Available at: https://tinyurl.com/3nbk5jp [Accessed 12 Mar. 2017].
-
-Bickers, R. (2017). Out of China: How the Chinese ended the era of western domination. 1st ed. Allen Lane.
-
-Chang-meng, Y. (2017). Recent Books on China. [online] Available at: https://tinyurl.com/n2ax9e5 English Books on China.pdf [Accessed 15 Apr. 2017].
-
-Exhibition Catalogue: 28 November 1935 to 7 March 1936. (1935). 1st ed. London: Royal Academy of Arts.
-
-Gilbert, R. (1926). What's wrong with China. 1st ed. London.
-
-Isaacs, H. (1958). Scratches on our minds. 1st ed. M.E. Sharpe, pp.155-8.
-
-Liu, Z. (2016). The case for repatriating China's cultural objects. 1st ed. Springer, pp.13-16.
-
-Liya, F. (2011). Modern Chinese Intellectuals and the 1935 London International Exhibition of Chinese Art: The Reactions of Cai Yuanpei and The China Critic Group. [online] Available at: https://tinyurl.com/mnd6t3v [Accessed 16 Apr. 2017].
-
-Liya, F. (2012). The 1935 London International Exhibition of Chinese Art: The China Critic Reacts. China Heritage Quarterly, [online] (30/31). Available at: https://tinyurl.com/jwmvbsg [Accessed 27 Mar. 2017].
-
-Newton, E. (1935). Chinese art: The Burlington House Show, First Impressions, Sculpture in Bronze, Jade and Pottery. The Manchester Guardian, p.9.
-
-Ross, E. (1911). Sociological Observations in Inner China. American Journal of Sociology, 16(6), pp.721-733.
-
-Royal Academy of Arts Collections (2017). Buddhist Sculpture in The Lecture Room (Royal Academy of Arts, International Exhibition of Chinese Art, 1935-36). [image] Available at: https://tinyurl.com/kpw5jvr [Accessed 15 May 2017].
-
-Scaglia, I. (2016). The Aesthetics of Internationalism: Culture and Politics on Display at the 1935–1936 International Exhibition of Chinese Art. Journal of World History, 26(1), pp.105-137.
-
-Steuber, J. (2006). The exhibition of Chinese art at Burlington House, London, 1935-36. The Burlington Magazine, [online] pp.528-536. Available at: https://tinyurl.com/m2wf3ps [Accessed 8 Mar. 2017].
-
-Tate. (2017). Activist art – Art Term | Tate. [online] Available at: http://www.tate.org.uk/art/art-terms/a/activist-art [Accessed 14 Apr. 2017].
-
-The Times, (1935). Chinese art complementary to European a revelation to Britain. P.19.
-Thomson, J. (1869). Canton night watchman. Peking city guard. [image] Available at: https://tinyurl.com/m4ljbg2 [Accessed 15 May 2017].
-
-Thomson, J. (1871). Pailou at Dagao Hall, Beijing, China. [image] Available at: https://tinyurl.com/kynna99 [Accessed 15 May 2017].
-
-Topical Press Agency (1935). Sir Percival David, Exhibition Committee Director and Tang Xifen (Tang Hsi Fen) Exhibition Secretary, examining exhibits. [image] Available at: https://tinyurl.com/m5lo2e7 [Accessed 15 May 2017].
-
-Zheng, D. (1983). Studies in Chinese art. 1st ed. Hong Kong: Chinese University Press.
+Topical Press Agency (1935). Sir Percival David, Exhibition Committee Director and Tang Xifen (Tang Hsi Fen) Exhibition Secretary, examining exhibits. [image] Available at: [https://tinyurl.com/m5lo2e7](https://tinyurl.com/m5lo2e7) [Accessed 15 May 2017].
 
 
 

@@ -43,11 +43,12 @@ function parseMarkdown(files) {
       const output = { markdown: file.contents };
       // Remove styles
       renderer.code = function (text, language) {
-        output.styles = JSON.parse(text);
+        output.props = JSON.parse(text);
         return '';
       }
       // Get title
       renderer.heading = (text, level) => {
+        console.log("HEADING", text, level);
         if (level === 1) {
           output.title = text;
         }

@@ -19,7 +19,7 @@ export default class ArticleList extends React.Component {
         <div className="article-wrapper">
           <div className="article-title">
             <h1 className="title">{currentArticle.title}</h1>
-            {currentArticle.styles && currentArticle.styles.thumbnail && <img className="thumbnail" src={currentArticle.styles.thumbnail}></img>}
+            {currentArticle.props && currentArticle.props.thumbnail && <img className="thumbnail" src={currentArticle.props.thumbnail}></img>}
           </div>
           <div className="article-content-wrapper">
             <ReactMarkdown
