@@ -76,7 +76,7 @@ function writeJson(files) {
   })
 }
 
-readFiles(path.resolve(__dirname, 'essays'))
+readFiles(path.resolve(__dirname, 'posts'))
   .then(parseMarkdown)
   .then(writeJson)
   .then(() => console.log('Great success'))
