@@ -8,7 +8,7 @@ Saussure does give a sort of framework to work from when he defines the sign as 
 
 I found it helpful to see linguistics as a subset of semiotics, it being the study of perhaps our most valued sign system language. It is interesting to step back and look at language like this, comparing it to our other sign systems such as mathematical notation, music, or body language. Looking from this perspective it is easier understand what Chandler means when he says “To decline the study of signs is to leave to others the control of the world of meaning which we inhabit.” (2006, p. 11).
 
-### References
+#### References
 
 Chandler, D. (2006) Semiotics: The basics, Vol. 2. 2nd edn. LONDON: Taylor & Francis.
 

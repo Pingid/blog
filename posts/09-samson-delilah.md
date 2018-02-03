@@ -8,7 +8,7 @@ Some notable symbols of the painting are the old face of the procuress juxtapose
 
 Part of the goal of the exhibition visit was to look at these paintings through John Berger's eyes focusing on the representation of woman. The nakedness and position of Delila in Rubens painting reminded me of a painting by Sir Peter Lely in which John Berger describes the nakedness as not her own expression but ‘is a sign of her submission to the owner’s feelings or demands’ (Berger, 1973, p.52). Here Berger refers to both the painter and the client who is paying for the painting who in both Lely’s and Ruben’s pieces are male. Although the story does include a temptress the question still lies whether this painting might look very different if it were painted for and by a woman.![img](https://lh4.googleusercontent.com/2ssBxtvLrzFhReio1YDk0VFbz4jVUeLr0H0P6MYxqT2GMJEV2fJfaGVBKhPC0zVtjIeYWkc2ixA3SL-ITLiDTKHCUb3vKkJE-oKz-Jel6keGStNpq6Rk0UJ-csTySZXloEgq0uvy)
 
-### References
+#### References
 
 Berger, J. (1973) Ways of seeing based on the BBC television series. London, Eng.: British Broadcasting Corporation [u.a.].
 

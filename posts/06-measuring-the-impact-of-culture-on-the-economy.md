@@ -30,7 +30,7 @@ It might be argued that the study above is not all that useful since it seems un
 
 It seems clear that if possible the ability to define the true economic value of goods and services within the cultural sector could not only benefit the public but also those making the funding decisions. ‘Public policy and public funding are a crucial part of the overall landscape occupied by arts and culture’ (Crossick, p154, 2016). The real difficulties arise when knowing whether the numbers you have come up with truly reflect the actual value. In this essay, I have addressed the cultural sector as a whole rather than looking at its constituent parts. This might be the wrong way of addressing the question ‘how to measure economic value?’, it might be better to focus on sectors of culture such as the music, museums, public art, architecture etc. There are of course other ways to measure the value of culture, one of the most promising being (SROI), which might do a much better job of reflecting the true value culture has to people and society. It seems there is still too little evidence to say which method is the most accurate and it is likely that the best method will be specific to the situation it’s used in.
 
-### References
+#### References
 
 Cambridge Dictionary (2016) Economic value meaning in the Cambridge English dictionary. Available at: [http://dictionary.cambridge.org/dictionary/english/economic-value?fallbackFrom=learner-english&q=Economic+value](https://www.google.com/url?q=http://dictionary.cambridge.org/dictionary/english/economic-value?fallbackFrom%3Dlearner-english%26q%3DEconomic%2Bvalue&sa=D&ust=1517590256640000&usg=AFQjCNGEZ0uIZwiZxygYK5W2CQGn13TeKw) (Accessed: 5 December 2016).
 

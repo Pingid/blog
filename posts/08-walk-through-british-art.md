@@ -9,7 +9,7 @@ There was a whole room dedicated to Henry Moore's sculptures and situated on a p
 
 Having an exhibition laid out in chronological order helped me to understand art and art styles with respect to history. There seemed to be an evolution in painting starting in two dimensions moving into perspective and three dimensions and finally to abstraction. It made me wonder what people a few hundred years ago would think of a sculpture like Reclining Figure, is abstraction attractive to only the modern sentiment or is it just a more recent discovery?
 
-### References
+#### References
 
 Christie’s, © (2016) ‘“My highlight of 2016” — Henry Moore’s Reclining Figure: Festival’. Review of by Robert Brown. Available at: https://tinyurl.com/k6d4yjw (Accessed: 9 February 2017).
 

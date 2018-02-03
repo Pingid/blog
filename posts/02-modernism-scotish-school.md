@@ -16,7 +16,7 @@ Wassily chair by Marcel Breuer was the obvious choice for c to construct a foldi
 
 Mackintosh’s chair like Breuer’s uses simple geometric shapes, the main and key difference is in the choice of materials. Mackintosh’s chair would be much harder to produce at scale it also lacks in my eyes the aesthetic balance the Breuer’s has.![B3Wassily_Breuer_02.jpg](https://lh6.googleusercontent.com/71lc94XYmJR_fqO4_1oDA8nfe9XSawjUHpGHvaSWj5kY_u1c0ZuGR62F0ybI1zSDliWQVuSri8SabzzMMWtboLPAQQvXwTpflFzToJw8J5hN7wpf18wbOehBhaNcA1XMSrbJzhFx)
 
-### References
+#### References
 
 La Fonda del Sol – exhibition tour & dinner / SPECIAL (DE) (2012) Available at: http://www.design-museum.de/en/collection/100-masterpieces/detailseiten/b3wassily-marcel-breuer.html (Accessed: 5 December 2016).
 

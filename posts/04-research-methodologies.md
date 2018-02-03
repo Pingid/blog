@@ -8,7 +8,7 @@ Quantitative research is used when testing a single variable’s relationship to
 
 These are not totally separate techniques and when researching outside of science it is often effective to use both qualitative and quantitative methods (Denscombe 2010). For my studio work though I can see the qualitative method as being more useful as so much of my work involves many unknowns and tends to be exploratory.
 
-### References
+#### References
 
 Denscombe, Martyn. (2010) Good Research Guide: For small-scale social research projects. 4th edn. Berkshire: Open University Press
 

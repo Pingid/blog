@@ -8,7 +8,7 @@ The next piece which intrigued me was m.A.A.d 2014 by Kahlil Joseph. Like many o
 
 Martin Creed’s piece got me thinking about whether there are other places or things that we are not normally free to inspect. Are there other everyday activities movements which deserve more attention. I hope I can find and develop this idea further in my studio work and maybe find a different way to highlight the everyday physical struggles that so many go through.
 
-### References
+#### References
 
  infinite mix (2016) Available at: http://www.theinfinitemix.com/ (Accessed: 5 December 2016).
 

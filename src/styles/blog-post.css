@@ -7,9 +7,14 @@
 }
 
 .b-h3 {
-  font-size: 40.44px;
+  font-size: 40px;
   margin-top: 4rem;
-	text-align: center;
+}
+
+.b-h4 {
+  font-size: 30px;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
 }
 
 .b-inline-img {
@@ -20,7 +25,13 @@
 	padding-bottom: 1rem;
 }
 
-.b-inline-p {
+.b-link { color: blue; }
+.b-link:visited { color: lightblue }
+
+.b-reference {
+	font-size: 14px;
+	line-height: 25px;
+	padding: 0rem 0rem;
+	word-wrap: break-word;
 }
 
-p { display: block }

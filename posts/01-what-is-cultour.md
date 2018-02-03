@@ -8,7 +8,7 @@ The history of the word starts in medieval times and comes from the word cultiva
 
 The search for a definition of culture felt like traversing a tangled web of ambiguity leading from one historical piece of literature to the next. There was no single definition which encapsulated all of the meanings but maybe that's okay, maybe the job of someone using the term is to clearly define the context they use it in.
 
-### References
+#### References
 
 Cambridge Dictionary (2016) Culture meaning in the Cambridge Learner’s dictionary. Available at: http://dictionary.cambridge.org/dictionary/learner-english/culture (Accessed: 5 December 2016).
 

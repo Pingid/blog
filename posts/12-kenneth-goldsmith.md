@@ -6,7 +6,7 @@ Watching interviews I was quickly seduced by Goldsmiths charm, he wears small ro
 
 Despite understanding that "Day" was a conceptual piece and so about provoking thought I found myself quite unthoughtful instead in more of a state of vexed confusion and it took hearing him talk for me to start to think about what this practice of uncreative writing might mean in a broader context. It was the idea that curation and appropriation can be an artistic practice that I found particularly captivating. There are according to software engineer Leonid Taycher 129,864,880 books in the entire world, this is such a large number that no one person could come close to reading even a fraction of them and this doesn't include films and music (Taycher, 2010). It seems to me that as an artist you are just as valuable to society if you bring to public attention pertinent old ideas as you would be attempting to create something new and original. Goldsmith to me points out that like how the Détournement movement gave new meaning to slogans by changing their context, the same can be done with writing.
 
-### References
+#### References
 
 Taycher, L. (2010). Books of the world, stand up and be counted! All 129,864,880 of you.. [online] Available at: [http://booksearch.blogspot.co.uk/2010/08/books-of-world-stand-up-and-be-counted.html](http://booksearch.blogspot.co.uk/2010/08/books-of-world-stand-up-and-be-counted.html)[Accessed 7 Nov. 2017].
 

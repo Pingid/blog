@@ -6,7 +6,7 @@ The Oulipo is made up of an eclectic assortment of individuals including writers
 
 I find this idea deeply attractive; through learning software and programming paradigms, I have increasingly come to see humans as complex machines and creativity the operation of making connections between existing ideas. If this is the case it makes sense for us systematize the creative process in order to best take advantage of our brains abilities, which at least in my own case is problem-solving. Interestingly in 1960 around the same time the Oulipo formulated, a psychologist called Sarnoff Mednick first proposed this idea that, "creativity is associative memory that works exceptionally well" (Kahneman, 2015, p.67). I don't want to generalise when I say it makes sense to "systematize the creative process" it is a subject which deserves far more research but it is a technique that works for this unique group of academics and creatives which has lasted now nearly 60 years.
 
-### References
+#### References
 
 Gallix, A. (2013). Oulipo: freeing literature by tightening its rules. [online] the Guardian. Available at: [https://www.theguardian.com/books/booksblog/2013/jul/12/oulipo-freeing-literature-tightening-rules](https://www.theguardian.com/books/booksblog/2013/jul/12/oulipo-freeing-literature-tightening-rules) [Accessed 9 Nov. 2017].
 
@@ -25,7 +25,7 @@ Oulipo.net. (2017). Oulipo | Oulipo. [online] Available at: [http://oulipo.net/f
 ```json
 {
   "date": "12/11/2017",
-  "description": "Rats who must build the labyrinth from which they propose to escape"
+  "description": "'Rats who must build the labyrinth from which they propose to escape.' (Warren Motte)"
 }
 ```
 

@@ -2,21 +2,18 @@ import React from 'react';
 import * as R from 'ramda';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import moment from 'moment';
-import Radium from 'radium';  
 
 import Cover from './tiles/Cover';
 import Single from './tiles/Single';
 import SideScroll from './SideScroll';
 
-import groupPostsBy from '../utils/groupPostsBy';
 import blogPosts from '../static/posts.json';
 
 class Blog extends React.Component {
-  componentDidMount() {
-    this.resize = window.addEventListener('resize', () => this.forceUpdate())
-  }
-  componentWillUnmount() { window.removeEventListener('resize', this.resize); }
+  // componentDidMount() {
+  //   this.resize = window.addEventListener('resize', () => this.forceUpdate())
+  // }
+  // componentWillUnmount() { window.removeEventListener('resize', this.resize); }
   render() {
     const cover = R.find(x => x.meta.cover, blogPosts);
     const posts = blogPosts.filter(post => !R.propEq('title', cover.title, post));
@@ -34,9 +31,9 @@ class Blog extends React.Component {
         className={classNames('mx-auto', { 'px3': window.innerWidth > 590, 'px1': window.innerWidth < 590 })}
         style={{ maxWidth: '70rem' }}>
         <div className={classNames({ 'pb3 pt2 pl3': window.innerWidth > 590, 'pb2 pt1 pl1': window.innerWidth < 590, })}>
-          <h1 className="my3">Daniel Beaven</h1>
+          <h3 style={{ fontWeight: 700 }} className="mt3 mb1">Dan Beaven</h3>
           <p style={{ maxWidth: '30rem' }}>
-            This blog contains essays I have written as part of my degree course Interaction Design Arts. Each week I am required  to write up a 300 word post relating to the topic covered in that weeks lecture.
+            This blog contains essays I have written during my (BA) Interaction Design Arts course at the London College of Communication.
           </p>
         </div>
         <div className="flex flex-wrap border-box">
@@ -59,8 +56,10 @@ class Blog extends React.Component {
                         key={post.title} 
                         className={classNames({ 'c-border-l': i2 > 0 })} 
                         style={{ flex: `1 0 20%` }}>
-                        <h4 className="px3 my0 bold">{post.title}</h4>
-                        <h4 className="px3 mt1 mb0">{post.meta.date}</h4>
+                        <Link to={'article/' + post.title.split(' ').join('_')}>
+                          <h4 className="px3 my0 bold">{post.title}</h4>
+                          <h4 className="px3 mt1 mb0">{post.meta.date}</h4>
+                        </Link>
                       </div>
                     ))
                   }
@@ -98,4 +97,4 @@ class Blog extends React.Component {
   }
 }
 
-export default Radium(Blog);
+export default Blog;

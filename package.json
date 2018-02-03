@@ -16,6 +16,7 @@
     "react-image-gallery": "^0.8.7",
     "react-markdown": "^2.5.0",
     "react-router-dom": "^4.2.2",
+    "react-router-scroll": "^0.4.4",
     "react-scripts": "1.0.14",
     "styled-components": "^3.0.2",
     "verbal-expressions": "^0.3.0"
@@ -28,7 +29,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "parse": "node ./scripts/markdown-blog-parse.js /posts",
-    "commit-blog": "git add .; git commit -m 'article change'; git push ",
-    "blog": "yarn parse; yarn predeploy; yarn deploy; yarn commit-blog"
+    "commit-blog": "git add .; git commit -m 'essay change'; git push ",
+    "blog": "yarn parse; yarn deploy; yarn commit-blog"
   }
 }

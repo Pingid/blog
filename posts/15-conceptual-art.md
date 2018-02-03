@@ -36,7 +36,7 @@ There was a rapid evolution in thought throughout the 20th century, perhaps the 
 
 The rules described above for what is and isn’t Conceptual art refer to the movement in the late 1960's and are based on Sol Lewitt's 1966 essay 'Paragraphs on Conceptual art'. They are not necessarily rules to follow if you want to create work that invokes thought, I can't see the perceptual experience of aesthetic beauty and the intellectual experience of expanded thinking as mutually exclusive. It is a danger though that the conceptual part of an artwork might be overlooked or ignored if aesthetically pleasing.
 
-### References
+#### References
 
 Booker, C. (1992). The neophiliacs. London: Pimlico.
 
@@ -75,7 +75,7 @@ Tomkins, C. (2013). Marcel Duchamp: The Afternoon Interviews. Badlands Unlimited
 ```json
 {
   "date": "30/11/2017",
-  "description": "In conceptual art, the idea or concept is the most important aspect of the work. When an artist uses a conceptual form of art, it means that all of the planning and decisions are made beforehand and the execution is a perfunctory affair"
+  "description": "'In conceptual art, the idea or concept is the most important aspect of the work. When an artist uses a conceptual form of art, it means that all of the planning and decisions are made beforehand and the execution is a perfunctory affair.' (Sol LeWitt)"
 }
 ```
 

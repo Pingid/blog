@@ -6,7 +6,7 @@ Computers are only becoming more ubiquitous and they have been at an accelerated
 
 In the studio I am very conscious of this idea of questioning the way we use and interact with objects and technology. With this in mind in response to my latest brief on visualizing time I am looking at new ways of interacting with a book. I am trying to use interactivity as a tool to teach technical abstract ideas.
 
-### References
+#### References
 
 Kolko, D.J. (2009) Thoughts on interaction design. Morgan Kaufmann Publishers.
 

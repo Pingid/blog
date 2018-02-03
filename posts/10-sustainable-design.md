@@ -6,7 +6,7 @@ Sustainable development generally refers to three areas: “environmental stewar
 
 Just a couple of months ago a study was published in the journal nature communication that found photovoltaic solar will pay back, sometime this year, all the energy that it consumed over the last 40 years of development (Louwen et al, 2016). This doesn’t mean much for us now but does mean essentially free energy for the future. Most designers aren’t also engineers and so aren’t at the forefront scientific discovery but they can push for social change and maybe, if enough artists and designers effectively educate people on the problems and consequences, we can tackle this crisis from both the technological and social sides.
 
-### References
+#### References
 
 Charlotte, K. (no date) Origins of Sustainability. Available at: https://tinyurl.com/lrohgz4 (Accessed: 2 March 2017).
 

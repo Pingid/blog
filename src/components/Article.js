@@ -5,10 +5,9 @@ import '../styles/blog-post.css';
 
 import blogPosts from '../static/posts.json';
 
-const BlogPost = ({ match, history }) => {
-  console.log(match)
+const Article = ({ match, history }) => {
   const post = R.find(R.propEq('title', match.params.article.split('_').join(' ')), blogPosts);
-  // if (!post) return history.push('/');
+  if (!post) { history.push('/'); return null; }
   return (
     <div>
       <div
@@ -22,4 +21,4 @@ const BlogPost = ({ match, history }) => {
   )
 };
 
-export default BlogPost;
+export default Article;

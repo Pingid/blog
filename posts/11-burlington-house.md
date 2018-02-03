@@ -40,7 +40,7 @@ Between 1920 and 1940 there was a large shift in foreign attitudes towards China
 
 The early 20th century China had a problem, they weren’t being taken seriously abroad and as a result were not being supported in any of their territorial disputes. But by carefully pushing an image of China that was both grand but also humble, not by pushing their own propaganda but by moderating Foreign cinema and promoting their art they were able to paint a new picture of themselves. “Of course, this new image of China, of noble peasants, of a people who were ‘wise’, ‘spiritual’, deeply cultured and artistic, adept with brush and ink, and infused with a love of connoisseurship, was as much a caricature in its way and as unrepresentative as any other” (Bickers, 2017, p.172).
 
-### References
+#### References
 
 BBC News. (2017). China profile - Timeline - BBC News. [online] Available at: [http://www.bbc.co.uk/news/world-asia-pacific-13017882](http://www.bbc.co.uk/news/world-asia-pacific-13017882)[Accessed 12 Mar. 2017].
 
