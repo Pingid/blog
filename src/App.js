@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
-import ArticleList from './ArticleList';
-import Article from './Article';
-import '../styles/App.css';
+import Grid from './components/Grid';
+import Article from './components/Article';
+import './styles/App.css';
 
 class App extends Component {
   render() {
@@ -11,8 +11,8 @@ class App extends Component {
       <Router>
         <div>
           <div>
-            <Route path="/" exact={true} component={ArticleList} />
-            <Route path="/essays/:article" component={Article}/>
+            <Route path="/" exact={true} component={Grid} />
+            <Route path="/article/:article" component={Article}/>
           </div>
         </div>
       </Router>

@@ -1,0 +1,24 @@
+.b-h1 { margin: 6rem 0rem; }
+
+.b-h2 {
+  font-size: 25px;
+  color: #989898;
+  margin: 2rem 0;
+}
+
+.b-h3 {
+  font-size: 40.44px;
+  margin-top: 4rem;
+	text-align: center;
+}
+.b-inline-p {
+	flex: 1 0 50%;
+	padding-right: 2rem;
+}
+
+.b-inline-img {
+	max-height: 50vh;
+	flex: 1 1 50%;
+	padding-right: 2rem;
+}
+

@@ -20,7 +20,12 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 ```json
 {
   "date": "02/03/2017",
-  "thumbnail": "https://images.unsplash.com/12/car.jpg?dpr=1&auto=format&fit=crop&w=767&h=463&q=80&cs=tinysrgb&crop="
+  "images": {
+    "thumbnail": { 
+      "src": "https://images.unsplash.com/12/car.jpg?dpr=1&auto=format&fit=crop&w=767&h=463&q=80&cs=tinysrgb&crop="
+  	}
+  },
+  "description": "Heaps of manure lined the streets leaching into basements breeding flies and spreading disease."
 }
 ```
 
