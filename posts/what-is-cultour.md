@@ -22,7 +22,8 @@ Wordsworth, W. (1995) The prelude: The Four texts (1798, 1799, 1805, 1850): Four
 
 ```json
 {
-  "date": "31/10/2016"
+  "date": "31/10/2016",
+  "description": "The search for a definition of culture felt like traversing a tangled web of ambiguity leading from one historical piece of literature to the next."
 }
 ```
 

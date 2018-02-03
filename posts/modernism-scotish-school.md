@@ -29,10 +29,10 @@ Victoria, Museum, A. and webmaster, D.M. (2013b) Style guide: Scottish school - 
 ```json
 {
   "date": "31/10/2016",
-  "photosInline": [true, true],
   "images": {
   	"thumbnail": { "src": "https://lh6.googleusercontent.com/71lc94XYmJR_fqO4_1oDA8nfe9XSawjUHpGHvaSWj5kY_u1c0ZuGR62F0ybI1zSDliWQVuSri8SabzzMMWtboLPAQQvXwTpflFzToJw8J5hN7wpf18wbOehBhaNcA1XMSrbJzhFx" }
-  }
+  },
+  "description": "Mackintosh’s chair like Breuer’s uses simple geometric shapes, the main and key difference is in the choice of materials."
 }
 ```
 

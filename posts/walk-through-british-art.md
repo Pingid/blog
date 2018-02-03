@@ -20,6 +20,7 @@ Tate (1951) Reclining figure, Henry Moore OM, CH 1951 | Tate Available at: https
 ```json
 {
   "date": "08/02/2017",
+  "description": "Having an exhibition laid out in chronological order helped me to understand art and art styles in respect to history",
   "images": {
     "thumbnail": {
       "src": "http://www.tate.org.uk/art/images/work/T/T02/T02270_10.jpg"

@@ -14,7 +14,8 @@ Martin Creed’s piece got me thinking about whether there are other places or t
 
 ```json
 {
-  "date": "01/11/2016"
+  "date": "01/11/2016",
+  "description": "Are there everyday activities, movements which deserve more attention?"
 }
 ```
 

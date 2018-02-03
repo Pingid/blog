@@ -22,7 +22,8 @@ University of Southern California. (2016) Organizing Your Social Sciences Resear
 
 ```json
 {
-  "date": "10/11/2016"
+  "date": "10/11/2016",
+  "description": "A large part of the researcher's job is analysing their own input, being aware of their own role in what they are studying."
 }
 ```
 

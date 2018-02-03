@@ -22,7 +22,8 @@ semiotics. (2017). In: Oxford, 1st ed. [online] Available at: https://en.oxfordd
 
 ```json
 {
-  "date": "17/01/2017"
+  "date": "17/01/2017",
+  "description": "To decline the study of signs is to leave to others the control of the world of meaning which we inhabit."
 }
 ```
 

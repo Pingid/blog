@@ -60,7 +60,8 @@ Williams, R. (1983). ‘A vocabulary of culture and society’, Oxford Universit
 
 ```json
 {
-  "date": "05/12/2016"
+  "date": "05/12/2016",
+  "description": "Each decision to fund one cause is also the decision not to fund another."
 }
 ```
 
