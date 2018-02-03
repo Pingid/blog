@@ -17,7 +17,7 @@ class Blog extends React.Component {
   componentDidMount() {
     this.resize = window.addEventListener('resize', () => this.forceUpdate())
   }
-  componentWillUnmount() { window.removeEventListener(this.resize); }
+  componentWillUnmount() { window.removeEventListener('resize', this.resize); }
   render() {
     const cover = R.find(x => x.meta.cover, blogPosts);
     const posts = blogPosts.filter(post => !R.propEq('title', cover.title, post));
