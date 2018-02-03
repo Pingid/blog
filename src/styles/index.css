@@ -26,17 +26,10 @@ h3 {
 }
 h4 {
   font-family: 'Playfair Display', serif;
-  font-size: 25px;
+  font-size: 15.443px;
   font-weight: 400;
   letter-spacing: 2px;
-  color: #989898;
-}
-h5 {
-  font-family: 'Playfair Display', serif;
-  font-size: 36px;
-  font-weight: bold;
-  font-style: italic;
-  color: black;
+  color: #1d1d1d;
 }
 p {
   font-family: 'Raleway', sans-serif;
@@ -72,3 +65,10 @@ a:active { color: black }
 }
 
 .c-border-l { border-left: 1px solid #a0a0a0; }
+
+.hyphenate {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}

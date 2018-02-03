@@ -11,14 +11,16 @@
   margin-top: 4rem;
 	text-align: center;
 }
-.b-inline-p {
-	flex: 1 0 50%;
-	padding-right: 2rem;
-}
 
 .b-inline-img {
-	max-height: 50vh;
-	flex: 1 1 50%;
-	padding-right: 2rem;
+	max-width: 50%;
+	float: left;
+	margin-top: .5rem;
+	padding-right: 1.8rem;
+	padding-bottom: 1rem;
 }
 
+.b-inline-p {
+}
+
+p { display: block }

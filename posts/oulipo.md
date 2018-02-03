@@ -24,7 +24,8 @@ Oulipo.net. (2017). Oulipo | Oulipo. [online] Available at: [http://oulipo.net/f
 
 ```json
 {
-  "date": "12/11/2017"
+  "date": "12/11/2017",
+  "description": "Rats who must build the labyrinth from which they propose to escape"
 }
 ```
 

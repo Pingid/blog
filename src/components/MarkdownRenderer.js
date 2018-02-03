@@ -7,16 +7,15 @@ export default ({ markdown }) => {
 		React.createElement(`h${level}`, { className: `b-h${level}` }, children.join(' '));
 
 	const renderParagraph = ({ children }) => {
-		const Image = (props) => <div className="b-inline-img"><img {...props} /></div>;
 		const containsImage = children.filter(R.propEq('type', 'img')).length > 0;
-		if (containsImage) return (
-			<div className="flex">
+		if (containsImage && children.length > 1) return (
+			<p>
 				{	
-					children.map((x, i) => x.type === "img" ? 
-						<Image key={i} {...x.props} /> : 
-						<p key={i} className="b-inline-p">{x}</p> ) 
+					children.sort(node => node.type === "img" ? -1 : 1).map((x, i) => x.type === "img" ? 
+						<img className="b-inline-img" key={i} {...x.props} /> : 
+						<span key={i} className="b-inline-p">{x}</span> ) 
 				}
-			</div>
+			</p>
 		);
 		return <p>{children}</p>;
 	}
