@@ -14,7 +14,7 @@ export default ({ size, title, image, description, date }) => {
 			<div className="px3" style={{ clear: 'both' }}>
 				<h3 className="m0">{ title }</h3>
 				<h4 className="m0 py2 italic">{dateFormat}</h4>
-				{image && <Image src={image} className="pr2 pb1" />}
+				{ image && <Image src={image} className="pr2 pb1" /> }
 				{ description && (
 					<p className="mt0">
 						<span className="nowrap">{ description.slice(0, 10) }</span>

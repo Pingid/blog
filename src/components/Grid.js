@@ -7,7 +7,6 @@ import Radium from 'radium';
 
 import Cover from './tiles/Cover';
 import Single from './tiles/Single';
-import Double from './tiles/Double';
 import SideScroll from './SideScroll';
 
 import groupPostsBy from '../utils/groupPostsBy';
@@ -21,7 +20,6 @@ class Blog extends React.Component {
   render() {
     const cover = R.find(x => x.meta.cover, blogPosts);
     const posts = blogPosts.filter(post => !R.propEq('title', cover.title, post));
-    const layout = [2, 100]
 
     const makeLayout = (layout, posts) => {
       return R.reduce((a, b) => {
@@ -52,7 +50,7 @@ class Blog extends React.Component {
             />  
           </div>
           { 
-            makeLayout([2, 100], posts).map((section, i1) => {
+            makeLayout([2, 3, 100], posts).map((section, i1) => {
               if (section.length > 3) return (
                 <SideScroll key={i1} className="py3" style={{ borderTop: '1px solid #a0a0a0' }} width="33%">
                   { 
@@ -60,13 +58,9 @@ class Blog extends React.Component {
                       <div 
                         key={post.title} 
                         className={classNames({ 'c-border-l': i2 > 0 })} 
-                        style={{ flex: `0 0 ${section.length > 3 ? 33 : 100 / section.length}%` }}>
-                        <Single
-                          size={section.length}
-                          title={post.title}
-                          date={post.meta.date}
-                          image={R.path(['meta', 'images', 'thumbnail', 'src'], post)}
-                          description={post.meta.description} />
+                        style={{ flex: `1 0 20%` }}>
+                        <h4 className="px3 my0 bold">{post.title}</h4>
+                        <h4 className="px3 mt1 mb0">{post.meta.date}</h4>
                       </div>
                     ))
                   }
