@@ -4,7 +4,7 @@ It seems intuitive when critiquing literature to ask what the author is trying t
 
 Barthes argues in the essay that it makes more sense to critique writing as a thing in itself, not as an expression of the author, hence 'death of the author'. Essentially a piece of writing is not something that comes from the author alone it comes from what the author has read and experienced, it comes from the environment, "a text consists of multiple writings, issuing from several cultures and entering into dialogue with each other" (Barthes, 1976). Barthes also points out that it is essentially pointless as a critic to even factor in the author as it is not the author who will imbue meaning but the reader. Whether the meaning that the author intended is the same as the meaning that is interpreted by the reader doesn't matter, what matters is just the meaning interpreted by the reader, "the reader is the very space in which are inscribed, without any being lost, all the citations a writing consists of" (Barthes, 1967).
 
-Barthes talks about authorship and spectatorship in respect to writing and literature but the ideas can be transferred to any sort of creative production. What I find particularly attractive about this idea is that it shifts focus away from the worship of individuals towards an admiration for the subject more generally. I think this perspective could also have profound impacts on the way we practice, if, for instance, we no longer see our creations as our own but as belonging to the world, the response to our work will not affect our motivation to practice. It is as though we are each neuron in the large brain network we call humanity and our job as this neuron is simply to take in information from some neurons and spit out the sum of the information to other neurons. The analogy is ugly in the way portrays us as simple machines but I think it also humbling in that it gives back our creations to the world and humanity in general.
+Barthes talks about authorship and spectatorship in respect to writing and literature but the ideas can be transferred to any sort of creative production. What I find particularly attractive about this idea is that it shifts focus away from the worship of individuals towards an admiration for the subject more generally. I think this perspective could also have profound impacts on the way we practice, if, for instance, we no longer see our creations as our own but as belonging to the world, the response to our work will not affect our motivation to practice. It is as though we are each a neuron in the large brain network we call humanity and our job as this neuron is simply to take in information from other neurons and spit out the sum of that information to other neurons. The analogy is ugly in the way portrays us as simple machines but I think it also humbling in that it gives back our creations to the world and humanity in general.
 
 ## References
 
@@ -14,7 +14,12 @@ Syed, M. (2016). Black box thinking. Portfolio Penguin.
 
 ```json
 {
-  "date": "30/11/2017"
+  "date": "25/11/2017",
+  "images": {
+  	"thumbnail": { "src": "https://upload.wikimedia.org/wikipedia/en/7/7c/RolandBarthes.jpg" 
+	}
+  },
+  "description": "It is as though we are each a neuron in the large brain network we call humanity and our job as this neuron is simply to take in information from other neurons and spit out the sum of that information to other neurons"
 }
 ```
 

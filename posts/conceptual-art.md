@@ -74,7 +74,8 @@ Tomkins, C. (2013). Marcel Duchamp: The Afternoon Interviews. Badlands Unlimited
 
 ```json
 {
-  "date": "25/11/2017"
+  "date": "30/11/2017",
+  "description": "In conceptual art, the idea or concept is the most important aspect of the work. When an artist uses a conceptual form of art, it means that all of the planning and decisions are made beforehand and the execution is a perfunctory affair"
 }
 ```
 

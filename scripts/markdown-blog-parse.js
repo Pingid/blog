@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const R = require('ramda');
+const moment = require('moment');
 
 // Static paths
 const folder = path.join(__dirname, '../', process.argv[2]);
@@ -42,11 +43,18 @@ const parsePost = post => Promise.resolve({})
 	.then(obj => addMarkdown(post, obj))
 	.catch(err => console.log('There was a problem parsing post', post.slice(0, 50), err))
 
+// Sort by date
+const sortPosts = posts => {
+	const unixTime = str => moment(str, 'DD-MM-YYYY').unix()
+	return posts.sort((a, b) => unixTime(b.meta.date) - unixTime(a.meta.date))
+}
+
 // Read all files in folder parse them then write to posts.json file
 read_dir(folder)
 	.then(paths => 
 		Promise.all(paths.map(file => 
 			read_file(path.join(folder, file), 'utf8'))))
 	.then(posts => Promise.all(posts.map(parsePost)))
+	.then(sortPosts)
 	.then(x => write_file(outFile, JSON.stringify(x, null, 2), 'utf8'))
 	.catch(x => console.log('ERROR', x))

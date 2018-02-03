@@ -6,6 +6,7 @@ import moment from 'moment';
 import Radium from 'radium';  
 
 import Cover from './tiles/Cover';
+import SideScroll from './SideScroll';
 import BlogThumbLarge from './tiles/BlogThumbLarge';
 import BlogThumbMedium from './tiles/BlogThumbMedium';
 
@@ -13,14 +14,15 @@ import groupPostsBy from '../utils/groupPostsBy';
 import blogPosts from '../static/posts.json';
 
 const Blog = () => {
-  const unixTime = str => moment(str, 'DD-MM-YYYY').unix()
-  const posts = blogPosts.sort((a, b) => unixTime(b.meta.date) - unixTime(a.meta.date))
-  const getTileSize = post => R.path(['meta', 'images', 'thumbnail'], post) ? 2 : 1;
-  const setTileSizes = R.map(x => R.merge(x, { size: getTileSize(x) }))
-  const cover = R.find(x => x.meta.cover, posts);
-  const rest = setTileSizes(posts.filter(x => x.title !== cover.title))
-  const group = (posts) => groupPostsBy(posts, R.min(Math.round(window.innerWidth * 0.002277904328), 3))
-  const grouped = { cover, rest: group(rest) };
+  const cover = R.find(x => x.meta.cover, blogPosts);
+  const posts = blogPosts.filter(post => !R.propEq('title', cover.title, post));
+  const layout = [2, 100]
+
+  const makeLayout = (layout, posts) => R.reduce((a, b) => {
+    if (R.isEmpty(a)) return R.append([b], a);
+    if (R.last(a).length < layout[a.length - 1]) return R.append(R.append(b, R.last(a)), R.init(a))
+    return R.append([b], a);
+  }, [], posts)
 
   return (
     <div
@@ -35,43 +37,64 @@ const Blog = () => {
       <div className="flex flex-wrap border-box">
         <div style={{ borderTop: '1px solid #a0a0a0', flex: '0 0 100%' }}>
           <Cover
-            title={grouped.cover.title}
-            description={grouped.cover.meta.description}
-            gallery={grouped.cover.meta.images && grouped.cover.meta.images.gallery}
-            thumb={grouped.cover.meta.images && grouped.cover.meta.images.thumbnail}
+            title={cover.title}
+            description={cover.meta.description}
+            gallery={cover.meta.images && cover.meta.images.gallery}
+            thumb={cover.meta.images && cover.meta.images.thumbnail}
           />  
         </div>
-        {
-          grouped.rest.map((section, i1) => (
-            <div className="flex py3 border-box justify-center" key={i1} style={{ width: '100%', borderTop: '1px solid #a0a0a0' }}>
-              {
-                section.length < 1 ? null : section.map((post, i2) => {
-                  const thumb = R.path(['meta', 'images', 'thumbnail'], post);
-                  if (thumb)
-                    return <BlogThumbMedium
-                              key={i2 + 10}
-                              title={post.title}
-                              description={post.description}
-                              image={thumb}
-                              borderLeft={i2 === 1} />
-                  return (
+        { 
+          makeLayout([2, 100], posts).map((section, i1) => {
+            if (section.length > 3) return (
+              <SideScroll className="py3" style={{ borderTop: '1px solid #a0a0a0' }} width="33%">
+                { 
+                  section.map((post, i2) => (
                     <div
                       key={i2 + 10}
-                      style={{ maxWidth: '590px', minWidth: '33%' }}
+                      style={{ flex: '0 0 33vw' }}
                       className={classNames('px3 border-box', {
-                        'c-border-x': i2 === 1 && section.length > 2,
-                        'c-border-l': i2 === 1 && section.length === 2
+                        'c-border-l': i2 > 0 && section.length > 2
                       })}>
-                      <Link to={'blog/' + post.title.split(' ').join('_')}>
-                        <h3 className="m0 center">{post.title}</h3>
-                        <p className="mb0 center">{post.description}</p>
+                      <Link to={'article/' + post.title.split(' ').join('_')}>
+                        <h3 className="m0">{post.title}</h3>
+                        <p className="mb0">{post.meta.description}</p>
                       </Link>
                     </div>
-                  );
-                })
-              }
-            </div>
-          ))
+                  ))
+                }
+              </SideScroll>
+            )
+            return (
+              <div className="flex py3 border-box justify-center" key={i1} style={{ width: '100%', borderTop: '1px solid #a0a0a0' }}>
+                { 
+                  section.map((post, i2) => {
+                    const thumb = R.path(['meta', 'images', 'thumbnail'], post);
+                    if (thumb && section.length < 3 && i2 < 2) return (
+                      <BlogThumbMedium
+                        key={i2 + 10}
+                        title={post.title}
+                        description={post.meta.description}
+                        image={thumb}
+                        borderLeft={i2 === 1} />
+                    )
+                    return (
+                      <div
+                        key={i2 + 10}
+                        style={{ maxWidth: '590px', minWidth: '33%' }}
+                        className={classNames('px3 border-box', {
+                          'c-border-x': i2 === 1 && section.length > 2,
+                          'c-border-l': i2 === 1 && section.length === 2
+                        })}>
+                        <Link to={'article/' + post.title.split(' ').join('_')}>
+                          <h3 className="m0">{post.title}</h3>
+                          <p className="mb0">{post.meta.description}</p>
+                        </Link>
+                      </div>
+                    );
+                  })
+                }
+              </div>
+          )})
         }
         <p className="flex items-center jusify-center fit p2" style={{ width: '100%' }}>
           <a className="center" style={{ width: '100%' }} href="mailto:dm.beaven@gmail.com?Subject=hello">dm.beaven@gmail.com</a>

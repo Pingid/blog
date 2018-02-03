@@ -92,7 +92,7 @@ Topical Press Agency (1935). Sir Percival David, Exhibition Committee Director a
   "images": {
     "gallery": { "root": "projects/burlington/images" }
   },
-  "description": "How China used used an art exhibition to garner sympathy and respect from western sociaty"
+  "description": "How China used an art exhibition to garner sympathy and respect from western sociaties"
 }
 ```
 

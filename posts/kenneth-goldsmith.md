@@ -27,7 +27,8 @@ Writing.upenn.edu. (2017). [online] Available at: [http://www.writing.upenn.edu/
   "date": "15/10/2017",
   "images": {
     "thumbnail": { "src": "https://i.amz.mshcdn.com/vjMb4JA2vT9aGMWiE1JJHCcehwI=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F188327%2FGettyImages-174509399.jpg" }
-  } 
+  },
+  "description": "A man who spent a year transcribing a copy of the New York Times"
 }
 ```
 
