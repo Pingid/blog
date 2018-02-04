@@ -27,6 +27,7 @@ const addMeta = (text, obj) => {
 	const json = R.assoc('meta', JSON.parse(/(?<=```json)([\s\S]*?)(?=```)/gi.exec(text)[0]), obj)
 	if (json.meta.images && json.meta.images.gallery) {
   	return read_dir(path.join(static, json.meta.images.gallery.root))
+  		.then(R.filter(R.test(/.jpg|.png|.jpeg/gi)))
 			.then(images => images.map(name => path.join(json.meta.images.gallery.root, name)))
 			.then(x => R.assocPath(['meta', 'images', 'gallery'], x, json))
 	}

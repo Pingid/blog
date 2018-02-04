@@ -20,7 +20,7 @@ const Cover = ({ title, description, gallery, thumbnail, date }) => {
     } 
   `
   if (window.innerWidth < 700) return (
-    <div className="flex flex-wrap py3 px2">
+    <div className="flex flex-wrap py3 px3">
       <Link to={'article/' + title.split(' ').join('_')}>
         <h3 className="mb0" style={{ marginTop: '-11px' }}>{title}</h3>
       </Link>
