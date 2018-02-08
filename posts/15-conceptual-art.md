@@ -1,4 +1,4 @@
-# Conceptual Art
+# What is Conceptual Art?
 
 ## Introduction
 

@@ -41,6 +41,16 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+ul { padding: 0rem }
+li {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: .5px;
+  margin-bottom: 14px;
+  padding: 0rem 0rem;
+  word-wrap: break-word;
+  list-style-type: none;
+}
 
 @media screen and (max-width: 550px) { p { line-height: 27px } }
 /*@media screen and (max-width: 400px) { p { line-height: 26px } }*/

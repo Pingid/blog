@@ -1,4 +1,4 @@
-# Why interaction design
+# Why interaction design?
 
 With a focus on interaction design in this week’s lecture we discussed the various forms that design takes. We touched on experience design and immersive design two disciplines whose methods closely overlap those of interaction design. We also talked more broadly about the different disciplines that come under design which are neatly illustrated in Thomas Pluralvonglas (2009) venn diagram on the right. In this essay I explore further what interaction design means, what sort of problems it is there to solve and touch on what it means to my own work.![img](https://lh3.googleusercontent.com/wWb8VtJnrY7Zv0ceGZNBYFhB0I5OXmRul89xrIR6cAo8E_PpOvk8hyR6nv0DCbVzqDOIUm_JHoQPupfbu5UM8GB8iHR8eVZoGVX51tPx0ZYGChzBekGyTTd9RelZU9C5myPuH9CR)
 

@@ -1,4 +1,4 @@
-# What is Semiotics
+# What is Semiotics?
 
 Semiotics is defined in the oxford English dictionary as “The study of signs and symbols and their use or interpretation” (semiotics, 2017). This is the first time I have come across semiotics so I use this essay to explore where it came from and what other subjects it is related to.
 

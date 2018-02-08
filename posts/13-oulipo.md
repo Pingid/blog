@@ -1,4 +1,4 @@
-# The Oulipo
+# Who are the Oulipo?
 
 Cent Mille Milliards de Poèmes (Hundred Thousand Billion Poems) was a book published in 1961, made up of 14 ordered groups of 10 line poems, the idea was that a reader picks one line from each of group to build a 14 line sonnet. Because of the way combinations work in mathematics the books essentially contained 10^14 possible poem variations. During the writing of the book, Raymond Queneau enlisted the help of mathematician François Le Lionnais and it was this collaboration which sparked the creation of the Oulipo in 1960 (Gallix, 2013). Ouvroir de littérature potentielle (workshop of potential literature) or Oulipo is a group for people interested in, as Daniel Levin Becker a more recent member of the group put it, "investigations of poetic form and narrative constraint and the mathematics of wordplay" (Levin Becker, 2012). It is rare such disparate topics, poetry and mathematics, are seen in the same sentence and so I use this essay to explore a little further into the Oulipo and this relationship between creative writing and mathematics.
 

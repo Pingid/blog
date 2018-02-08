@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import * as R from 'ramda';
 import moment from 'moment';
 
+import { routeTitle } from '../../utils/utils';
+
 import ImageGallery from '../ImageGallery';
 
 const Cover = ({ title, description, gallery, thumbnail, date }) => {
@@ -21,7 +23,7 @@ const Cover = ({ title, description, gallery, thumbnail, date }) => {
   `
   if (window.innerWidth < 700) return (
     <div className="flex flex-wrap py3 px3">
-      <Link to={'article/' + title.split(' ').join('_')}>
+      <Link to={'article/' + routeTitle(title)}>
         <h3 className="mb0" style={{ marginTop: '-11px' }}>{title}</h3>
       </Link>
       <h4 className="m0 pt1 pb2 italic">{moment(date, 'DD-MM-YYYY').format("D MMM YY")}</h4>

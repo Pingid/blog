@@ -3,10 +3,11 @@ import * as R from 'ramda';
 import MarkdownRenderer from './MarkdownRenderer';
 import '../styles/blog-post.css';
 
+import { routeTitle } from '../utils/utils';
 import blogPosts from '../static/posts.json';
 
 const Article = ({ match, history }) => {
-  const post = R.find(R.propEq('title', match.params.article.split('_').join(' ')), blogPosts);
+  const post = R.find(x => routeTitle(x.title) === match.params.article, blogPosts);
   if (!post) { history.push('/'); return null; }
   return (
     <div>

@@ -26,7 +26,7 @@ export default ({ markdown }) => {
 
 	const renderLink = ({ children, href }) => 
 		<a className="b-link" href={href}>{children}</a>;
-	
+
 	return (
 		<ReactMarkdown
 	    source={markdown}
@@ -36,7 +36,7 @@ export default ({ markdown }) => {
 	    renderers={{
 	    	heading: renderHeadings,
 	    	paragraph: renderParagraph,
-	    	link: renderLink
+	    	link: renderLink,
 	    }}/>
   );
 }

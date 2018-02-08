@@ -1,4 +1,4 @@
-# What is Culture
+# What is Culture?
 
 It is important especially in academic writing to have clear definitions for words and terms used. This is not always easy, meanings are continually changing and many words have more than one meaning depending on the context. In this post I try to investigate the true definition and where the word came from.
 

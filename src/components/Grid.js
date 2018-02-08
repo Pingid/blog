@@ -7,6 +7,7 @@ import Cover from './tiles/Cover';
 import Single from './tiles/Single';
 import SideScroll from './SideScroll';
 
+import { routeTitle } from '../utils/utils';
 import blogPosts from '../static/posts.json';
 
 class Blog extends React.Component {
@@ -56,7 +57,7 @@ class Blog extends React.Component {
                         key={post.title} 
                         className={classNames({ 'c-border-l': i2 > 0 })} 
                         style={{ flex: `1 0 20%` }}>
-                        <Link to={'article/' + post.title.split(' ').join('_')}>
+                        <Link to={'article/' + routeTitle(post.title)}>
                           <h4 className="px3 my0 bold">{post.title}</h4>
                           <h4 className="px3 mt1 mb0">{post.meta.date}</h4>
                         </Link>
