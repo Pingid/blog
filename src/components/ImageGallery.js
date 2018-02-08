@@ -33,6 +33,7 @@ const ImageGallery = ({ items, style }) => {
 	    showPlayButton={false} 
 	    showThumbnails={false}
 	    showFullscreenButton={false}
+	    lazyLoad={true}
 	    items={items}
 	    renderItem={({ original }) => {
 	    	return (
