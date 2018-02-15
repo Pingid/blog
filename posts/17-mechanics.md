@@ -21,7 +21,7 @@ Although Game Theory isn't directly helpful in the actual creative production of
 ```json
 {
     "date": "15/02/2018",
-    "description": "Drivers manoeuvring in heavy traffic are playing a driving game. Bargain-hunters bidding on eBay are playing an auctioning game. A firm and a union negotiating next year’s wage are playing a bargaining game. When opposing candidates choose their platform in an election, they are playing a political game. The owner of a grocery store deciding today’s price for corn flakes is playing an economic game. In brief, a game is being played whenever human beings interact."
+    "description": "\"Drivers manoeuvring in heavy traffic are playing a driving game. Bargain-hunters bidding on eBay are playing an auctioning game. A firm and a union negotiating next year’s wage are playing a bargaining game. When opposing candidates choose their platform in an election, they are playing a political game. The owner of a grocery store deciding today’s price for corn flakes is playing an economic game. In brief, a game is being played whenever human beings interact.\" Ken Binmore"
 }
 ```
 

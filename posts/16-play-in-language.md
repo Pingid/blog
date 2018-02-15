@@ -19,6 +19,6 @@ Play is intrinsic to interaction design, not only in creative production but to 
 ```json
 {
   "date": "07/02/2018",
-  "description": "A general notion of play"
+  "description": "The exceptional and special position of play is most tellingly illustrated by the fact that it loves to surround itself with an air of secrecy. Even in early childhood the charm of play is enhanced by making a \"secret\" out ofit"
 }
 ```
