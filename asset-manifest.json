@@ -1,11 +1,13 @@
 {
   "main.css": "static/css/main.9ac64878.css",
   "main.css.map": "static/css/main.9ac64878.css.map",
-  "main.js": "static/js/main.d080d4a8.js",
-  "main.js.map": "static/js/main.d080d4a8.js.map",
+  "main.js": "static/js/main.5d511a79.js",
+  "main.js.map": "static/js/main.5d511a79.js.map",
   "static/media/ Gallery IV.jpg": "static/media/ Gallery IV.5fa51ada.jpg",
   "static/media/ The crew of H.M.S. Hood unload cases at Portsmouth, July 1935.jpg": "static/media/ The crew of H.M.S. Hood unload cases at Portsmouth, July 1935.1b3c3531.jpg",
   "static/media/ Zheng Tianxin (Dr F. T. Cheng) and Mr F.St. G. Spendlove examining exhibits.jpg": "static/media/ Zheng Tianxin (Dr F. T. Cheng) and Mr F.St. G. Spendlove examining exhibits.31d50258.jpg",
+  "static/media/52_working_05.jpg": "static/media/52_working_05.6118c3b6.jpg",
+  "static/media/52_working_08.jpg": "static/media/52_working_08.f948b428.jpg",
   "static/media/A Knife-grinder.jpg": "static/media/A Knife-grinder.8f119853.jpg",
   "static/media/A Manchu Bride.jpg": "static/media/A Manchu Bride.0bf6943f.jpg",
   "static/media/A Mandarin official.jpg": "static/media/A Mandarin official.c8be3487.jpg",
@@ -14,6 +16,7 @@
   "static/media/Amoy man and woman.jpg": "static/media/Amoy man and woman.715ff22c.jpg",
   "static/media/Boatman, Canton.jpg": "static/media/Boatman, Canton.006a3028.jpg",
   "static/media/Buddhist Sculpture in The Lecture Room.jpg": "static/media/Buddhist Sculpture in The Lecture Room.4ba77958.jpg",
+  "static/media/Duchamp_Fountaine.jpg": "static/media/Duchamp_Fountaine.3af79cbf.jpg",
   "static/media/Early Ming Dynasty, Gallery VIII (Royal Academy of Arts, The International Exhibition of Chinese Art, 1935-36), 1935.jpg": "static/media/Early Ming Dynasty, Gallery VIII (Royal Academy of Arts, The International Exhibition of Chinese Art, 1935-36), 1935.f515bcca.jpg",
   "static/media/Gallery 7.jpg": "static/media/Gallery 7.ef659433.jpg",
   "static/media/Gallery I  03.jpg": "static/media/Gallery I  03.841ff615.jpg",
@@ -42,5 +45,6 @@
   "static/media/Unpacking exhibits from Japan.jpg": "static/media/Unpacking exhibits from Japan.7a65a510.jpg",
   "static/media/War elephant of Siam.jpg": "static/media/War elephant of Siam.68dce0b2.jpg",
   "static/media/_Magic Lantern_ Peep Show.jpg": "static/media/_Magic Lantern_ Peep Show.9655776c.jpg",
-  "static/media/a nightwatchman, Peking.jpg": "static/media/a nightwatchman, Peking.178177fc.jpg"
+  "static/media/a nightwatchman, Peking.jpg": "static/media/a nightwatchman, Peking.178177fc.jpg",
+  "static/media/dadanyduchreadymadewheel13.jpg": "static/media/dadanyduchreadymadewheel13.f5c651e3.jpg"
 }
