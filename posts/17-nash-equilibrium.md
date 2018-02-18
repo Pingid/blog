@@ -23,7 +23,7 @@ Taking the example of tic tac toe it is clear that if both players plan their mo
     "quote": "\"When opposing candidates choose their platform in an election, they are playing a political game. The owner of a grocery store deciding today’s price for corn flakes is playing an economic game. In brief, a game is being played whenever human beings interact.\" Ken Binmore",
     "description": "\"At the present time I seem to be thinking rationally again in the style that is characteristic of scientists. However this is not entirely a matter of joy as if someone returned from physical disability to good physical health. One aspect of this is that rationality of thought imposes a limit on a person's concept of his relation to the cosmos.\" John Nash",
     "images": {
-        "thumbnail": { "src": "https://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/1994/nash-facts.html" }
+        "thumbnail": { "src": "https://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/1994/nash_postcard.jpg" }
     }
 }
 ```
