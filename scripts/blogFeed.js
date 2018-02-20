@@ -27,6 +27,7 @@ var feed = new RSS({
 /* loop over data and add to feed */
 posts.forEach(x => {
   feed.item({
+    guid: routeTitle(x.title), 
     title:  x.title,
     description: x.meta.description || '',
     url: `'/blog/#/${routeTitle(x.title)}'`, // link to the item
@@ -49,6 +50,7 @@ const JSONFeed = {
       url: 'http://danbeaven.co.uk',
   },
   items: posts.map(x => ({
+    id: routeTitle(x.title),
     title: x.title,
     summary: x.meta.description || '',
     url: `'http://danbeaven.co.uk/blog/#/${routeTitle(x.title)}'`,
