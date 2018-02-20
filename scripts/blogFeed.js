@@ -30,7 +30,7 @@ posts.forEach(x => {
     guid: routeTitle(x.title), 
     title:  x.title,
     description: x.meta.description || '',
-    url: `'/blog/#/${routeTitle(x.title)}'`, // link to the item
+    url: `http://danbeaven.co.uk/blog/#/${routeTitle(x.title)}`, // link to the item
     categories: ['art','design'], // optional - array of item categories
     date: moment(x.meta.date, 'DD-MM-YYYY').toISOString(), // any format that js Date can parse.
     // enclosure: {url:'...', file:'path-to-file'}, // optional enclosure
@@ -53,7 +53,7 @@ const JSONFeed = {
     id: routeTitle(x.title),
     title: x.title,
     summary: x.meta.description || '',
-    url: `'http://danbeaven.co.uk/blog/#/${routeTitle(x.title)}'`,
+    url: `http://danbeaven.co.uk/blog/#/${routeTitle(x.title)}`,
     image: (x.images && x.images.thumbnail.src) ? x.images.thumbnail.src: '',
     date_published: moment(x.meta.date, 'DD-MM-YYYY').toISOString(),
     author: 'Dan Beaven',
