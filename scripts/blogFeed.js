@@ -51,7 +51,7 @@ const JSONFeed = {
   items: posts.map(x => ({
     title: x.title,
     summary: x.meta.description || '',
-    url: `'http://danbeaven.co.uk/blog/#/${routeTitle(x.title)}'`,
+    url: `'/blog/#/${routeTitle(x.title)}'`,
     image: (x.images && x.images.thumbnail.src) ? x.images.thumbnail.src: '',
     date_published: moment(x.meta.date, 'DD-MM-YYYY').toISOString(),
     author: 'Dan Beaven',
