@@ -1,3 +1,4 @@
+const markdown = require( "markdown" ).markdown;
 const RSS = require('rss');
 const moment = require('moment');
 const posts = require('../src/static/posts.json');
@@ -32,20 +33,41 @@ posts.forEach(x => {
     categories: ['art','design'], // optional - array of item categories
     date: moment(x.meta.date, 'DD-MM-YYYY').toISOString(), // any format that js Date can parse.
     // enclosure: {url:'...', file:'path-to-file'}, // optional enclosure
-});
+  });
 })
 
+const xml = feed.xml();
 
-// cache the xml to send to clients
-var xml = feed.xml();
+const JSONFeed = {
+  version: 'https://jsonfeed.org/version/1',
+  user_comment: 'This blog contains essays I have written during my (BA) Interaction Design Arts course at the London College of Communication.',
+  title: 'Dan Beaven\'s blog',
+  home_page_url: 'http://danbeaven.co.uk/blog/',
+  feed_url: 'http://danbeaven.co.uk/blog/feed.json',
+  author: {
+      name: 'Dan Beaven',
+      url: 'http://danbeaven.co.uk',
+  },
+  items: posts.map(x => ({
+    title: x.title,
+    summary: x.meta.description || '',
+    url: `'http://danbeaven.co.uk/blog/#/${routeTitle(x.title)}'`,
+    image: (x.images && x.images.thumbnail.src) ? x.images.thumbnail.src: '',
+    date_published: moment(x.meta.date, 'DD-MM-YYYY').toISOString(),
+    author: 'Dan Beaven',
+    tags: ['art','design'],
+    content_html: markdown.toHTML(x.markdown)
+  }))
+}
 
-fs.writeFile(path.join(__dirname, '../build/atom.xml'), xml, (err) => {
+// Write Files
+fs.writeFile(path.join(__dirname, '../public/feed.json'), JSON.stringify(JSONFeed), (err) => {
   if(err) console.log(err);
-  console.log('done')
+  console.log('Wrote JSON Feed')
 })
-fs.writeFile(path.join(__dirname, '../public/atom.xml'), xml, (err) => {
+fs.writeFile(path.join(__dirname, '../public/feed.xml'), xml, (err) => {
   if(err) console.log(err);
-  console.log('done')
+  console.log('Wrote RSS Feed')
 })
 
 
