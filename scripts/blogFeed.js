@@ -11,10 +11,9 @@ const routeTitle = title => title.replace(/\?/gi, '').split(' ').join('_');
 var feed = new RSS({
     title: 'Dan Beaven',
     description: 'This blog contains essays I have written during my (BA) Interaction Design Arts course at the London College of Communication.',
-    feed_url: 'http://danbeaven.co.uk/blog/rss.xml',
-    site_url: 'http://danbeaven.co.uk/blog',
+    feed_url: 'http://wwww.danbeaven.co.uk/blog/feed.xml',
+    site_url: 'http://wwww.danbeaven.co.uk/blog',
     image_url: '',
-    docs: 'http://example.com/rss/docs.html',
     managingEditor: 'Dan Beaven',
     webMaster: 'Dan Beaven',
     copyright: '2018 Dan Beaven',
@@ -30,7 +29,7 @@ posts.forEach(x => {
     guid: routeTitle(x.title), 
     title:  x.title,
     description: x.meta.description || '',
-    url: `http://danbeaven.co.uk/blog/#/${routeTitle(x.title)}`, // link to the item
+    url: `http://wwww.danbeaven.co.uk/blog/#/${routeTitle(x.title)}`, // link to the item
     categories: ['art','design'], // optional - array of item categories
     date: moment(x.meta.date, 'DD-MM-YYYY').toISOString(), // any format that js Date can parse.
     // enclosure: {url:'...', file:'path-to-file'}, // optional enclosure
@@ -43,17 +42,17 @@ const JSONFeed = {
   version: 'https://jsonfeed.org/version/1',
   user_comment: 'This blog contains essays I have written during my (BA) Interaction Design Arts course at the London College of Communication.',
   title: 'Dan Beaven\'s blog',
-  home_page_url: 'http://danbeaven.co.uk/blog/',
-  feed_url: 'http://danbeaven.co.uk/blog/feed.json',
+  home_page_url: 'http://wwww.danbeaven.co.uk/blog/',
+  feed_url: 'http://wwww.danbeaven.co.uk/blog/feed.json',
   author: {
       name: 'Dan Beaven',
-      url: 'http://danbeaven.co.uk',
+      url: 'http://wwww.danbeaven.co.uk',
   },
   items: posts.map(x => ({
     id: routeTitle(x.title),
     title: x.title,
     summary: x.meta.description || '',
-    url: `http://danbeaven.co.uk/blog/#/${routeTitle(x.title)}`,
+    url: `http://wwww.danbeaven.co.uk/blog/#/${routeTitle(x.title)}`,
     image: (x.images && x.images.thumbnail.src) ? x.images.thumbnail.src: '',
     date_published: moment(x.meta.date, 'DD-MM-YYYY').toISOString(),
     author: 'Dan Beaven',
