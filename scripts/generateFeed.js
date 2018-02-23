@@ -40,9 +40,9 @@ posts.forEach(post => {
     description: post.meta.description || '',
     content: converter.makeHtml(post.markdown),
     author: [{
-      name: 'Jane Doe',
-      email: 'janedoe@example.com',
-      link: 'https://example.com/janedoe'
+      name: 'Dan Beaven',
+      email: 'dm.beaven@gmail.com',
+      link: 'http://www.danbeaven.co.uk'
     }],
     date: new Date(moment(post.meta.date, 'DD-MM-YYYY').toISOString()),
     image: (post.meta && post.meta.thumbnail) ? post.meta.thumbnail.src : ''
@@ -62,7 +62,7 @@ fs.writeFile(path.join(__dirname, '../public/atom.xml'), feed.atom1(), (err) => 
   if(err) console.log(err);
   console.log('Wrote ATOM Feed')
 })
-fs.writeFile(path.join(__dirname, '../public/json.json'), JSON.stringify(feed.json1()), (err) => {
+fs.writeFile(path.join(__dirname, '../public/feed.json'), JSON.stringify(feed.json1()), (err) => {
   if(err) console.log(err);
   console.log('Wrote JSON Feed')
 })

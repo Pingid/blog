@@ -31,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "feed": "node scripts/blogFeed.js",
+    "feed": "node scripts/generateFeed.js",
     "parse": "node ./scripts/markdown-blog-parse.js /posts",
     "commit-blog": "git add .; git commit -m 'essay change'; git push ",
     "blog": "yarn parse; yarn deploy; yarn commit-blog"
