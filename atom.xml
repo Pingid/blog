@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://example.com/</id>
     <title>Dan Beaven&apos;s blog</title>
-    <updated>2018-02-23T10:53:21Z</updated>
+    <updated>2018-02-23T11:01:08Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>Dan Beaven</name>
@@ -34,7 +34,7 @@
 <blockquote>
   <p>"This notion captures a steady state of the play of a strategic game in which each player holds the correct expectation about the other players’ behaviour and acts rationally." (Osborne and Rubinstein, 2016, p.14)</p>
 </blockquote>
-<p>Rationality in game theory is borrowed from economics and is, that players in a game assess all outcomes and make their decisions based solely of maximising their utility (maximising their chance of winning) (Ross, 2016). Utility here is another term from economics which is an abstract numerical value assigned to all the possible outcomes of a game for an individual player, where higher values are assigned to more favourable outcomes (Binmore, 2008). So a Nash equilibrium is reached when both players know the best possible strategy for them to win or to stop their opponent from winning resulting in all games looking identical.</p>
+<p>Rationality in game theory is borrowed from economics and is, that players in a game assess all outcomes and make their decisions based solely of maximising their utility (eg. maximising their chance of winning) (Ross, 2016). Utility here is another term from economics which is an abstract numerical value assigned to all the possible outcomes of a game for an individual player, where higher values are assigned to more favourable outcomes (Binmore, 2008). So a Nash equilibrium is reached when both players know the best possible strategy for them to win or to stop their opponent from winning resulting in all games looking identical.</p>
 <p>Taking the example of tic tac toe it is clear that if both players plan their moves strategically they will reach a Nash Equilibrium and draw every game. Whereas in chess "there are more possible chess games than the number of atoms in the universe" (Kasparov, 2010), meaning even a computer couldn't come close to calculating every possible solution. The connection I am drawing here is that if a Nash equilibrium can be reached then a game won't be replayable as the strategies for players involved will be fixed from the start. Or as Roger Caillois puts it: "An outcome known in advance, with no possibility of error or surprise, clearly leading to an inescapable result, is incompatible with the nature of play." (Caillois, 2001).</p>
 <h3 id="references">References</h3>
 <ul>
@@ -45,9 +45,9 @@
 <li><p>Ross, D. (2016). <em>Game Theory</em>. [online] The Stanford Encyclopedia of Philosophy. Available at: https://plato.stanford.edu/archives/win2016/entries/game-theory/ [Accessed 15 Feb. 2018].</p></li>
 </ul>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -59,9 +59,9 @@
         <summary type="html"><![CDATA["The exceptional and special position of play is most tellingly illustrated by the fact that it loves to surround itself with an air of secrecy. Even in early childhood the charm of play is enhanced by making a "secret" out ofit."  Johan Huizinga]]></summary>
         <content type="html"><![CDATA[<h1 id="playinlanguage">Play in Language</h1>
 <p>The study of play as a concept is large and has an extensive body of literature behind it, so as a way to stay focused I am going to use this post to look at the definitions of the word itself. I look primarily at chapter two of Johan Huizinga's book 'Homo Ludens' one of the earliest comprehensive studies on 'Play'. This chapter focuses on how languages differ widely in what they categorize as play and how cultures have grouped play like activities differently.</p>
-<p>A general abstract notion of play doesn't exist in many languages and developed late in many others, even within the Indo-European languages, there is no general notion of play indicating that despite its fundamental function it has as a concept has been secondary (Huizinga, 1980). This ambiguity in the play concept is apparent in the Oxford English Dictionary where there are 7 entries for its use as a verb alone, I am going to just look at the first two, the first being, to "Engage in activity for enjoyment and recreation rather than a serious or practical purpose." and the second being to "Take part in (a sport)" (Oxford, 2018). A second definition is needed because there is a serious aspect to sport and despite it being mostly done for enjoyment and recreation there are those who compete professionaly, and I assume treat it more like work than play. In Greece where competitive sport is a large part of culture there is a separate word used to describe the participation in competition one destinct from the words that define the other play activities, this is also simmilar in sanskrit. Nevertheless, if we are to define a general notion of play, Huizinga argues that competition "bears all the formal characteristics of play, and as to its function belongs almost wholly to the sphere of the festival, which is the play sphere" (Huizinga, 1980, p.31).</p>
-<p>In English we refer to the socialising of small children as playing but there is a point (In my case early teens) where we substitute the word play for 'Hang out', 'Meet up', 'Chill' or just the name of an activity such as bowling or watching a movie. After talking to some chinese friends I discovered that this is not the case in Chinese where it is fitting at any age to use the word wan (play) to describe activities with friends or even your own hobbies. This points to a bias in the west to see play as something more childish something that serius adults don't perticate in yet the activites of socialising adults, what Brian Sutton Smith terms 'Informal Social Play', seems to me not dissimalar to the social games of children.</p>
-<p>I see play as intrinsic to interaction design, not only in creative production but to the engagement of audiences and so a deeper understanding of the nature of play seems crucial. Here, I have only touched on two small aspects of play the contention between competitive and non competive play and the ambiguities between child and adult play. It is as I said at the beggining a large subject and I plan in future posts to explore further into the concept of play.</p>
+<p>A general abstract notion of play doesn't exist in many languages and developed late in many others, even within the Indo-European languages, there is no general notion of play indicating that despite its ubiquity to human behaviour it has as a concept has been secondary (Huizinga, 1980). This ambiguity in the play concept is apparent in the Oxford English Dictionary where there are 7 entries for its use as a verb alone, I am going to just look at the first two, the first being, to "Engage in activity for enjoyment and recreation rather than a serious or practical purpose." and the second being to "Take part in (a sport)" (Oxford, 2018). A second definition is needed because there is a serious aspect to sport and despite it being mostly done for enjoyment and recreation there are those who compete professionaly, and I assume treat it more like work than play. In Greece where competitive sport is a large part of culture there is a separate word used to describe the participation in competition one destinct from the words that define the other play activities, this is also simmilar in sanskrit. Nevertheless, if we are to define a general notion of play, Huizinga argues that competition "bears all the formal characteristics of play, and as to its function belongs almost wholly to the sphere of the festival, which is the play sphere" (Huizinga, 1980, p.31).</p>
+<p>In English we refer to the socialising of small children as playing but there is a point (In my case early teens) where we substitute the word play for 'Hang out', 'Meet up', 'Chill' or just the name of an activity such as bowling or watching a movie. After talking to some chinese friends I discovered that this is not the case in Chinese where it is fitting at any age to use the word wan (play) to describe activities with friends or even your own hobbies. This points to a bias in the west to see play as something more childish something that adults don't perticate in and yet the social activites of adults, what Brian Sutton Smith terms 'Informal Social Play' (Sutton-Smith, 1998), seems to me not dissimalar to the social games of children.</p>
+<p>I see play as intrinsic to interaction design, not only in creative production but to the engagement of audiences and so a deeper understanding of the nature of play seems crucial. Here, I have only touched on two small aspects of play the contention between competitive and non competive play and the ambiguities between child and adult play.</p>
 <h4 id="references">References</h4>
 <ul>
 <li>Huizinga, J. (1980). <em>Homo ludens</em>. London: Routledge and Kegan Paul. (Huizinga, 1980)</li>
@@ -69,9 +69,9 @@
 <li>Sutton-Smith, B. (1998). <em>The ambiguity of play</em>. Cambridge, Mass.: Harvard University </li>
 </ul>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -119,9 +119,9 @@
 <p>Tate. (2017). Readymade – Art Term | Tate. [online] Available at:<a href="https://www.google.com/url?q=http://www.tate.org.uk/art/art-terms/r/readymade&sa=D&ust=1517591386146000&usg=AFQjCNFAV75kw5XzVVK8mTAtsZRqWPwDAg"> </a><a href="https://www.google.com/url?q=http://www.tate.org.uk/art/art-terms/r/readymade&sa=D&ust=1517591386146000&usg=AFQjCNFAV75kw5XzVVK8mTAtsZRqWPwDAg">http://www.tate.org.uk/art/art-terms/r/readymade</a> [Accessed 26 Nov. 2017].</p>
 <p>Tomkins, C. (2013). Marcel Duchamp: The Afternoon Interviews. Badlands Unlimited.</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -139,9 +139,9 @@
 <p>Barthes, R. (1967). The Death of the Author. [online] Ubuweb. Available at:<a href="https://www.google.com/url?q=http://www.ubu.com/aspen/aspen5and6/threeEssays.html%23barthes&sa=D&ust=1517591482673000&usg=AFQjCNGkMmrejnho8tMwAfie3fB0Q6J4wg"> </a><a href="https://www.google.com/url?q=http://www.ubu.com/aspen/aspen5and6/threeEssays.html%23barthes&sa=D&ust=1517591482673000&usg=AFQjCNGkMmrejnho8tMwAfie3fB0Q6J4wg">http://www.ubu.com/aspen/aspen5and6/threeEssays.html#barthes</a></p>
 <p>Syed, M. (2016). Black box thinking. Portfolio Penguin.</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -163,9 +163,9 @@
 <p>Motte, W. (2006). Raymond Queneau and the Early Oulipo. <em>French Forum</em>, [online] 31(1), pp.41-54. Available at: <a href="https://arts.idm.oclc.org/login?url=https://search-proquest-com.arts.idm.oclc.org/docview/198771606?accountid=10342">https://arts.idm.oclc.org/login?url=https://search-proquest-com.arts.idm.oclc.org/docview/198771606?accountid=10342</a>.</p>
 <p>Oulipo.net. (2017). Oulipo | Oulipo. [online] Available at: <a href="http://oulipo.net/fr/oulipiens/o">http://oulipo.net/fr/oulipiens/o</a>[Accessed 12 Nov. 2017].</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -187,9 +187,9 @@
 <p>Wilkinson, A. (2017). Something Borrowed. New Yorker. [online] Available at: <a href="https://www.newyorker.com/magazine/2015/10/05/something-borrowed-wilkinson">https://www.newyorker.com/magazine/2015/10/05/something-borrowed-wilkinson </a>[Accessed 15 Oct. 2017].</p>
 <p>Writing.upenn.edu. (2017). [online] Available at: <a href="http://www.writing.upenn.edu/~afilreis/88v/goldsmith-bio.html">http://www.writing.upenn.edu/~afilreis/88v/goldsmith-bio.html</a>[Accessed 6 Nov. 2017].</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -243,9 +243,9 @@ Exhibition Catalogue: 28 November 1935 to 7 March 1936. (1935). 1st ed. London: 
 <p>Thomson, J. (1871). Pailou at Dagao Hall, Beijing, China. [image] Available at: <a href="https://wellcomeimages.org/indexplus/image/L0056443.html">https://wellcomeimages.org/indexplus/image/L0056443.html</a> [Accessed 15 May 2017].</p>
 <p>Topical Press Agency (1935). Sir Percival David, Exhibition Committee Director and Tang Xifen (Tang Hsi Fen) Exhibition Secretary, examining exhibits. [image] Available at: <a href="https://tinyurl.com/m5lo2e7">https://tinyurl.com/m5lo2e7</a> [Accessed 15 May 2017].</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -265,9 +265,9 @@ Exhibition Catalogue: 28 November 1935 to 7 March 1936. (1935). 1st ed. London: 
 <p>Louwen, A., van Sark, W.G.J.H.M., Faaij, A.P.C. and Schropp, R.E.I. (2016) ‘Re-assessment of net energy production and greenhouse gas emissions avoidance after 40 years of photovoltaics development’, Nature Communications, 7, p. 13728. doi: 10.1038/ncomms13728.
 Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1st ed. London: Earthscan, p.16.</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -290,9 +290,9 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 <p>Samson and Delilah. (2009). In National Gallery, National gallery collection. [Online]. London: The National Gallery. Available from: https://tinyurl.com/mcrzcgk [Accessed 23 February 2017].</p>
 <p>Samson and Delilah. (2016). In E. Langmuir, The National Gallery companion guide. [Online]. London: The National Gallery. Available from: https://tinyurl.com/k689nch [Accessed 23 February 2017].</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -312,9 +312,9 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 <p>Moore, H. (1951). Reclining Figure. [Plaster and string] London: Tate.</p>
 <p>Tate (1951) Reclining figure, Henry Moore OM, CH 1951 | Tate Available at: https://tinyurl.com/kn4h3n5 (Accessed: 16 February 2017).</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -335,9 +335,9 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 <p>Peirce, C.S.S., Hartshorne, C. and Weiss, P. (1932) Collected papers of Charles Sanders Peirce, volumes I and II, principles of philosophy and elements of logic. 4th edn. Cambridge, MA: Belknap Press of Harvard University Press, 1935-1961.</p>
 <p>semiotics. (2017). In: Oxford, 1st ed. [online] Available at: https://en.oxforddictionaries.com/definition/semiotics [Accessed 15 May 2017].</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -378,9 +378,9 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 <p>Throsby, D. (2003). ‘Determining the Value of Cultural Goods: How Much (or How Little) Does Contingent Valuation Tell Us?’, Journal of Cultural Economics. doi:10.1023/A:1026353905772</p>
 <p>Williams, R. (1983). ‘A vocabulary of culture and society’, Oxford University Press. Retrieved from <a href="https://www.google.com/url?q=https://tavaana.org/sites/default/files/raymond-williams-keywords.pdf&sa=D&ust=1517590256645000&usg=AFQjCNGmV8vWY0ohoNUS6fUXq1iAnS2RnA">https://tavaana.org/sites/default/files/raymond-williams-keywords.pdf</a></p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -400,9 +400,9 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 <p>Pluralvonglas, T. (2009) The Disciplines of User Experience Design. [Infographic].
 Available at <a href="https://www.google.com/url?q=http://bit.ly/NZ3dxo&sa=D&ust=1517590438654000&usg=AFQjCNFsYlL_K-rtEDxX1XGHtoO7Wpp0rw">http://bit.ly/NZ3dxo</a>. Accessed 20th October 2016</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -424,9 +424,9 @@ Available at <a href="https://www.google.com/url?q=http://bit.ly/NZ3dxo&sa=D&ust
 <p>Wilson, V (1997) Focus Groups: A Useful Qualitative Method for Educational Research? British Educational Research Journal, 23, 2, pp 209-224</p>
 <p>University of Southern California. (2016) Organizing Your Social Sciences Research Paper: Quantitative Methods. Available at http://libguides.usc.edu/writingguide/quantitative. (Accessed 8t November 2016).</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -444,9 +444,9 @@ Available at <a href="https://www.google.com/url?q=http://bit.ly/NZ3dxo&sa=D&ust
 <h4 id="references">References</h4>
 <p>infinite mix (2016) Available at: http://www.theinfinitemix.com/ (Accessed: 5 December 2016).</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -470,9 +470,9 @@ Available at <a href="https://www.google.com/url?q=http://bit.ly/NZ3dxo&sa=D&ust
 <p>Victoria, Museum, A. and webmaster, D.M. (2013a) Modernism - Victoria and Albert Museum. Available at: http://www.vam.ac.uk/page/m/modernism/ (Accessed: 5 December 2016).</p>
 <p>Victoria, Museum, A. and webmaster, D.M. (2013b) Style guide: Scottish school - Victoria and Albert Museum. Available at: http://www.vam.ac.uk/content/articles/s/style-guide-scottish-school/ (Accessed: 5 December 2016).</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
     <entry>
@@ -494,9 +494,9 @@ Available at <a href="https://www.google.com/url?q=http://bit.ly/NZ3dxo&sa=D&ust
 <p>Williams, R. (1953) ‘The Idea of Culture’, The Cambridge Quarterly, 3(3).</p>
 <p>Wordsworth, W. (1995) The prelude: The Four texts (1798, 1799, 1805, 1850): Four texts (1798, 1799, 1805, 1850). Edited by Jonathan Wordsworth. New York: Penguin Group (USA).</p>]]></content>
         <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
+            <name>Dan Beaven</name>
+            <email>dm.beaven@gmail.com</email>
+            <uri>http://www.danbeaven.co.uk</uri>
         </author>
     </entry>
 </feed>
