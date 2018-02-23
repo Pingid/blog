@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com/</id>
-    <title>Dan Beaven&apos;s blog</title>
-    <updated>2018-02-23T10:53:21Z</updated>
-    <generator>Feed for Node.js</generator>
-    <author>
-        <name>Dan Beaven</name>
-        <email>dm.beaven@gmail.com</email>
-        <uri>http://www.danbeaven.co.uk</uri>
-    </author>
-    <link rel="alternate" href="http://www.danbeaven.co.uk/blog"/>
-    <link rel="self" href="http://www.danbeaven.co.uk/blog/atom.xml"/>
-    <subtitle>This blog contains essays I have written during my (BA) Interaction Design Arts course at the London College of Communication.</subtitle>
-    <logo>https://github.com/Pingid/pingid.github.io/blob/master/src/content/me.jpg?raw=true</logo>
-    <icon>https://raw.githubusercontent.com/Pingid/pingid.github.io/master/public/favicon.ico</icon>
-    <rights>All rights reserved 2018, Dan Beaven</rights>
-    <category term="art">
-    </category>
-    <category term="design">
-    </category>
-    <category term="interaction design">
-    </category>
-    <entry>
-        <title type="html"><![CDATA[Nash Equilibrium]]></title>
-        <id>Nash_Equilibrium</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Nash_Equilibrium">
-        </link>
-        <updated>2018-02-15T00:00:00Z</updated>
-        <summary type="html"><![CDATA["At the present time I seem to be thinking rationally again in the style that is characteristic of scientists. However this is not entirely a matter of joy as if someone returned from physical disability to good physical health. One aspect of this is that rationality of thought imposes a limit on a person's concept of his relation to the cosmos." John Nash]]></summary>
-        <content type="html"><![CDATA[<h1 id="nashequilibrium">Nash Equilibrium</h1>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Dan Beaven&apos;s blog</title>
+        <link>http://www.danbeaven.co.uk/blog</link>
+        <description>This blog contains essays I have written during my (BA) Interaction Design Arts course at the London College of Communication.</description>
+        <lastBuildDate>Fri, 23 Feb 2018 10:53:21 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Dan Beaven&apos;s blog</title>
+            <url>https://github.com/Pingid/pingid.github.io/blob/master/src/content/me.jpg?raw=true</url>
+            <link>http://www.danbeaven.co.uk/blog</link>
+        </image>
+        <copyright>All rights reserved 2018, Dan Beaven</copyright>
+        <category>art</category>
+        <category>design</category>
+        <category>interaction design</category>
+        <atom:link href="http://www.danbeaven.co.uk/blog/atom.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Nash Equilibrium]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Nash_Equilibrium</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Nash_Equilibrium</guid>
+            <pubDate>Thu, 15 Feb 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA["At the present time I seem to be thinking rationally again in the style that is characteristic of scientists. However this is not entirely a matter of joy as if someone returned from physical disability to good physical health. One aspect of this is that rationality of thought imposes a limit on a person's concept of his relation to the cosmos." John Nash]]></description>
+            <content:encoded><![CDATA[<h1 id="nashequilibrium">Nash Equilibrium</h1>
 <p>In the last post, I examined the concept of play, in this post I want to get closer to understanding why we might play a game by examining the choices players are afforded by the constraints of a given set of rules. I am looking purely at the mechanic's of gameplay as for me it is the mental exercise of attempting to preempt my opponent's decisions that make a game experience enjoyable. An example of a game that does this well is chess, there is no element of chance and the level of complexity means there is no obvious best move. Tic Tac Toe on the other hand again doesn't involve chance but the number of solutions is so small that it is relatively easy to see what the best possible move is and from then on every game becomes a tie. The key here is complexity, not so much that it is hard to learn and remember the rules but enough that for the majority of the game the best possible choice of move cannot be worked out. This is a personal preference but one that I suspect is crucial to helping games be replayable. A relatively new area of study has developed around analysing the choices of players in games called Game Theory.</p>
 <p>Game Theory was developed by Von Neuman and Oskar Morgenstern and then pioneered by John Nash who was made famous in the movie 'A Beautiful Mind' (Ross, 2016). Before Nash fell prey to schizophrenia he formulated the idea of Nash Equilibrium which is now one of the fundamental building blocks of game theory (Binmore, 2008).</p>
 <blockquote>
@@ -43,21 +38,16 @@
 <li><p>Kasparov, G. (2010). The Chess Master and the Computer. [online] The New York Review of Books. Available at: http://www.nybooks.com/articles/2010/02/11/the-chess-master-and-the-computer/ [Accessed 18 Feb. 2018].</p></li>
 <li><p>Osborne, M. and Rubinstein, A. (2016). <em>A course in game theory</em>. Cambridge, MA: The MIT Press.</p></li>
 <li><p>Ross, D. (2016). <em>Game Theory</em>. [online] The Stanford Encyclopedia of Philosophy. Available at: https://plato.stanford.edu/archives/win2016/entries/game-theory/ [Accessed 15 Feb. 2018].</p></li>
-</ul>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Play in Language]]></title>
-        <id>Play_in_Language</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Play_in_Language">
-        </link>
-        <updated>2018-02-07T00:00:00Z</updated>
-        <summary type="html"><![CDATA["The exceptional and special position of play is most tellingly illustrated by the fact that it loves to surround itself with an air of secrecy. Even in early childhood the charm of play is enhanced by making a "secret" out ofit."  Johan Huizinga]]></summary>
-        <content type="html"><![CDATA[<h1 id="playinlanguage">Play in Language</h1>
+</ul>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Play in Language]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Play_in_Language</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Play_in_Language</guid>
+            <pubDate>Wed, 07 Feb 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA["The exceptional and special position of play is most tellingly illustrated by the fact that it loves to surround itself with an air of secrecy. Even in early childhood the charm of play is enhanced by making a "secret" out ofit."  Johan Huizinga]]></description>
+            <content:encoded><![CDATA[<h1 id="playinlanguage">Play in Language</h1>
 <p>The study of play as a concept is large and has an extensive body of literature behind it, so as a way to stay focused I am going to use this post to look at the definitions of the word itself. I look primarily at chapter two of Johan Huizinga's book 'Homo Ludens' one of the earliest comprehensive studies on 'Play'. This chapter focuses on how languages differ widely in what they categorize as play and how cultures have grouped play like activities differently.</p>
 <p>A general abstract notion of play doesn't exist in many languages and developed late in many others, even within the Indo-European languages, there is no general notion of play indicating that despite its fundamental function it has as a concept has been secondary (Huizinga, 1980). This ambiguity in the play concept is apparent in the Oxford English Dictionary where there are 7 entries for its use as a verb alone, I am going to just look at the first two, the first being, to "Engage in activity for enjoyment and recreation rather than a serious or practical purpose." and the second being to "Take part in (a sport)" (Oxford, 2018). A second definition is needed because there is a serious aspect to sport and despite it being mostly done for enjoyment and recreation there are those who compete professionaly, and I assume treat it more like work than play. In Greece where competitive sport is a large part of culture there is a separate word used to describe the participation in competition one destinct from the words that define the other play activities, this is also simmilar in sanskrit. Nevertheless, if we are to define a general notion of play, Huizinga argues that competition "bears all the formal characteristics of play, and as to its function belongs almost wholly to the sphere of the festival, which is the play sphere" (Huizinga, 1980, p.31).</p>
 <p>In English we refer to the socialising of small children as playing but there is a point (In my case early teens) where we substitute the word play for 'Hang out', 'Meet up', 'Chill' or just the name of an activity such as bowling or watching a movie. After talking to some chinese friends I discovered that this is not the case in Chinese where it is fitting at any age to use the word wan (play) to describe activities with friends or even your own hobbies. This points to a bias in the west to see play as something more childish something that serius adults don't perticate in yet the activites of socialising adults, what Brian Sutton Smith terms 'Informal Social Play', seems to me not dissimalar to the social games of children.</p>
@@ -67,21 +57,16 @@
 <li>Huizinga, J. (1980). <em>Homo ludens</em>. London: Routledge and Kegan Paul. (Huizinga, 1980)</li>
 <li>Oxford Dictionaries | English. (2018). <em>play | Definition of play in English by Oxford Dictionaries</em>. [online] Available at: https://en.oxforddictionaries.com/definition/play [Accessed 7 Feb. 2018].</li>
 <li>Sutton-Smith, B. (1998). <em>The ambiguity of play</em>. Cambridge, Mass.: Harvard University </li>
-</ul>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Conceptual Art?]]></title>
-        <id>What_is_Conceptual_Art</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/What_is_Conceptual_Art">
-        </link>
-        <updated>2017-11-30T00:00:00Z</updated>
-        <summary type="html"><![CDATA['In conceptual art, the idea or concept is the most important aspect of the work. When an artist uses a conceptual form of art, it means that all of the planning and decisions are made beforehand and the execution is a perfunctory affair.' (Sol LeWitt)]]></summary>
-        <content type="html"><![CDATA[<h1 id="whatisconceptualart">What is Conceptual Art?</h1>
+</ul>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[What is Conceptual Art?]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/What_is_Conceptual_Art</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/What_is_Conceptual_Art</guid>
+            <pubDate>Thu, 30 Nov 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA['In conceptual art, the idea or concept is the most important aspect of the work. When an artist uses a conceptual form of art, it means that all of the planning and decisions are made beforehand and the execution is a perfunctory affair.' (Sol LeWitt)]]></description>
+            <content:encoded><![CDATA[<h1 id="whatisconceptualart">What is Conceptual Art?</h1>
 <h2 id="introduction">Introduction</h2>
 <p>Contemporary art can be difficult to access and contrary to its origins can feel restricted to art historians or the experts running the galleries. I certainly have felt this way especially in regards to the more avant-garde practices of modern artists and I want in this essay to give a clear definition of Conceptual art in regards to the movement which took place in the late 1960's early 1970's. It was a movement that started to question the very nature of art through a diverse range of practices where the emphasis was on the concept or idea behind the work. Much of the movement was focused on the use of language as an artistic medium and it is unique in that it is one of the last great leaps in artistic thought and perhaps the most important of the movements to have at least a rough understanding of, as some of the pieces can seem on the surface bizarre and nonsensical without context.</p>
 <p>It can be hard to talk about definition and meaning in art as many critics opinions differ, it is also difficult to give enough context without going down a rabbit hole of different movements, idea and thoughts. I have in this essay chosen to start with Marcel Duchamp and his piece 'Fountain' as I think it is a relatively simple example of a Conceptual work. I then jump forward to the 1960's and 1970's because this is where a more discernable movement is seen. To underlay some context I briefly describe art prior to the conceptual art movement specifically the group called 'Fluxus' and the Minimalism movement as they were key to the birth of Conceptual art (Godfrey, 2011).</p>
@@ -117,41 +102,31 @@
 <p>Tate. (2017). Conceptual art – Art Term | Tate. [online] Available at:<a href="https://www.google.com/url?q=http://www.tate.org.uk/art/art-terms/c/conceptual-art&sa=D&ust=1517591386144000&usg=AFQjCNGlo8Lg4YHWPqovz7BF4mVMU_43Ew"> </a><a href="https://www.google.com/url?q=http://www.tate.org.uk/art/art-terms/c/conceptual-art&sa=D&ust=1517591386144000&usg=AFQjCNGlo8Lg4YHWPqovz7BF4mVMU_43Ew">http://www.tate.org.uk/art/art-terms/c/conceptual-art</a> [Accessed 27 Nov. 2017].</p>
 <p>Tate. (2017). ‘Fountain’, Marcel Duchamp, 1917, replica 1964 | Tate. [online] Available at:<a href="https://www.google.com/url?q=http://www.tate.org.uk/art/artworks/duchamp-fountain-t07573&sa=D&ust=1517591386145000&usg=AFQjCNFC2IrewZFbdripq5_5dN-ifyFeBw"> </a><a href="https://www.google.com/url?q=http://www.tate.org.uk/art/artworks/duchamp-fountain-t07573&sa=D&ust=1517591386145000&usg=AFQjCNFC2IrewZFbdripq5_5dN-ifyFeBw">http://www.tate.org.uk/art/artworks/duchamp-fountain-t07573</a> [Accessed 28 Nov. 2017].</p>
 <p>Tate. (2017). Readymade – Art Term | Tate. [online] Available at:<a href="https://www.google.com/url?q=http://www.tate.org.uk/art/art-terms/r/readymade&sa=D&ust=1517591386146000&usg=AFQjCNFAV75kw5XzVVK8mTAtsZRqWPwDAg"> </a><a href="https://www.google.com/url?q=http://www.tate.org.uk/art/art-terms/r/readymade&sa=D&ust=1517591386146000&usg=AFQjCNFAV75kw5XzVVK8mTAtsZRqWPwDAg">http://www.tate.org.uk/art/art-terms/r/readymade</a> [Accessed 26 Nov. 2017].</p>
-<p>Tomkins, C. (2013). Marcel Duchamp: The Afternoon Interviews. Badlands Unlimited.</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Death of the Author]]></title>
-        <id>Death_of_the_Author</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Death_of_the_Author">
-        </link>
-        <updated>2017-11-25T00:00:00Z</updated>
-        <summary type="html"><![CDATA[It is as though we are each a neuron in the large brain network we call humanity and our job as this neuron is simply to take in information from other neurons and spit out the sum of that information.]]></summary>
-        <content type="html"><![CDATA[<h1 id="deathoftheauthor">Death of the Author</h1>
+<p>Tomkins, C. (2013). Marcel Duchamp: The Afternoon Interviews. Badlands Unlimited.</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Death of the Author]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Death_of_the_Author</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Death_of_the_Author</guid>
+            <pubDate>Sat, 25 Nov 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[It is as though we are each a neuron in the large brain network we call humanity and our job as this neuron is simply to take in information from other neurons and spit out the sum of that information.]]></description>
+            <content:encoded><![CDATA[<h1 id="deathoftheauthor">Death of the Author</h1>
 <p>It seems intuitive when critiquing literature to ask what the author is trying to say, but Roland Barthes in his essay 'Death of the Author' published in 1960 offers an alternative idea, one that I now see as far more pragmatic. I have always been fond of deterministic philosophies, as they explain why it is that I do not know why I might choose one thing over another. I also see it as the pragmatic philosophy when it comes to fixing problems within institutions, in the aerospace industry for instance they are famous for giving pilots full immunity when they admit to any mistakes allowing them to redesign the plains so as to protect from future pilots making the same mistake. It is a culture of blaming the environment not people (Syed, 2016). In creative production, I too tend to believe in a sort of determinism and Barthes ideas seem a natural conclusion from such a belief system. I have written the essay from this perspective, however, a belief in free will does not invalidate Barthes ideas around authorship and spectatorship.</p>
 <p>Barthes argues in the essay that it makes more sense to critique writing as a thing in itself, not as an expression of the author, hence 'death of the author'. Essentially a piece of writing is not something that comes from the author alone it comes from what the author has read and experienced, it comes from the environment, "a text consists of multiple writings, issuing from several cultures and entering into dialogue with each other" (Barthes, 1976). Barthes also points out that it is essentially pointless as a critic to even factor in the author as it is not the author who will imbue meaning but the reader. Whether the meaning that the author intended is the same as the meaning that is interpreted by the reader doesn't matter, what matters is just the meaning interpreted by the reader, "the reader is the very space in which are inscribed, without any being lost, all the citations a writing consists of" (Barthes, 1967).</p>
 <p>Barthes talks about authorship and spectatorship in respect to writing and literature but the ideas can be transferred to any sort of creative production. What I find particularly attractive about this idea is that it shifts focus away from the worship of individuals towards an admiration for the subject more generally. I think this perspective could also have profound impacts on the way we practice, if, for instance, we no longer see our creations as our own but as belonging to the world, the response to our work will not affect our motivation to practice. It is as though we are each a neuron in the large brain network we call humanity and our job as this neuron is simply to take in information from other neurons and spit out the sum of that information. The analogy may be ugly in the way portrays us as simple machines but I think it also humbling in that it gives back our creations to the world and humanity in general.</p>
 <h4 id="references">References</h4>
 <p>Barthes, R. (1967). The Death of the Author. [online] Ubuweb. Available at:<a href="https://www.google.com/url?q=http://www.ubu.com/aspen/aspen5and6/threeEssays.html%23barthes&sa=D&ust=1517591482673000&usg=AFQjCNGkMmrejnho8tMwAfie3fB0Q6J4wg"> </a><a href="https://www.google.com/url?q=http://www.ubu.com/aspen/aspen5and6/threeEssays.html%23barthes&sa=D&ust=1517591482673000&usg=AFQjCNGkMmrejnho8tMwAfie3fB0Q6J4wg">http://www.ubu.com/aspen/aspen5and6/threeEssays.html#barthes</a></p>
-<p>Syed, M. (2016). Black box thinking. Portfolio Penguin.</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Who are the Oulipo?]]></title>
-        <id>Who_are_the_Oulipo</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Who_are_the_Oulipo">
-        </link>
-        <updated>2017-11-12T00:00:00Z</updated>
-        <summary type="html"><![CDATA['Rats who must build the labyrinth from which they propose to escape.' (Warren Motte)]]></summary>
-        <content type="html"><![CDATA[<h1 id="whoaretheoulipo">Who are the Oulipo?</h1>
+<p>Syed, M. (2016). Black box thinking. Portfolio Penguin.</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Who are the Oulipo?]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Who_are_the_Oulipo</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Who_are_the_Oulipo</guid>
+            <pubDate>Sun, 12 Nov 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA['Rats who must build the labyrinth from which they propose to escape.' (Warren Motte)]]></description>
+            <content:encoded><![CDATA[<h1 id="whoaretheoulipo">Who are the Oulipo?</h1>
 <p>Cent Mille Milliards de Poèmes (Hundred Thousand Billion Poems) was a book published in 1961, made up of 14 ordered groups of 10 line poems, the idea was that a reader picks one line from each of group to build a 14 line sonnet. Because of the way combinations work in mathematics the books essentially contained 10^14 possible poem variations. During the writing of the book, Raymond Queneau enlisted the help of mathematician François Le Lionnais and it was this collaboration which sparked the creation of the Oulipo in 1960 (Gallix, 2013). Ouvroir de littérature potentielle (workshop of potential literature) or Oulipo is a group for people interested in, as Daniel Levin Becker a more recent member of the group put it, "investigations of poetic form and narrative constraint and the mathematics of wordplay" (Levin Becker, 2012). It is rare such disparate topics, poetry and mathematics, are seen in the same sentence and so I use this essay to explore a little further into the Oulipo and this relationship between creative writing and mathematics.</p>
 <p>The Oulipo is made up of an eclectic assortment of individuals including writers, poets, translators, graph theorists, lexicographers, actors, historians, diplomats, etcetera  (Levin Becker, 2012). One of the earliest definitions proposed, to describe the assorted members was, "rats who must build the labyrinth from which they propose to escape" (Motte, 1986, p.25). Becker describes this in more detail in his book "Many subtle channels", "writers are constrained whether or not they acknowledge it-not just by the strictures of poetic forms like the sonnet or the haiku, but also by the conventions of their chosen genre, the format in which they publish, even the grammar and lexicon of their native (or adopted) language. Embracing a set of carefully chosen rules is meant to focus the mind so narrowly that those obscure pressures and preoccupations fade, revealing paths and passageways that one would never notice without the blinders." (Levin Becker, 2012). This is an idea that I can see working in all forms of creative production, it is a way of avoiding getting so-called "writer's block", instead, switching the mind from arbitrary idea generation to problem-solving.</p>
 <p>I find this idea deeply attractive; through learning software and programming paradigms, I have increasingly come to see humans as complex machines and creativity the operation of making connections between existing ideas. If this is the case it makes sense for us systematize the creative process in order to best take advantage of our brains abilities, which at least in my own case is problem-solving. Interestingly in 1960 around the same time the Oulipo formulated, a psychologist called Sarnoff Mednick first proposed this idea that, "creativity is associative memory that works exceptionally well" (Kahneman, 2015, p.67). I don't want to generalise when I say it makes sense to "systematize the creative process" it is a subject which deserves far more research but it is a technique that works for this unique group of academics and creatives which has lasted now nearly 60 years.</p>
@@ -161,21 +136,16 @@
 <p>Levin Becker, D. (2012). <em>Many subtle channels</em>. Cambridge, Mass.: Harvard University Press, pp.6,10.</p>
 <p>Motte, W. (1986). <em>Oulipo</em>. Normal, Ill.: Dalkey Archive Press, p.25.</p>
 <p>Motte, W. (2006). Raymond Queneau and the Early Oulipo. <em>French Forum</em>, [online] 31(1), pp.41-54. Available at: <a href="https://arts.idm.oclc.org/login?url=https://search-proquest-com.arts.idm.oclc.org/docview/198771606?accountid=10342">https://arts.idm.oclc.org/login?url=https://search-proquest-com.arts.idm.oclc.org/docview/198771606?accountid=10342</a>.</p>
-<p>Oulipo.net. (2017). Oulipo | Oulipo. [online] Available at: <a href="http://oulipo.net/fr/oulipiens/o">http://oulipo.net/fr/oulipiens/o</a>[Accessed 12 Nov. 2017].</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kenneth Goldsmith]]></title>
-        <id>Kenneth_Goldsmith</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Kenneth_Goldsmith">
-        </link>
-        <updated>2017-10-14T23:00:00Z</updated>
-        <summary type="html"><![CDATA[A man who spent a year transcribing a copy of the New York Times]]></summary>
-        <content type="html"><![CDATA[<h1 id="kennethgoldsmith">Kenneth Goldsmith</h1>
+<p>Oulipo.net. (2017). Oulipo | Oulipo. [online] Available at: <a href="http://oulipo.net/fr/oulipiens/o">http://oulipo.net/fr/oulipiens/o</a>[Accessed 12 Nov. 2017].</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Kenneth Goldsmith]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Kenneth_Goldsmith</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Kenneth_Goldsmith</guid>
+            <pubDate>Sat, 14 Oct 2017 23:00:00 GMT</pubDate>
+            <description><![CDATA[A man who spent a year transcribing a copy of the New York Times]]></description>
+            <content:encoded><![CDATA[<h1 id="kennethgoldsmith">Kenneth Goldsmith</h1>
 <p>Goldsmith is seen by most as a conceptual poet but his practice extends into curation, sound, and art criticism. he is by most accounts a provocateur, he appreciates pranks, in an interview, he expresses his love for artist Marcel Duchamp and comedian Sacha Baron Cohen, who are famous for taking ideas to extremes in art and comedy respectfully (Louisiana, 2014). Perhaps when Goldsmith published his most famous book "Day", a direct transcription of a copy of the New York Times, he is, by calling it poetry mirroring what Marcel Duchamp did with "Fountain"; he is questioning what poetry could be and like Cohen did with his character Borat he is taking this idea to an extreme. Goldsmith calls this practice of appropriation and transcription "uncreative writing" and I have struggled to understand the value of such a bizarre practice and so I use this essay to explore why Goldsmith dedicates so much time to something which seems to me so binal.</p>
 <p>Watching interviews I was quickly seduced by Goldsmiths charm, he wears small round eyeglasses nestled in a large and bushy beard, he talks with a meticulous and unambiguous clarity taking time to pause between sentences. It helps that he is aware of the impression his work can have on people, he is quoted a New Yorker article saying "I’m the most boring writer who has ever lived" (Wilkinson, 2017), in fact, he worries that if too many people did buy his books he might be sued for copyright infringement (Louisiana, 2014). Like with conceptual art, his work is less about the material he produces than it is about the thought behind his work, he says “I don’t have a readership”, “I have a thinkership” (Wilkinson, 2017). Goldsmith is well renowned within the world of avant-garde poetry, he was the first New York Museum of Modern Art's poet laureate and even read his poetry to President Obama at the white house (Wilkinson, 2017), but even so there are those that criticise him, Cathy Park King, for instance, described his work as irrelevant considering all of the societal and political unrest and accused him of jumping on the racial bandwagon by reading browns autopsy at brown university (Hong, 2015).</p>
 <p>Despite understanding that "Day" was a conceptual piece and so about provoking thought I found myself quite unthoughtful instead in more of a state of vexed confusion and it took hearing him talk for me to start to think about what this practice of uncreative writing might mean in a broader context. It was the idea that curation and appropriation can be an artistic practice that I found particularly captivating. There are according to software engineer Leonid Taycher 129,864,880 books in the entire world, this is such a large number that no one person could come close to reading even a fraction of them and this doesn't include films and music (Taycher, 2010). It seems to me that as an artist you are just as valuable to society if you bring to public attention pertinent old ideas as you would be attempting to create something new and original. Goldsmith to me points out that like how the Détournement movement gave new meaning to slogans by changing their context, the same can be done with writing.</p>
@@ -185,21 +155,16 @@
 <p>Hong, C. (2015). There's a New Movement in American Poetry and It's Not Kenneth Goldsmith. [online] New Republic. Available at: <a href="https://newrepublic.com/article/122985/new-movement-american-poetry-not-kenneth-goldsmith">https://newrepublic.com/article/122985/new-movement-american-poetry-not-kenneth-goldsmith</a>[Accessed 7 Nov. 2017].</p>
 <p>Louisiana Museum of Modern Art (2014). Assume No Readership. [video] Available at: <a href="https://www.youtube.com/watch?v=FAJRQJGc7DU">https://www.youtube.com/watch?v=FAJRQJGc7DU</a> [Accessed 15 Oct. 2017].</p>
 <p>Wilkinson, A. (2017). Something Borrowed. New Yorker. [online] Available at: <a href="https://www.newyorker.com/magazine/2015/10/05/something-borrowed-wilkinson">https://www.newyorker.com/magazine/2015/10/05/something-borrowed-wilkinson </a>[Accessed 15 Oct. 2017].</p>
-<p>Writing.upenn.edu. (2017). [online] Available at: <a href="http://www.writing.upenn.edu/~afilreis/88v/goldsmith-bio.html">http://www.writing.upenn.edu/~afilreis/88v/goldsmith-bio.html</a>[Accessed 6 Nov. 2017].</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The social effect of the 1935-6 exhibition of Chinese art at Burlington House, London]]></title>
-        <id>The_social_effect_of_the_1935-6_exhibition_of_Chinese_art_at_Burlington_House,_London</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/The_social_effect_of_the_1935-6_exhibition_of_Chinese_art_at_Burlington_House,_London">
-        </link>
-        <updated>2017-05-24T23:00:00Z</updated>
-        <summary type="html"><![CDATA[How China used an art exhibition to garner sympathy and respect from western sociaties]]></summary>
-        <content type="html"><![CDATA[<h1 id="thesocialeffectofthe19356exhibitionofchineseartatburlingtonhouselondon">The social effect of the 1935-6 exhibition of Chinese art at Burlington House, London</h1>
+<p>Writing.upenn.edu. (2017). [online] Available at: <a href="http://www.writing.upenn.edu/~afilreis/88v/goldsmith-bio.html">http://www.writing.upenn.edu/~afilreis/88v/goldsmith-bio.html</a>[Accessed 6 Nov. 2017].</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[The social effect of the 1935-6 exhibition of Chinese art at Burlington House, London]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/The_social_effect_of_the_1935-6_exhibition_of_Chinese_art_at_Burlington_House,_London</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/The_social_effect_of_the_1935-6_exhibition_of_Chinese_art_at_Burlington_House,_London</guid>
+            <pubDate>Wed, 24 May 2017 23:00:00 GMT</pubDate>
+            <description><![CDATA[How China used an art exhibition to garner sympathy and respect from western sociaties]]></description>
+            <content:encoded><![CDATA[<h1 id="thesocialeffectofthe19356exhibitionofchineseartatburlingtonhouselondon">The social effect of the 1935-6 exhibition of Chinese art at Burlington House, London</h1>
 <h2 id="introduction">Introduction</h2>
 <p>China is seen today as one of the great powers shaping the global economy. It regularly appears in conversations about trade, globalisation, environmentalism, conflict, …etc. This is a long way from the late 19th early 20th century China whose population was mainly farmers, living so close to the breadline that a drought between 1876 and 1879 caused over 10 million deaths. The various uprisings towards the end of the Qing dynasty left the country split into factions, run by militarists and warlords who exploited the lands and people in endless conflicts for supremacy. This isn’t even accounting for all the imperialist aims of the west and Japan who continued through brutish force to take territories and intervene in China’s politics. (Bickers, 2017, p.0-76)</p>
 <p>I chose to write about China and its struggle for a place on the Global stage of economic powers when searching for something to write about around art activism. This is a story which rarely comes up in this context because it isn’t traditional ‘activist art’ which the Tate defines as a “term used to describe art that is grounded in the act of doing and addresses political or social issues” (Tate, 2017). I am using this definition loosely when calling the 1935 exhibition of Chinese art a form art activism, because the art itself, was not created with the purpose of instructing social or political change, but the choice to exhibit the art was driven in part by politics. What is central to this essay are the attitudes of those in the West (Europeans, Americans) towards the Chinese before and after the exhibition. </p>
@@ -241,21 +206,16 @@ Exhibition Catalogue: 28 November 1935 to 7 March 1936. (1935). 1st ed. London: 
 <p>Royal Academy of Arts Collections (2017). Buddhist Sculpture in The Lecture Room (Royal Academy of Arts, International Exhibition of Chinese Art, 1935-36). [image] Available at: <a href="https://tinyurl.com/kpw5jvr">https://tinyurl.com/kpw5jvr</a> [Accessed 15 May 2017].</p>
 <p>Thomson, J. (1869). Canton night watchman. Peking city guard. [image] Available at: <a href="https://tinyurl.com/m4ljbg2">https://tinyurl.com/m4ljbg2</a> [Accessed 15 May 2017].</p>
 <p>Thomson, J. (1871). Pailou at Dagao Hall, Beijing, China. [image] Available at: <a href="https://wellcomeimages.org/indexplus/image/L0056443.html">https://wellcomeimages.org/indexplus/image/L0056443.html</a> [Accessed 15 May 2017].</p>
-<p>Topical Press Agency (1935). Sir Percival David, Exhibition Committee Director and Tang Xifen (Tang Hsi Fen) Exhibition Secretary, examining exhibits. [image] Available at: <a href="https://tinyurl.com/m5lo2e7">https://tinyurl.com/m5lo2e7</a> [Accessed 15 May 2017].</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sustainable Design]]></title>
-        <id>Sustainable_Design</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Sustainable_Design">
-        </link>
-        <updated>2017-03-02T00:00:00Z</updated>
-        <summary type="html"><![CDATA[Heaps of manure lined the streets leaching into basements breeding flies and spreading disease.]]></summary>
-        <content type="html"><![CDATA[<h1 id="sustainabledesign">Sustainable Design</h1>
+<p>Topical Press Agency (1935). Sir Percival David, Exhibition Committee Director and Tang Xifen (Tang Hsi Fen) Exhibition Secretary, examining exhibits. [image] Available at: <a href="https://tinyurl.com/m5lo2e7">https://tinyurl.com/m5lo2e7</a> [Accessed 15 May 2017].</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Sustainable Design]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Sustainable_Design</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Sustainable_Design</guid>
+            <pubDate>Thu, 02 Mar 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Heaps of manure lined the streets leaching into basements breeding flies and spreading disease.]]></description>
+            <content:encoded><![CDATA[<h1 id="sustainabledesign">Sustainable Design</h1>
 <p>At the turn of the 20th century, New York had over 200,000 horses, 1 for every 17 residents resulting in 2000 tonnes of manure being dumped on the streets each day. Heaps of manure lined the streets, leaching into basements, breeding flies and worst of all spreading disease. “The world had seemingly reached the point where its largest cities could not survive without the horse but couldn’t survive with it, either” (Levitt and Dubner, 2009, p.39). What saved us then was not a social move to cut down on the use of horses but the invention of the far cleaner, more efficient, cheaper, automobile.</p>
 <p>Sustainable development generally refers to three areas: “environmental stewardship, social equity and justice, and economic issues” (Walker, 2006, p.16). The invention and adoption of the car at the beginning of the 20th century was a clearly a more sustainable development, however, this is not how it is seen today. Again we have reached a point where are cities are so congested and polluted, we are causing serious damage to our healths and the environment. A big question facing us now is whether we are going to have to dramatically change the way we live or whether again we can be saved by science.</p>
 <p>Just a couple of months ago a study was published in the journal nature communication that found photovoltaic solar will pay back, sometime this year, all the energy that it consumed over the last 40 years of development (Louwen et al, 2016). This doesn’t mean much for us now but does mean essentially free energy for the future. Most designers aren’t also engineers and so aren’t at the forefront scientific discovery but they can push for social change and maybe, if enough artists and designers effectively educate people on the problems and consequences, we can tackle this crisis from both the technological and social sides.</p>
@@ -263,21 +223,16 @@ Exhibition Catalogue: 28 November 1935 to 7 March 1936. (1935). 1st ed. London: 
 <p>Charlotte, K. (no date) Origins of Sustainability. Available at: https://tinyurl.com/lrohgz4 (Accessed: 2 March 2017).</p>
 <p>Levitt, S.D. and Dubner, S.J. (2009) Superfreakonomics: Global cooling, patriotic prostitutes and why suicide bombers should buy life insurance. London: Penguin Books.</p>
 <p>Louwen, A., van Sark, W.G.J.H.M., Faaij, A.P.C. and Schropp, R.E.I. (2016) ‘Re-assessment of net energy production and greenhouse gas emissions avoidance after 40 years of photovoltaics development’, Nature Communications, 7, p. 13728. doi: 10.1038/ncomms13728.
-Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1st ed. London: Earthscan, p.16.</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dissecting paintings]]></title>
-        <id>Dissecting_paintings</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Dissecting_paintings">
-        </link>
-        <updated>2017-02-23T00:00:00Z</updated>
-        <summary type="html"><![CDATA[During a dark time for the israelites in their ongoing battle with the philistines Samson was born and god bestowed upon him supernatural strength with one caveat, he must not cut his hair]]></summary>
-        <content type="html"><![CDATA[<h1 id="dissectingpaintings">Dissecting paintings</h1>
+Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1st ed. London: Earthscan, p.16.</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Dissecting paintings]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Dissecting_paintings</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Dissecting_paintings</guid>
+            <pubDate>Thu, 23 Feb 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[During a dark time for the israelites in their ongoing battle with the philistines Samson was born and god bestowed upon him supernatural strength with one caveat, he must not cut his hair]]></description>
+            <content:encoded><![CDATA[<h1 id="dissectingpaintings">Dissecting paintings</h1>
 <p>During a dark time for the israelites in their ongoing battle with the philistines Samson was born and god bestowed upon him supernatural strength with one caveat, he must not cut his hair. Samson become a hero to the israelites successfully defeating many philistines but one  day he fell in love with a woman called Delilah. Delilah was approached by the philistine rulers and offered silver in return for discovering how Samson could be defeated. Samson eventually tells her that the secret lay in his hair and that if it were cut his strength would leave him. (Judges 16: 17-20)</p>
 <p>This story from the old testament is the story behind Peter Paul Rubens painting ‘Samson and Delilah’. In the painting Samson is asleep on Delilah’s lap, while an old procuress holds a candle for the barber cutting Samson’s hair. Above in the background is a sculpture of venus and cupid who are both gods of love and desire. To the right are the philistines lying in wait behind a door. The scene is well lit, in part at least by the fire on the left which lies half out of the painting.<img src="https://lh5.googleusercontent.com/uDb2BDJQW5-b6fAHOQSjFeQmFxyDR0BiIojKNz_zk_eyzjdRIuoQF0hW9czp1u8nw7aq7MsYK5yBD2YkWNh1tJ76gRghcaWipoX28bM75Me2gr9oX7x7-II3Cx6zGQP8qqmOIg8q" alt="401455.jpg" /></p>
 <p>Some notable symbols of the painting are the old face of the procuress juxtaposed with the youthful complexion of Delilah which could allude to the procuress’s past or Delilah’s future (Samson and Delilah 2016). The statue of venus and cupid are a clear reference the cause of Samson's Fate (Samson and Delilah, 2009).</p>
@@ -288,21 +243,16 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 <p>Lely, S. (n.d.). Portrait of a young woman and child, as Venus and Cupid. [oil on canvas].</p>
 <p>Rubens, P. (1609). Samson and Delilah. [Oil on wood] London: National Gallery.</p>
 <p>Samson and Delilah. (2009). In National Gallery, National gallery collection. [Online]. London: The National Gallery. Available from: https://tinyurl.com/mcrzcgk [Accessed 23 February 2017].</p>
-<p>Samson and Delilah. (2016). In E. Langmuir, The National Gallery companion guide. [Online]. London: The National Gallery. Available from: https://tinyurl.com/k689nch [Accessed 23 February 2017].</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Walk Through British Art]]></title>
-        <id>Walk_Through_British_Art</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Walk_Through_British_Art">
-        </link>
-        <updated>2017-02-08T00:00:00Z</updated>
-        <summary type="html"><![CDATA[Having an exhibition laid out in chronological order helped me to understand art and art styles in respect to history]]></summary>
-        <content type="html"><![CDATA[<h1 id="walkthroughbritishart">Walk Through British Art</h1>
+<p>Samson and Delilah. (2016). In E. Langmuir, The National Gallery companion guide. [Online]. London: The National Gallery. Available from: https://tinyurl.com/k689nch [Accessed 23 February 2017].</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Walk Through British Art]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Walk_Through_British_Art</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Walk_Through_British_Art</guid>
+            <pubDate>Wed, 08 Feb 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Having an exhibition laid out in chronological order helped me to understand art and art styles in respect to history]]></description>
+            <content:encoded><![CDATA[<h1 id="walkthroughbritishart">Walk Through British Art</h1>
 <p>The 'Walk Through British Art' exhibition comprised of British art ranging from 1540’s right up until the 21st century. As the name suggests you are able to start at one end and walk through each room following the artwork in roughly chronological order. Seeing art laid  out this way, lead me to reflect on the evolution of art and the differences century to century. The starkest of these differences was between the 19th and 20th centuries where the art became much more abstract. There also seemed to be a correlation between date and quantity with half the exhibition taken up by the 20th-century artwork.</p>
 <p><img src="http://www.tate.org.uk/art/images/work/T/T02/T02270_10.jpg" alt="Reclining Figure" /></p>
 <p>There was a whole room dedicated to Henry Moore's sculptures and situated on a plinth in the centre of this room is ‘Reclining Figure’. It depicts what looks like a woman, judging by the protuberance on her chest, lying propped up by both elbows. What made the piece stand out among the other sculptures was the contrast between the dark lines on the lighter plaster. They make the piece look as though it is made from separate chunks and gives it an almost space-age look. I discovered later that Moore himself singled it out as one of his most important sculptures saying that it was the ‘first sculpture in which I succeeded in making form and space sculpturally inseparable’ (Christie’s, 2016).</p>
@@ -310,21 +260,16 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 <h4 id="references">References</h4>
 <p>Christie’s, © (2016) ‘“My highlight of 2016” — Henry Moore’s Reclining Figure: Festival’. Review of by Robert Brown. Available at: https://tinyurl.com/k6d4yjw (Accessed: 9 February 2017).</p>
 <p>Moore, H. (1951). Reclining Figure. [Plaster and string] London: Tate.</p>
-<p>Tate (1951) Reclining figure, Henry Moore OM, CH 1951 | Tate Available at: https://tinyurl.com/kn4h3n5 (Accessed: 16 February 2017).</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Semiotics?]]></title>
-        <id>What_is_Semiotics</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/What_is_Semiotics">
-        </link>
-        <updated>2017-01-17T00:00:00Z</updated>
-        <summary type="html"><![CDATA[To decline the study of signs is to leave to others the control of the world of meaning which we inhabit.]]></summary>
-        <content type="html"><![CDATA[<h1 id="whatissemiotics">What is Semiotics?</h1>
+<p>Tate (1951) Reclining figure, Henry Moore OM, CH 1951 | Tate Available at: https://tinyurl.com/kn4h3n5 (Accessed: 16 February 2017).</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[What is Semiotics?]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/What_is_Semiotics</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/What_is_Semiotics</guid>
+            <pubDate>Tue, 17 Jan 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[To decline the study of signs is to leave to others the control of the world of meaning which we inhabit.]]></description>
+            <content:encoded><![CDATA[<h1 id="whatissemiotics">What is Semiotics?</h1>
 <p>Semiotics is defined in the oxford English dictionary as “The study of signs and symbols and their use or interpretation” (semiotics, 2017). This is the first time I have come across semiotics so I use this essay to explore where it came from and what other subjects it is related to.</p>
 <p>One of the earliest times a word relating to semiotics appeared was in Swiss linguist Ferdinand de Saussure’s ‘A Course in general linguistics’, “A science that studies the life of signs within society is conceivable; it would be a part of social psychology and consequently of general psychology; I shall call it semiology” (de Saussure, 1974,  p. 16). He goes on to define a sign by splitting it into two components, the signifier and signified. The signifier is the literal sign: sound, image, text and the signified is the concept or idea that the sign is referring to. Depending on your definition It may be misleading to call semiotics a science Daniel Chandler, in his book ‘Semiotics: the basics’ explains that it has “no widely agreed theoretical assumptions, models or empirical methodologies” (Chandler, 2006, p. 4).</p>
 <p>Saussure does give a sort of framework to work from when he defines the sign as being made from the signified and the signifier. Using this definition of a sign it is possible to break down and compare different signs and debate their connotations, denotations with some level of logical progression.</p>
@@ -333,21 +278,16 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 <p>Chandler, D. (2006) Semiotics: The basics, Vol. 2. 2nd edn. LONDON: Taylor &amp; Francis.</p>
 <p>de Saussure, F. (1974) Course in general linguistics. Edited by Charles Bally, Albert Sechehaye, and Albert Reidlinger. Translated by Wade Baskin. 2nd edn. New York: McGraw-Hill Book Company.</p>
 <p>Peirce, C.S.S., Hartshorne, C. and Weiss, P. (1932) Collected papers of Charles Sanders Peirce, volumes I and II, principles of philosophy and elements of logic. 4th edn. Cambridge, MA: Belknap Press of Harvard University Press, 1935-1961.</p>
-<p>semiotics. (2017). In: Oxford, 1st ed. [online] Available at: https://en.oxforddictionaries.com/definition/semiotics [Accessed 15 May 2017].</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Measuring the impact of culture on the economy]]></title>
-        <id>Measuring_the_impact_of_culture_on_the_economy</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Measuring_the_impact_of_culture_on_the_economy">
-        </link>
-        <updated>2016-12-05T00:00:00Z</updated>
-        <summary type="html"><![CDATA[Each decision to fund one cause is also the decision not to fund another.]]></summary>
-        <content type="html"><![CDATA[<h1 id="measuringtheimpactofcultureontheeconomy">Measuring the impact of culture on the economy</h1>
+<p>semiotics. (2017). In: Oxford, 1st ed. [online] Available at: https://en.oxforddictionaries.com/definition/semiotics [Accessed 15 May 2017].</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Measuring the impact of culture on the economy]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Measuring_the_impact_of_culture_on_the_economy</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Measuring_the_impact_of_culture_on_the_economy</guid>
+            <pubDate>Mon, 05 Dec 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Each decision to fund one cause is also the decision not to fund another.]]></description>
+            <content:encoded><![CDATA[<h1 id="measuringtheimpactofcultureontheeconomy">Measuring the impact of culture on the economy</h1>
 <h2 id="introduction">Introduction</h2>
 <p>Economic value in the Cambridge English dictionary is defined as ‘the value of an asset calculated according to its ability to produce income in the future’ (Cambridge Dictionary 2016). This definition when applied to culture and the arts may not fit so well since much of the value we find in culture is not monetary. Neoclassical economics has a broader definition, it defines value as the rational preference of one outcome over another (Weintraub, 1993). This definition allows us to look more broadly at value while staying within the economic confines of rational thought. In this essay, I start by defining what I am referring to when I use the term the culture. Using the neoclassical definition of value, I try and pick apart what cultural commodities are and how they are different to other goods and services. I look at ways of measuring this value and the problems that arise as a result. Finally, I look at why measuring the value of culture matters at all.</p>
 <h2 id="whatisculture">What is culture</h2>
@@ -376,21 +316,16 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 <p>Oxford Economics. (2013). Economic Valuation of the British Library. Oxford: Oxford Economics. Retrieved from <a href="https://www.google.com/url?q=http://www.oxfordeconomics.com/my-oxford/projects/245662&sa=D&ust=1517590256644000&usg=AFQjCNGWhHws8yD0htb00jzkBqCWvu6Xhw">www.oxfordeconomics.com/my-oxford/projects/245662</a></p>
 <p>Sterngold, A.H. (2004). Do economic impact studies misrepresent the benefits of arts and cultural organizations? Journal of Arts Management, Law, and Society, 34 (3), 166-187</p>
 <p>Throsby, D. (2003). ‘Determining the Value of Cultural Goods: How Much (or How Little) Does Contingent Valuation Tell Us?’, Journal of Cultural Economics. doi:10.1023/A:1026353905772</p>
-<p>Williams, R. (1983). ‘A vocabulary of culture and society’, Oxford University Press. Retrieved from <a href="https://www.google.com/url?q=https://tavaana.org/sites/default/files/raymond-williams-keywords.pdf&sa=D&ust=1517590256645000&usg=AFQjCNGmV8vWY0ohoNUS6fUXq1iAnS2RnA">https://tavaana.org/sites/default/files/raymond-williams-keywords.pdf</a></p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why interaction design?]]></title>
-        <id>Why_interaction_design</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Why_interaction_design">
-        </link>
-        <updated>2016-11-17T00:00:00Z</updated>
-        <summary type="html"><![CDATA[Computers are only becoming more ubiquitous and they have been at an accelerated rate since the beginning of their conception]]></summary>
-        <content type="html"><![CDATA[<h1 id="whyinteractiondesign">Why interaction design?</h1>
+<p>Williams, R. (1983). ‘A vocabulary of culture and society’, Oxford University Press. Retrieved from <a href="https://www.google.com/url?q=https://tavaana.org/sites/default/files/raymond-williams-keywords.pdf&sa=D&ust=1517590256645000&usg=AFQjCNGmV8vWY0ohoNUS6fUXq1iAnS2RnA">https://tavaana.org/sites/default/files/raymond-williams-keywords.pdf</a></p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Why interaction design?]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Why_interaction_design</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Why_interaction_design</guid>
+            <pubDate>Thu, 17 Nov 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Computers are only becoming more ubiquitous and they have been at an accelerated rate since the beginning of their conception]]></description>
+            <content:encoded><![CDATA[<h1 id="whyinteractiondesign">Why interaction design?</h1>
 <p>With a focus on interaction design in this week’s lecture we discussed the various forms that design takes. We touched on experience design and immersive design two disciplines whose methods closely overlap those of interaction design. We also talked more broadly about the different disciplines that come under design which are neatly illustrated in Thomas Pluralvonglas (2009) venn diagram on the right. In this essay I explore further what interaction design means, what sort of problems it is there to solve and touch on what it means to my own work.<img src="https://lh3.googleusercontent.com/wWb8VtJnrY7Zv0ceGZNBYFhB0I5OXmRul89xrIR6cAo8E_PpOvk8hyR6nv0DCbVzqDOIUm_JHoQPupfbu5UM8GB8iHR8eVZoGVX51tPx0ZYGChzBekGyTTd9RelZU9C5myPuH9CR" alt="img" /></p>
 <p>Computers are only becoming more ubiquitous and they have been at an accelerated rate since the beginning of their conception (Sade 2006). Due in part to the rate at which they are developing and also the fact that they tend not to be built by designers eminently focused on the end user but by engineers trying to solve technical problems. I still see many especially in the older generations who struggle to understand and use computers. Or atleast it is hard for them to see the benefits when the time and energy investment for them to learn these systems is so large. Interactions design questions usability it inspects our behaviour and analyzes the choices we make (Kolko, 2009). This is why I believe it can play an important role in not only making technology more accessible but question the way we use it.</p>
 <p>In the studio I am very conscious of this idea of questioning the way we use and interact with objects and technology. With this in mind in response to my latest brief on visualizing time I am looking at new ways of interacting with a book. I am trying to use interactivity as a tool to teach technical abstract ideas.</p>
@@ -398,21 +333,16 @@ Walker, S. (2006). Sustainable by Design: explorations in theory and practice. 1
 <p>Kolko, D.J. (2009) Thoughts on interaction design. Morgan Kaufmann Publishers.</p>
 <p>Sade, G. (2006) ‘Why interaction design? Review of Jonas Löwgren and Erik Stolterman Thoughtful interaction Design’, Design Philosophy Papers, 4(1), pp. 41–52. doi: 10.2752/144871306x13966268131352.</p>
 <p>Pluralvonglas, T. (2009) The Disciplines of User Experience Design. [Infographic].
-Available at <a href="https://www.google.com/url?q=http://bit.ly/NZ3dxo&sa=D&ust=1517590438654000&usg=AFQjCNFsYlL_K-rtEDxX1XGHtoO7Wpp0rw">http://bit.ly/NZ3dxo</a>. Accessed 20th October 2016</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Research methodologies]]></title>
-        <id>Research_methodologies</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Research_methodologies">
-        </link>
-        <updated>2016-11-10T00:00:00Z</updated>
-        <summary type="html"><![CDATA[A large part of the researcher's job is analysing their own input, being aware of their own role in what they are studying.]]></summary>
-        <content type="html"><![CDATA[<h1 id="researchmethodologies">Research methodologies</h1>
+Available at <a href="https://www.google.com/url?q=http://bit.ly/NZ3dxo&sa=D&ust=1517590438654000&usg=AFQjCNFsYlL_K-rtEDxX1XGHtoO7Wpp0rw">http://bit.ly/NZ3dxo</a>. Accessed 20th October 2016</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Research methodologies]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Research_methodologies</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Research_methodologies</guid>
+            <pubDate>Thu, 10 Nov 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[A large part of the researcher's job is analysing their own input, being aware of their own role in what they are studying.]]></description>
+            <content:encoded><![CDATA[<h1 id="researchmethodologies">Research methodologies</h1>
 <p>In today’s lecture we were introduced to research methodologies more specifically qualitative research and quantitative research. We covered research strategies, ethics and the reasons one might want to perform a piece of research. In this essay I try to define in detail the difference between qualitative and quantitative research.</p>
 <p>Qualitative research is especially helpful in situations where what you are studying is too complex to isolate a single variable such as people in social situations. Researchers often immerse themselves in the setting in order to see what they are studying in context (Mason, 2002). This means a large part of the researcher's job is analysing their own input, being aware of their own role in what they are studying. This is one of the criticisms of the qualitative approach since the ‘researcher's presence has a profound effect on the subjects’ and thus experiments are not repeatable  (Hughes). Despite its shortcomings it plays an important role in studying complex systems it is the qualitative approach which often leads to new insights and opens avenues for further quantitative research (Hughes).</p>
 <p>Quantitative research is used when testing a single variable’s relationship to another. Researchers will start with a clearly defined question and design all the details of the study before any data is collected. The results of the research are structured tables of values and statistics. Computers allow researchers to process large data sets making it possible to make accurate generalizations and predictions. Quantitative research only works in systems where you can totally isolate variables and when this is the case it can be effective at understanding true objective relationships. (USB Libraries, 2016)</p>
@@ -422,41 +352,31 @@ Available at <a href="https://www.google.com/url?q=http://bit.ly/NZ3dxo&sa=D&ust
 <p>Hughes, Christina, An Introduction to Qualitative Research. Department of Sociology. University of Warwick. Available at <a href="https://www.google.com/url?q=http://www2.warwick.ac.uk/fac/soc/sociology/staff/hughes/researchprocess/&sa=D&ust=1517590674249000&usg=AFQjCNFDdtVBD_hEKaZL-zfNiTiQWAWLRQ">http://www2.warwick.ac.uk/fac/soc/sociology/staff/hughes/researchprocess/</a>. (Accessed 29t November 2016).</p>
 <p>Mason, J (2002) Qualitative Researching, 2nd edn. SAGE Publications Ltd</p>
 <p>Wilson, V (1997) Focus Groups: A Useful Qualitative Method for Educational Research? British Educational Research Journal, 23, 2, pp 209-224</p>
-<p>University of Southern California. (2016) Organizing Your Social Sciences Research Paper: Quantitative Methods. Available at http://libguides.usc.edu/writingguide/quantitative. (Accessed 8t November 2016).</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The infinite mix exhibition review]]></title>
-        <id>The_infinite_mix_exhibition_review</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/The_infinite_mix_exhibition_review">
-        </link>
-        <updated>2016-11-01T00:00:00Z</updated>
-        <summary type="html"><![CDATA[Are there everyday activities, movements which deserve more attention?]]></summary>
-        <content type="html"><![CDATA[<h1 id="theinfinitemixexhibitionreview">The infinite mix exhibition review</h1>
+<p>University of Southern California. (2016) Organizing Your Social Sciences Research Paper: Quantitative Methods. Available at http://libguides.usc.edu/writingguide/quantitative. (Accessed 8t November 2016).</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[The infinite mix exhibition review]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/The_infinite_mix_exhibition_review</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/The_infinite_mix_exhibition_review</guid>
+            <pubDate>Tue, 01 Nov 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Are there everyday activities, movements which deserve more attention?]]></description>
+            <content:encoded><![CDATA[<h1 id="theinfinitemixexhibitionreview">The infinite mix exhibition review</h1>
 <p>The infinite mix exhibition was comprised of 10 audiovisual artworks by 10 leading international artists. Each piece played closely with video and sound and in this essay, I talk about two pieces which I found especially interesting.</p>
 <p>First when you walk in, is Martin Creed’s work No. 1701 from 2013. It is a short movie shot entirely on a crossing in new York. With the camera on a dolly, it tracks people one at a time as they make there way across the road. Each of the people had a unique walk often suffering from an ailment. Without the jubilant rock song playing in the background it could have been almost pitiful. Instead, I felt captivated by the struggles that some endured. It was a chance to examine the unique walks of those that politeness might not normally allow us to do. I believe it is the elated music in the background which changed the tone of the piece from that of pity to that of stoicism.</p>
 <p>The next piece which intrigued me was m.A.A.d 2014 by Kahlil Joseph. Like many of the pieces, it crossed somewhere in between a documentary and a music video. In part, it felt like a contemporary gangster rap music video with the way it flaunted tattoos gold teeth and guns. However the feeling I felt was more of respect for the harsh unforgiving environment that those growing up in Compton Los Angeles had to deal with.</p>
 <p>Martin Creed’s piece got me thinking about whether there are other places or things that we are not normally free to inspect. Are there other everyday activities movements which deserve more attention. I hope I can find and develop this idea further in my studio work and maybe find a different way to highlight the everyday physical struggles that so many go through.</p>
 <h4 id="references">References</h4>
-<p>infinite mix (2016) Available at: http://www.theinfinitemix.com/ (Accessed: 5 December 2016).</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Modernism and Scottish school]]></title>
-        <id>Modernism_and_Scottish_school</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/Modernism_and_Scottish_school">
-        </link>
-        <updated>2016-10-31T00:00:00Z</updated>
-        <summary type="html"><![CDATA[Mackintosh’s chair like Breuer’s uses simple geometric shapes, the main and key difference is in the choice of materials.]]></summary>
-        <content type="html"><![CDATA[<h1 id="modernismandscottishschool">Modernism and Scottish school</h1>
+<p>infinite mix (2016) Available at: http://www.theinfinitemix.com/ (Accessed: 5 December 2016).</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[Modernism and Scottish school]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/Modernism_and_Scottish_school</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/Modernism_and_Scottish_school</guid>
+            <pubDate>Mon, 31 Oct 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mackintosh’s chair like Breuer’s uses simple geometric shapes, the main and key difference is in the choice of materials.]]></description>
+            <content:encoded><![CDATA[<h1 id="modernismandscottishschool">Modernism and Scottish school</h1>
 <p>In this week's lecture we covered seven of the major art movements in the 20th Century, Scottish School, Art Nouveau, Modernism, Art Deco, Surrealism, Cold War Design and Postmodernism. In the essay I look closer at Scottish school and modernism using their most iconic chairs.</p>
 <h2 id="scottishschool">Scottish school</h2>
 <p>Scottish school was fashionable between 1885 and 1915, formed in glasgow and edinburgh it aimed to produce work which improved contemporary cosmopolitan life (Victoria, Museum, 2013b). One of the most prominent artists of the time was Charles Rennie Mackintosh whose chair is pictured on the right.</p>
@@ -468,21 +388,16 @@ Available at <a href="https://www.google.com/url?q=http://bit.ly/NZ3dxo&sa=D&ust
 <h4 id="references">References</h4>
 <p>La Fonda del Sol – exhibition tour &amp; dinner / SPECIAL (DE) (2012) Available at: http://www.design-museum.de/en/collection/100-masterpieces/detailseiten/b3wassily-marcel-breuer.html (Accessed: 5 December 2016).</p>
 <p>Victoria, Museum, A. and webmaster, D.M. (2013a) Modernism - Victoria and Albert Museum. Available at: http://www.vam.ac.uk/page/m/modernism/ (Accessed: 5 December 2016).</p>
-<p>Victoria, Museum, A. and webmaster, D.M. (2013b) Style guide: Scottish school - Victoria and Albert Museum. Available at: http://www.vam.ac.uk/content/articles/s/style-guide-scottish-school/ (Accessed: 5 December 2016).</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Culture?]]></title>
-        <id>What_is_Culture</id>
-        <link href="http://www.danbeaven.co.uk/blog/#/What_is_Culture">
-        </link>
-        <updated>2016-10-31T00:00:00Z</updated>
-        <summary type="html"><![CDATA[The search for a definition of culture felt like traversing a tangled web of ambiguity leading from one historical piece of literature to the next.]]></summary>
-        <content type="html"><![CDATA[<h1 id="whatisculture">What is Culture?</h1>
+<p>Victoria, Museum, A. and webmaster, D.M. (2013b) Style guide: Scottish school - Victoria and Albert Museum. Available at: http://www.vam.ac.uk/content/articles/s/style-guide-scottish-school/ (Accessed: 5 December 2016).</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+        <item>
+            <title><![CDATA[What is Culture?]]></title>
+            <link>http://www.danbeaven.co.uk/blog/#/What_is_Culture</link>
+            <guid>http://www.danbeaven.co.uk/blog/#/What_is_Culture</guid>
+            <pubDate>Mon, 31 Oct 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[The search for a definition of culture felt like traversing a tangled web of ambiguity leading from one historical piece of literature to the next.]]></description>
+            <content:encoded><![CDATA[<h1 id="whatisculture">What is Culture?</h1>
 <p>It is important especially in academic writing to have clear definitions for words and terms used. This is not always easy, meanings are continually changing and many words have more than one meaning depending on the context. In this post I try to investigate the true definition and where the word came from.</p>
 <p>The Oxford english dictionary defines culture as "The arts and other manifestations of human intellectual achievement regarded collectively" (Oxford English Dictionary, 2016). The Cambridge english dictionary  defines culture as "the way of life, especially the general customs and beliefs, of a particular group of people at a particular time" (Cambridge Dictionary, 2016).</p>
 <p>The history of the word starts in medieval times and comes from the word cultivate when referring to the ‘cultivation of land’ (Williams, 2016, p. 242). The latin french origins cultura and culture respectively also refer to farming land. The first sign of its meaning changing was Thomas Hobbes's Leviathan first published 1651 which uses culture to describe the education of children, ‘the education of Children a Culture of their minds’ (Hobbes, 2008, p. 163). Raymond Williams (1953), describes William Wordsworth's use of the word in The Prelude (1995) as ‘genuinely transitional’; when he uses the word in both the older sense of process, ‘be left to droop by timely culture unsustained’, but also uses it as an absolute, ‘Salutes the Being at his birth, where grace of culture hath been utterly unknown’. This according to Raymond Williams was the first time culture was used in the modern sense of the word (Williams, 1953).</p>
@@ -492,11 +407,8 @@ Available at <a href="https://www.google.com/url?q=http://bit.ly/NZ3dxo&sa=D&ust
 <p>Hobbes, T. (2008) Leviathan (Oxford world’s classics). Edited by J. C. A. Gaskin. Oxford: Oxford University Press, USA.</p>
 <p>Oxford English Dictionary (2016) Available at: https://en.oxforddictionaries.com/definition/culture (Accessed: 5 December 2016).</p>
 <p>Williams, R. (1953) ‘The Idea of Culture’, The Cambridge Quarterly, 3(3).</p>
-<p>Wordsworth, W. (1995) The prelude: The Four texts (1798, 1799, 1805, 1850): Four texts (1798, 1799, 1805, 1850). Edited by Jonathan Wordsworth. New York: Penguin Group (USA).</p>]]></content>
-        <author>
-            <name>Jane Doe</name>
-            <email>janedoe@example.com</email>
-            <uri>https://example.com/janedoe</uri>
-        </author>
-    </entry>
-</feed>
+<p>Wordsworth, W. (1995) The prelude: The Four texts (1798, 1799, 1805, 1850): Four texts (1798, 1799, 1805, 1850). Edited by Jonathan Wordsworth. New York: Penguin Group (USA).</p>]]></content:encoded>
+            <author>janedoe@example.com (Jane Doe)</author>
+        </item>
+    </channel>
+</rss>

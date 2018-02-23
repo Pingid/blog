@@ -5,6 +5,7 @@
   "homepage": "https://www.danbeaven.co.uk/blog",
   "dependencies": {
     "classnames": "^2.2.5",
+    "feed": "^1.1.1",
     "gh-pages": "^1.0.0",
     "markdown": "^0.5.0",
     "marked": "^0.3.6",
@@ -19,6 +20,7 @@
     "react-router-scroll": "^0.4.4",
     "react-scripts": "1.0.14",
     "rss": "^1.2.2",
+    "showdown": "^1.8.6",
     "styled-components": "^3.0.2",
     "verbal-expressions": "^0.3.0"
   },
