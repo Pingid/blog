@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.9ac64878.css",
-  "main.css.map": "static/css/main.9ac64878.css.map",
-  "main.js": "static/js/main.755b0e34.js",
-  "main.js.map": "static/js/main.755b0e34.js.map",
+  "main.css": "static/css/main.91d2c973.css",
+  "main.css.map": "static/css/main.91d2c973.css.map",
+  "main.js": "static/js/main.e44486ac.js",
+  "main.js.map": "static/js/main.e44486ac.js.map",
   "static/media/ Gallery IV.jpg": "static/media/ Gallery IV.5fa51ada.jpg",
   "static/media/ The crew of H.M.S. Hood unload cases at Portsmouth, July 1935.jpg": "static/media/ The crew of H.M.S. Hood unload cases at Portsmouth, July 1935.1b3c3531.jpg",
   "static/media/ Zheng Tianxin (Dr F. T. Cheng) and Mr F.St. G. Spendlove examining exhibits.jpg": "static/media/ Zheng Tianxin (Dr F. T. Cheng) and Mr F.St. G. Spendlove examining exhibits.31d50258.jpg",
@@ -46,5 +46,7 @@
   "static/media/War elephant of Siam.jpg": "static/media/War elephant of Siam.68dce0b2.jpg",
   "static/media/_Magic Lantern_ Peep Show.jpg": "static/media/_Magic Lantern_ Peep Show.9655776c.jpg",
   "static/media/a nightwatchman, Peking.jpg": "static/media/a nightwatchman, Peking.178177fc.jpg",
-  "static/media/dadanyduchreadymadewheel13.jpg": "static/media/dadanyduchreadymadewheel13.f5c651e3.jpg"
+  "static/media/dadanyduchreadymadewheel13.jpg": "static/media/dadanyduchreadymadewheel13.f5c651e3.jpg",
+  "static/media/feed-light.png": "static/media/feed-light.96425eba.png",
+  "static/media/feed.png": "static/media/feed.ffeb54a4.png"
 }
