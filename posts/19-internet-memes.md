@@ -16,11 +16,11 @@ The term 'meme' was coined by Richard Dawkins in his book "The Selfish Gene" whe
 
 There is some contention in basing the meme on the gene, genes are based on physical characteristics or phenotype's, which result from the alleles in a DNA sequence, they are an abstract concept but one based on clear physical attributes. Memes, on the other hand, have no concrete physical parallel, taking Dawkins's example of an arch building meme, although two craftsmen may possess such a skill it is not necessary for their corresponding neural pathways to be identical. An alternative model proposed by Gatherer (1998) defines a meme as:
 
-"an observable cultural phenomenon, such as a behaviour, artefact or an objective piece of information, which is copied, imitated or learned, and thus may replicate within a cultural system."
+> "an observable cultural phenomenon, such as a behaviour, artefact or an objective piece of information, which is copied, imitated or learned, and thus may replicate within a cultural system."
 
 Gatherer's model allows us more analytic power by treating the things we see as memes not as simply the result of an ambiguous thought or idea. In both Dawkins and Gatherer's models, the success of a meme is judged by its staying power, popularity and the speed at which it propagates (Shifman, 2015). Most Internet Memes are part of a group of related items that might use the same format, picture or idea and it is these groups or categories which propagate and persist rarely the individual text, picture or video. Because groups or categories display the memetic behaviour of Gatherers model Shifman suggests we define internet memes as:
 
-"a group of digital items sharing common characteristics of content, form, and/or stance, which were created with awareness of each other, and were circulated, imitated, and/or transformed via the Internet by many users."
+> "a group of digital items sharing common characteristics of content, form, and/or stance, which were created with awareness of each other, and were circulated, imitated, and/or transformed via the Internet by many users."
 
 This definition then allows us to tie our understanding of Internet Memes with the sociological theory of memetics as units of culture which can be imitated, adapted and ultimately propagated. For this essay, I refer to the singular text, image, video as an 'individual' internet meme and I use 'internet meme' to refer to the general category or group.
 
@@ -48,7 +48,7 @@ Internet Memes offer a solution, they are able to encapsulate complex social ide
 - Anderson, B. (1983). Imagined Communities: Reflections on the Origin and Spread of Nationalism. London: Verso.
 - O'Reilly, T. (2005). *What Is Web 2.0: Design Patterns and Business Models for the Next Generation of Software*. [online] Oreilly.com. Available at: http://www.oreilly.com/lpt/a/1 [Accessed 5 Mar. 2018].
 - Gruzd, A., Wellman, B. and Takhteyev, Y. (2011). Imagining Twitter as an Imagined Community. *American Behavioral Scientist*, 55(10), pp.1294-1318.
-- [Sveningsson Elm, M](http://nordicom.statsbiblioteket.dk/ncom/en/persons/malin-sveningsson(6a0576ce-d6e2-4d4a-9e70-121f0dfaa91d).html). (2008). [Understanding and studying Internet culture(s): hybridity and interdisciplinarity](http://nordicom.statsbiblioteket.dk/ncom/en/publications/understanding-and-studying-internet-cultures(a1d01590-c2b9-11dd-8e59-000ea68e967b).html) *Nordicom Review*, vol 29, no. 2, pp. 85-90.
+- Sveningsson Elm, M. (2008). [Understanding and studying Internet culture(s): hybridity and interdisciplinarity](http://nordicom.statsbiblioteket.dk/ncom/en/publications/understanding-and-studying-internet-cultures(a1d01590-c2b9-11dd-8e59-000ea68e967b).html) *Nordicom Review*, vol 29, no. 2, pp. 85-90.
 - Bell, C. (2009). *Ritual Theory, Ritual Practice*. Oxford University Press.
 - Carey, J. (2008). A Cultural Approach to Communication. In:*Communication as culture*. New York, NY [u.a.]: Routledge.
 - Hu, Y., Manikonda, L. and Kambhampati, S. (2014). What We Instagram: A First Analysis of Instagram Photo Content and User Types. *International AAAI Conference on Web and Social Media*. [online] Available at: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/view/8118.

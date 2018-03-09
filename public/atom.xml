@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://example.com/</id>
     <title>Dan Beaven&apos;s blog</title>
-    <updated>2018-03-09T17:40:37Z</updated>
+    <updated>2018-03-09T17:42:52Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
         <name>Dan Beaven</name>
@@ -37,9 +37,13 @@
 <h2 id="memes">Memes</h2>
 <p>The term 'meme' was coined by Richard Dawkins in his book "The Selfish Gene" where he took the ancient Greek word 'mimeme' meaning 'imitated thing' and shortened it to rhyme with 'gene'. He was taking the genetic theory of life evolving “by the differential survival of replicating entities.” and applying the model to cultural phenomena (Dawkins, 2009, p.561). The meme like the gene is a “unit of cultural transmission, or a unit of imitation", and examples of memes might be, "tunes, ideas, catch-phrases, clothes fashions, ways of making pots or of building arches" (Dawkins, 2009, p.562, p.563). In Dawkins's definition memes are ideas or pieces of information stored in our minds, and drawings, photos and text are vehicles in which these ideas are transmitted. In essence "memes are idea complexes and meme vehicles are their tangible expressions" (Shifman, 2015, p.38).</p>
 <p>There is some contention in basing the meme on the gene, genes are based on physical characteristics or phenotype's, which result from the alleles in a DNA sequence, they are an abstract concept but one based on clear physical attributes. Memes, on the other hand, have no concrete physical parallel, taking Dawkins's example of an arch building meme, although two craftsmen may possess such a skill it is not necessary for their corresponding neural pathways to be identical. An alternative model proposed by Gatherer (1998) defines a meme as:</p>
-<p>"an observable cultural phenomenon, such as a behaviour, artefact or an objective piece of information, which is copied, imitated or learned, and thus may replicate within a cultural system."</p>
+<blockquote>
+  <p>"an observable cultural phenomenon, such as a behaviour, artefact or an objective piece of information, which is copied, imitated or learned, and thus may replicate within a cultural system."</p>
+</blockquote>
 <p>Gatherer's model allows us more analytic power by treating the things we see as memes not as simply the result of an ambiguous thought or idea. In both Dawkins and Gatherer's models, the success of a meme is judged by its staying power, popularity and the speed at which it propagates (Shifman, 2015). Most Internet Memes are part of a group of related items that might use the same format, picture or idea and it is these groups or categories which propagate and persist rarely the individual text, picture or video. Because groups or categories display the memetic behaviour of Gatherers model Shifman suggests we define internet memes as:</p>
-<p>"a group of digital items sharing common characteristics of content, form, and/or stance, which were created with awareness of each other, and were circulated, imitated, and/or transformed via the Internet by many users."</p>
+<blockquote>
+  <p>"a group of digital items sharing common characteristics of content, form, and/or stance, which were created with awareness of each other, and were circulated, imitated, and/or transformed via the Internet by many users."</p>
+</blockquote>
 <p>This definition then allows us to tie our understanding of Internet Memes with the sociological theory of memetics as units of culture which can be imitated, adapted and ultimately propagated. For this essay, I refer to the singular text, image, video as an 'individual' internet meme and I use 'internet meme' to refer to the general category or group.</p>
 <h2 id="communicationritual">Communication &amp; Ritual</h2>
 <p>Ritual is a word generally associated with spiritual and religious activity, Émile Durkheim argues these activities perform a specific social function one about collectively affirming beliefs and ideals. He writes at the end of his book 'The Elementry Forms of Religious Life', that the role of ritual is to synthesise the "whole world of feelings, ideas, and images" which, "mutually attract one another, repel one another, fuse together, subdivide, and proliferate" within a community of individuals (Durkheim and Fields, 1995, p.426). Essentially ritual is an activity where "collective beliefs and ideals are simultaneously generated, experienced, and affirmed as real by the community." (Bell, 2009, p.20).</p>
@@ -57,7 +61,7 @@
 <li>Anderson, B. (1983). Imagined Communities: Reflections on the Origin and Spread of Nationalism. London: Verso.</li>
 <li>O'Reilly, T. (2005). <em>What Is Web 2.0: Design Patterns and Business Models for the Next Generation of Software</em>. [online] Oreilly.com. Available at: http://www.oreilly.com/lpt/a/1 [Accessed 5 Mar. 2018].</li>
 <li>Gruzd, A., Wellman, B. and Takhteyev, Y. (2011). Imagining Twitter as an Imagined Community. <em>American Behavioral Scientist</em>, 55(10), pp.1294-1318.</li>
-<li><a href="http://nordicom.statsbiblioteket.dk/ncom/en/persons/malin-sveningsson(6a0576ce-d6e2-4d4a-9e70-121f0dfaa91d).html">Sveningsson Elm, M</a>. (2008). <a href="http://nordicom.statsbiblioteket.dk/ncom/en/publications/understanding-and-studying-internet-cultures(a1d01590-c2b9-11dd-8e59-000ea68e967b).html">Understanding and studying Internet culture(s): hybridity and interdisciplinarity</a> <em>Nordicom Review</em>, vol 29, no. 2, pp. 85-90.</li>
+<li>Sveningsson Elm, M. (2008). <a href="http://nordicom.statsbiblioteket.dk/ncom/en/publications/understanding-and-studying-internet-cultures(a1d01590-c2b9-11dd-8e59-000ea68e967b).html">Understanding and studying Internet culture(s): hybridity and interdisciplinarity</a> <em>Nordicom Review</em>, vol 29, no. 2, pp. 85-90.</li>
 <li>Bell, C. (2009). <em>Ritual Theory, Ritual Practice</em>. Oxford University Press.</li>
 <li>Carey, J. (2008). A Cultural Approach to Communication. In:<em>Communication as culture</em>. New York, NY [u.a.]: Routledge.</li>
 <li>Hu, Y., Manikonda, L. and Kambhampati, S. (2014). What We Instagram: A First Analysis of Instagram Photo Content and User Types. <em>International AAAI Conference on Web and Social Media</em>. [online] Available at: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/view/8118.</li>
