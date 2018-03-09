@@ -10,7 +10,10 @@ import SideScroll from './SideScroll';
 import { routeTitle } from '../utils/utils';
 import blogPosts from '../static/posts.json';
 
+import '../styles/tiles.css';
+
 class Blog extends React.Component {
+  state = { archive: false }
   // componentDidMount() {
   //   this.resize = window.addEventListener('resize', () => this.forceUpdate())
   // }
@@ -32,10 +35,17 @@ class Blog extends React.Component {
         className={classNames('mx-auto', { 'px3': window.innerWidth > 590, 'px1': window.innerWidth < 590 })}
         style={{ maxWidth: '70rem' }}>
         <div className={classNames({ 'pb3 pt2 pl3': window.innerWidth > 590, 'pb2 pt1 pl1': window.innerWidth < 590, })}>
-          <h3 style={{ fontWeight: 700 }} className="mt3 mb1">Dan Beaven</h3>
-          <p style={{ maxWidth: '30rem' }}>
-            This blog contains essays I have written during my (BA) Interaction Design Arts course at the London College of Communication.
-          </p>
+          <div className="mt3 mb1 flex justify-between">
+            <div>
+              <h3 style={{ fontWeight: 700 }} className="m0">Dan Beaven</h3>
+              <p style={{ maxWidth: '30rem' }}>
+                This blog contains essays I have written during my (BA) Interaction Design Arts course at the London College of Communication.
+              </p>
+            </div>
+            <a href="http://www.danbeaven.co.uk/blog/atom.xml">
+              <div className="pr1" style={{ width: '1.5rem' }}><img src={require('../static/icons/feed-light.png')} /></div>
+            </a>
+          </div>
         </div>
         <div className="flex flex-wrap border-box">
           <div style={{ borderTop: '1px solid #a0a0a0', flex: '0 0 100%' }}>
@@ -67,14 +77,14 @@ class Blog extends React.Component {
                 </SideScroll>
               )
               return (
-                <div className="flex py3 border-box" key={i1} style={{ width: '100%', borderTop: '1px solid #a0a0a0' }}>
+                <div className="flex py3 border-box thumb-row" key={i1} style={{ width: '100%', borderTop: '1px solid #a0a0a0' }}>
                   { 
                     section.map((post, i2) => {
                       const thumb = R.path(['meta', 'images', 'thumbnail', 'src'], post);
                       return (
                         <div 
                           key={post.title} 
-                          className={classNames({'c-border-l': i2 > 0})}
+                          className={classNames('thumb-tile', {'c-border-l': i2 > 0})}
                           style={{ flex: `0 0 ${section.length > 3 ? 33 : 100 / section.length}%` }}>
                           <Single
                             size={section.length}

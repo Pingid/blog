@@ -1,6 +1,8 @@
 import React from 'react';
 import * as R from 'ramda';
 import MarkdownRenderer from './MarkdownRenderer';
+import { Link } from 'react-router-dom';
+import classNames from 'classnames';
 import '../styles/blog-post.css';
 
 import { routeTitle } from '../utils/utils';
@@ -11,8 +13,14 @@ const Article = ({ match, history }) => {
   if (!post) { history.push('/'); return null; }
   return (
     <div>
+      <div>
+        <h1
+          onClick={history.goBack}
+          className={classNames('fixed m0 pl2 pointer', { pl3: window.innerWidth > 500})} 
+          style={{ top: '0rem' }}>{'<-'}</h1>
+      </div>
       <div
-        className="px3"
+        className={classNames('px2', { px3: window.innerWidth > 500})}
         style={{ maxWidth: '41rem', margin: '0 auto' }}>
         <MarkdownRenderer
           markdown={post.markdown}

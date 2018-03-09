@@ -1,0 +1,9 @@
+.fit { width: 100%; }
+.pointer { cursor: pointer; }
+
+.c-border-x { border-left: 1px solid #a0a0a0; border-right: 1px solid #a0a0a0; }
+.c-border-l { border-left: 1px solid #a0a0a0; }
+
+.thumb-tile div { padding: 0 2rem; }
+.thumb-tile:first-child div { padding-left: 1rem; }
+.thumb-tile:last-child  div { padding-right: 1rem; }
