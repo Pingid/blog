@@ -6,7 +6,7 @@ French sociologist Roger Caillois splits games into four catagories, chance (Bet
 
 You may struggle as I did to see sequential games as games at all, skateboarding for example it is easy to see as a play activity but not as a game in itself. Simmilarly with horse-riding one can play games while on horseback however a link between internal point games and the whimsical riding of a horse is I would argue not obviouse. But a way to frame it so that it relates to internal point games is that in sequential games the goal is to get a thrill or overcome a challange within the bounds of a convention. The thrill seeking or overcoming of a chalange in sequential games is analogous to the arbitry goal in an internal point game and the conventions one does this in (eg horseback riding) are analogous to the arbitrary rules of an internal point games. 
 
-This just leaves make-believe games as they have no obvious goal, convention or fixed rules. Callios however points to the sentament 'as if' or 'imagin that' as performing the same function as that of rules (Callios, 2001, p.8). "The convention 'as if' insulates an activity from reality just as surely as a conventional goal or a conventional sequence of behaviour." (Rowe, 1992, p.469). The goal in this post was to assuage my own sceptisism as to what constitutes a game by understanding the common links between popular ideas of games.
+This just leaves make-believe games as they have no obvious goal, convention or fixed rules. Callios however points to the sentament 'as if' or 'imagin that' as performing the same function as that of rules (Callios, 2001, p.8). "The convention 'as if' insulates an activity from reality just as surely as a conventional goal or a conventional sequence of behaviour." (Rowe, 1992, p.469). The goal in this post was to assuage my own sceptisism as to what constitutes a game by understanding the common links between popular notions of games.
 
 ### References
 
@@ -18,7 +18,8 @@ This just leaves make-believe games as they have no obvious goal, convention or 
 
 ```json
 {
-    "date": "01/03/2018"
+    "date": "01/03/2018",
+    "description": "Categorising and understanding types of games"
 }
 ```
 

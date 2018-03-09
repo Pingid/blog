@@ -61,7 +61,7 @@ Internet Memes offer a solution, they are able to encapsulate complex social ide
 
 ```json
 {
-    "data": "09/03/2018",
+    "date": "08/03/2018",
     "description": "Instagram as a cultural church, a place where people can participate in society through the ritual of sharing images of the things and people around them"
 }
 ```
