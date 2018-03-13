@@ -14,8 +14,6 @@ The link between playing chess, skateboarding and playing doctors at first thoug
 - Rowe, M. (1992). The Definition of ‘Game’. *Philosophy*, 67(262), pp.467-479.
 - Shor, M. (2018). Game - Game Theory .net. [online] Gametheory.net. Available at: http://www.gametheory.net/dictionary/Game.html [Accessed 15 Feb. 2018].
 
-
-
 ```json
 {
     "date": "01/03/2018",

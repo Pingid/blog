@@ -6,18 +6,15 @@ A general abstract notion of play doesn't exist in many languages and developed 
 
 In English, we refer to the socialising of small children as playing but there is a point (In my case early teens) where we substitute the wordplay for 'Hang out', 'Meet up', 'Chill' or just the name of an activity such as bowling or watching a movie. After talking to some Chinese friends I discovered that this is not the case in Chinese where it is fitting at any age to use the word 'wan' (play) to describe activities with friends or even one's own hobbies. Brian Sutton Smith (1998) terms the socialising of adults as 'Informal Social Play' and according to his analysis, it seems to perform a similar function to the social games of children. This indicates an inclination in English speaking cultures to distinguish between children and adults socialising and an aversion to associate adult activities with play.
 
-Huizinga's definition for Play is: 
-
 > "Play is a voluntary activity or occupation executed within certain fixed limits of time and place, according to rules freely accepted but absolutely binding, having its aim in itself and accompanied by a feeling of tension, joy and the consciousness that is is “different” from “ordinary life” (Huizinga, 1980, p.28)
 
 I have touched on two of many disputes into what makes a play activity both of which if we go by Huizinga's definition would be part of the play sphere. The play of adult fraternisation verses children socialising also raises questions as to how our use of language might affect our behaviour.
 
-#### References
+### References
 
 - Huizinga, J. (1980). *Homo ludens*. London: Routledge and Kegan Paul. (Huizinga, 1980)
 - Oxford Dictionaries | English. (2018). *play | Definition of play in English by Oxford Dictionaries*. [online] Available at: https://en.oxforddictionaries.com/definition/play [Accessed 7 Feb. 2018].
 - Sutton-Smith, B. (1998). *The ambiguity of play*. Cambridge, Mass.: Harvard University 
-
 
 
 ```json
