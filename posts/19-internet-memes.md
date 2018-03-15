@@ -2,11 +2,11 @@
 
 ## Introduction
 
+The movement from tribes to larger societies is often attributed to the common fictions offered and maintained by organised religion (Harari, 2014). In an increasingly secular society it seems important to understand the elements of religious activity which enabled such large scale solidarity and the non-religious activities that have replaced them.
+
 The internet meme has in recent years become an all-pervasive form of cultural communication which now "permeates many spheres of digital and nondigital expression" (Shifman, 2015, p.23). The rise of the meme coincided with what Tim O'Reilly coined as web 2.0 which was characterised by community moderated, content-driven websites like 4chan and Reddit and blogging platforms such as WordPress, Blogger and Tumblr (O'Reilly, 2005). These platforms relied on user-submitted content and encouraged interaction within comment sections, giving rise to a plethora of virtual communities and an "infinite number of different, partly overlapping online subcultures" (Sveningsson, 2008).
 
 In this essay I explore how the participation in the creation and dissemination of internet memes can be seen as a ritualist practice which helps to create more cohesive virtual communities. I start by addressing key concepts, 'communities' and 'virtual communities', 'memes' and the 'internet memes', 'communication' and 'ritual'. To understand virtual communities I use Benedict Anderson's concept of the ‘imagined community’ which he proposed in his seminal book on the origins of nationalism. To address memes I start by looking at the conceptual origins in Richard Dawkins’ book 'The Selfish Gene' and how his gene-based model for understanding cultural imitation and propagation can help our understanding of internet memes. I combine Emile Durkheim's views on the role of ritual in society with James Cary's theory of communication as ritual to explore the use of the word outside of religious contexts. I conclude by suggesting that internet memes act as tools for communication, mediating beliefs and ideals in large-scale anonymous communities and that they are effective in this because of their participatory nature and efficiency in communicating complex social ideas.
-
-The movement from small scale tribes to larger societies is often attributed to the common fictions offered and maintained by organised religion (Harari, 2014). In an increasingly secular society it seems important to understand the elements of religious activity which enabled such large scale solidarity and what activities have replaced them.
 
 ## Communities
 
@@ -67,7 +67,7 @@ Internet memes offer a solution to this as they are able to encapsulate complex 
 ```json
 {
     "date": "08/03/2018",
-    "description": "Instagram as a cultural church, a place where people can participate in society through the ritual of sharing images of the things and people around them"
+    "description": "The movement from tribes to larger societies is often attributed to the common fictions offered and maintained by organised religion (Harari, 2014). In an increasingly secular society it seems important to understand the elements of religious activity which enabled such large scale solidarity and the non-religious activities that have replaced them."
 }
 ```
 
