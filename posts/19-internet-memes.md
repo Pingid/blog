@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The movement from tribes to larger societies is often attributed to the common fictions offered and maintained by organised religion (Harari, 2014). In an increasingly secular society it seems important to understand the elements of religious activity which enabled such large scale solidarity and the non-religious activities that have replaced them.
+The movement from tribes to larger societies is often attributed to the common fictions offered and maintained by organised religion (Harari, 2014). In an increasingly secular society it seems important to understand the elements of religious activity which enabled such large scale solidarity and identify the non-religious activities that have replaced them.
 
 The internet meme has in recent years become an all-pervasive form of cultural communication which now "permeates many spheres of digital and nondigital expression" (Shifman, 2015, p.23). The rise of the meme coincided with what Tim O'Reilly coined as web 2.0 which was characterised by community moderated, content-driven websites like 4chan and Reddit and blogging platforms such as WordPress, Blogger and Tumblr (O'Reilly, 2005). These platforms relied on user-submitted content and encouraged interaction within comment sections, giving rise to a plethora of virtual communities and an "infinite number of different, partly overlapping online subcultures" (Sveningsson, 2008).
 
@@ -67,7 +67,7 @@ Internet memes offer a solution to this as they are able to encapsulate complex 
 ```json
 {
     "date": "08/03/2018",
-    "description": "The movement from tribes to larger societies is often attributed to the common fictions offered and maintained by organised religion (Harari, 2014). In an increasingly secular society it seems important to understand the elements of religious activity which enabled such large scale solidarity and the non-religious activities that have replaced them."
+    "description": "In an increasingly secular society it seems important to understand the elements of religious activity which enabled such large scale solidarity and identify the non-religious activities that have replaced them."
 }
 ```
 
