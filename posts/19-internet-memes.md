@@ -57,6 +57,8 @@ Internet memes offer a solution to this as they are able to encapsulate complex 
 - Milner, R. (2013). Pop Polyvocality: Internet Memes, Public Participation, and the Occupy Wall Street Movement. *International Journal of Communication*, [online] 7, p.34. Available at: http://ijoc.org/index.php/ijoc/article/view/1949/1015.
 - O'Reilly, T. (2005). *What Is Web 2.0: Design Patterns and Business Models for the Next Generation of Software*. [online] Oreilly.com. Available at: http://www.oreilly.com/lpt/a/1 [Accessed 5 Mar. 2018].
 - Redditmetrics.com. (2018). Top subreddits by subscribers, largest subreddits - reddit metrics. [online] Available at: http://redditmetrics.com/top [Accessed 8 Mar. 2018].
+
+
 - Shifman, L. (2015). *Memes in digital culture*. Boca Raton: CRC Press.
 - [Sveningsson Elm, M](http://nordicom.statsbiblioteket.dk/ncom/en/persons/malin-sveningsson(6a0576ce-d6e2-4d4a-9e70-121f0dfaa91d).html). (2008). [Understanding and studying Internet culture(s): hybridity and interdisciplinarity](http://nordicom.statsbiblioteket.dk/ncom/en/publications/understanding-and-studying-internet-cultures(a1d01590-c2b9-11dd-8e59-000ea68e967b).html) *Nordicom Review*, vol 29, no. 2, pp. 85-90.
 - Willmore, J. and Hocking, D. (2017). Internet Meme Creativity as Everyday Conversation. *Journal of Asia-Pacific Pop Culture*, 2(2), pp.140-166.
