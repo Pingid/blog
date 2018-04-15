@@ -1,0 +1,38 @@
+h1 { margin: 6rem 0rem; }
+@media only screen and (max-width: 550px) { h1  { margin: 3rem 0rem; } }
+
+h2 {
+  font-size: 25px;
+  color: #989898;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-size: 40px;
+  margin-top: 4rem;
+}
+
+h4 {
+  font-size: 30px;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+img {
+	max-width: 50%;
+	float: left;
+	margin-top: .5rem;
+	padding-right: 1.8rem;
+	padding-bottom: 1rem;
+}
+
+a { color: blue; }
+a:visited { color: lightblue }
+
+.b-reference {
+	font-size: 14px;
+	line-height: 25px;
+	padding: 0rem 0rem;
+	word-wrap: break-word;
+}
+

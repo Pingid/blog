@@ -1,1 +1,0 @@
-export const routeTitle = title => title.replace(/\?/gi, '').split(' ').join('_');

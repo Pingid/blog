@@ -7,3 +7,11 @@
 .thumb-tile div { padding: 0 2rem; }
 .thumb-tile:first-child div { padding-left: 1rem; }
 .thumb-tile:last-child  div { padding-right: 1rem; }
+
+.hide-sm {
+
+}
+
+@media screen and (max-width: 450px) {
+	.hide-sm { display: none; }
+}
