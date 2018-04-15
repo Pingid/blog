@@ -1,0 +1,132 @@
+{
+  "assetsByChunkName": {
+    "path---posts-09-samson-delilah": [
+      "path---posts-09-samson-delilah-7509df5252bd965a1e1b.js",
+      "path---posts-09-samson-delilah-7509df5252bd965a1e1b.js.map"
+    ],
+    "path---posts-08-walk-through-british-art": [
+      "path---posts-08-walk-through-british-art-5b26c7aed1f5087e92e7.js",
+      "path---posts-08-walk-through-british-art-5b26c7aed1f5087e92e7.js.map"
+    ],
+    "path---posts-12-kenneth-goldsmith": [
+      "path---posts-12-kenneth-goldsmith-6820584dc3473bcccc5d.js",
+      "path---posts-12-kenneth-goldsmith-6820584dc3473bcccc5d.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-54424241700ead348f0c.js",
+      "component---src-pages-index-js-54424241700ead348f0c.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---posts-04-research-methodologies": [
+      "path---posts-04-research-methodologies-ae189975cfea6194578b.js",
+      "path---posts-04-research-methodologies-ae189975cfea6194578b.js.map"
+    ],
+    "path---posts-10-sustainable-design": [
+      "path---posts-10-sustainable-design-c880a6698586b8ff516c.js",
+      "path---posts-10-sustainable-design-c880a6698586b8ff516c.js.map"
+    ],
+    "path---posts-14-death-of-the-author": [
+      "path---posts-14-death-of-the-author-bbddc32a59406e9ea82d.js",
+      "path---posts-14-death-of-the-author-bbddc32a59406e9ea82d.js.map"
+    ],
+    "path---posts-06-measuring-the-impact-of-culture-on-the-economy": [
+      "path---posts-06-measuring-the-impact-of-culture-on-the-economy-8a0a41838dfddee33e9d.js",
+      "path---posts-06-measuring-the-impact-of-culture-on-the-economy-8a0a41838dfddee33e9d.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---posts-01-what-is-cultour": [
+      "path---posts-01-what-is-cultour-733cd2ce133dc8431b02.js",
+      "path---posts-01-what-is-cultour-733cd2ce133dc8431b02.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-e1557f118f5f0dbd0721.js",
+      "component---src-templates-blog-post-js-e1557f118f5f0dbd0721.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-eada7bc588f263b2908b.js",
+      "component---src-layouts-index-js-eada7bc588f263b2908b.js.map"
+    ],
+    "path---posts-03-infinite-mix": [
+      "path---posts-03-infinite-mix-055237c3eaba254941f0.js",
+      "path---posts-03-infinite-mix-055237c3eaba254941f0.js.map"
+    ],
+    "path---index": [
+      "path---index-e0495b2051d6e37805ea.js",
+      "path---index-e0495b2051d6e37805ea.js.map"
+    ],
+    "path---posts-17-nash-equilibrium": [
+      "path---posts-17-nash-equilibrium-ea713386aaed0e5d2394.js",
+      "path---posts-17-nash-equilibrium-ea713386aaed0e5d2394.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-8d23a67706fd3e385a4d.js",
+      "build-js-styles.css",
+      "commons-8d23a67706fd3e385a4d.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---posts-05-why-interaction-design": [
+      "path---posts-05-why-interaction-design-ca37013ba5dffcccb86f.js",
+      "path---posts-05-why-interaction-design-ca37013ba5dffcccb86f.js.map"
+    ],
+    "path---posts-16-play-in-language": [
+      "path---posts-16-play-in-language-40f653bdebca244f3e08.js",
+      "path---posts-16-play-in-language-40f653bdebca244f3e08.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---posts-02-modernism-scotish-school": [
+      "path---posts-02-modernism-scotish-school-49902926ba283e8cf446.js",
+      "path---posts-02-modernism-scotish-school-49902926ba283e8cf446.js.map"
+    ],
+    "path---posts-07-semiotics": [
+      "path---posts-07-semiotics-2218cd1532573a13c2d1.js",
+      "path---posts-07-semiotics-2218cd1532573a13c2d1.js.map"
+    ],
+    "app": [
+      "app-7159f49b6a115193268f.js",
+      "build-js-styles.css",
+      "app-7159f49b6a115193268f.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---posts-11-burlington-house": [
+      "path---posts-11-burlington-house-19e44889f1307d7880a7.js",
+      "path---posts-11-burlington-house-19e44889f1307d7880a7.js.map"
+    ],
+    "path---posts-13-oulipo": [
+      "path---posts-13-oulipo-458d58f7a58f3de5823a.js",
+      "path---posts-13-oulipo-458d58f7a58f3de5823a.js.map"
+    ],
+    "path---posts-18-what-are-games": [
+      "path---posts-18-what-are-games-cc14ac0f83a0c9ae21b7.js",
+      "path---posts-18-what-are-games-cc14ac0f83a0c9ae21b7.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---posts-19-internet-memes": [
+      "path---posts-19-internet-memes-748a551b9925c6da3ad4.js",
+      "path---posts-19-internet-memes-748a551b9925c6da3ad4.js.map"
+    ],
+    "path---posts-15-conceptual-art": [
+      "path---posts-15-conceptual-art-88d942e610f397781f31.js",
+      "path---posts-15-conceptual-art-88d942e610f397781f31.js.map"
+    ]
+  }
+}
