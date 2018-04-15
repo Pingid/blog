@@ -34,7 +34,7 @@ class Bio extends React.Component {
               Dan Beaven
             </h3>
             <div className="flex">
-              <A href="http://www.danbeaven.co.uk">Portfolio</A>
+              <A href="https://www.danbeaven.co.uk">Portfolio</A>
               <A>/</A>
               <A href="https://www.instagram.com/dansgotgrams/">instagram</A>
               <A> / </A>
