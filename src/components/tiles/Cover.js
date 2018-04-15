@@ -12,37 +12,13 @@ const ImageWrapper = styled.div`
   }
 `
 
-const Image = styled.img``
-
-const Cover = ({ slug, title, description, gallery, thumbnail, date }) => {
-  if (window.innerWidth < 700)
-    return (
-      <div className="flex flex-wrap py3 px3">
-        <Link to={slug}>
-          <h3 className="mb0" style={{ marginTop: '-11px' }}>
-            {title}
-          </h3>
-        </Link>
-        <h4 className="m0 pt1 pb2 italic" style={{ width: '100%' }}>
-          {date}
-        </h4>
-        <ImageWrapper>
-          {gallery && (
-            <ImageGallery
-              items={gallery}
-              style={{ width: '100%', height: '50vh' }}
-            />
-          )}
-          {thumbnail && <Image role="presentation" src={thumbnail} />}
-        </ImageWrapper>
-        <p className="mb0">{description}</p>
-      </div>
-    )
-  return (
-    <div className="flex py3 px1">
+const Cover = ({ slug, title, description, gallery, thumbnail, date }) => (
+  <div>
+    { /* LARGE VIEW */ }
+    <div className="flex py3 px1 hide-md">
       <ImageWrapper>
         {gallery && <ImageGallery items={gallery} style={{ height: '70vh' }} />}
-        {thumbnail && <Image role="presentation" src={thumbnail} />}
+        {thumbnail && <img role="presentation" src={thumbnail} />}
       </ImageWrapper>
       <div className="pl3 border-box self-start">
         <Link to={slug}>
@@ -54,7 +30,29 @@ const Cover = ({ slug, title, description, gallery, thumbnail, date }) => {
         <p className="mb0">{description}</p>
       </div>
     </div>
-  )
-}
+
+    { /* SMALL VIEW */ }
+    <div className="flex flex-wrap py3 px1 show-md">
+      <Link to={slug}>
+        <h3 className="mb0" style={{ marginTop: '-11px' }}>
+          {title}
+        </h3>
+      </Link>
+      <h4 className="m0 pt1 pb2 italic" style={{ width: '100%' }}>
+        {date}
+      </h4>
+      <ImageWrapper>
+        {gallery && (
+          <ImageGallery
+            items={gallery}
+            style={{ width: '100%', height: '50vh' }}
+          />
+        )}
+        {thumbnail && <img role="presentation" src={thumbnail} />}
+      </ImageWrapper>
+      <p className="mb0">{description}</p>
+    </div>
+  </div>
+)
 
 export default Cover

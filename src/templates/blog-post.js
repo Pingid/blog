@@ -3,9 +3,27 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import classNames from 'classnames'
+import styled from 'styled-components'
 
 import Bio from '../components/Bio'
 // import { rhythm, scale } from '../utils/typography'
+
+const BackButton = styled.h1`
+  top: 0;
+  padding-left: 2rem;
+  @media (max-width: 500px) {
+    padding-left: 1rem;
+  }
+`
+
+const ArticleWrapper = styled.div`
+  max-width: 41rem; 
+  margin: 0 auto;
+  padding: 0px 2rem;
+  @media (max-width: 500px) {
+    padding: 0px 1rem;
+  }
+`
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -29,26 +47,18 @@ class BlogPostTemplate extends React.Component {
           `}</style>
         </Helmet>
         <Link to="/">
-          <h1
-            className={classNames('fixed m0 pl2 pointer', {
-              pl3: window.innerWidth > 500,
-            })}
-            style={{ top: '0rem' }}
-          >
+          <BackButton className="fixed m0">
             {'<-'}
-          </h1>
+          </BackButton>
         </Link>
-        <div
-          className={classNames('px2', { px3: window.innerWidth > 500 })}
-          style={{ maxWidth: '41rem', margin: '0 auto' }}
-        >
+        <ArticleWrapper>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        </div>
+        </ArticleWrapper>
         <div className="flex justify-between mt4 mb4 px2">
           {previous && (
             <Link
               to={previous.fields.slug}
-              rel="prev"
+              rel="previous"
               style={{ color: 'black' }}
               className="flex items-center"
             >
@@ -69,9 +79,9 @@ class BlogPostTemplate extends React.Component {
               className="flex items-center"
             >
               <h5 className="m0 mt1 pr1 hide-sm">
-                {previous.frontmatter.title.length <= 20
-                  ? previous.frontmatter.title
-                  : previous.frontmatter.title.slice(0, 20) + '...'}
+                {next.frontmatter.title.length <= 20
+                  ? next.frontmatter.title
+                  : next.frontmatter.title.slice(0, 20) + '...'}
               </h5>
               <h3 className="m0">{'->'}</h3>
             </Link>

@@ -8,10 +8,29 @@
 .thumb-tile:first-child div { padding-left: 1rem; }
 .thumb-tile:last-child  div { padding-right: 1rem; }
 
-.hide-sm {
-
+@media screen and (max-width: 700px) {
+	.thumb-tile div { padding: 0 .5rem; }
+	.thumb-tile:first-child div { padding-left: .5rem; }
+	.thumb-tile:last-child  div { padding-right: .5rem; }
 }
 
+.hide-lg {}
+.hide-md {}
+.hide-sm {}
+
+.show-lg { display: none }
+.show-md { display: none }
+.show-sm { display: none }
+
+@media screen and (min-width: 700px) {
+	.show-lg { display: block }
+	.hide-lg { display: none }
+}
+@media screen and (max-width: 700px) {
+	.show-md { display: block }
+	.hide-md { display: none }
+}
 @media screen and (max-width: 450px) {
-	.hide-sm { display: none; }
+	.show-sm { display: block }
+	.hide-sm { display: none }
 }

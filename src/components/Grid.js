@@ -2,6 +2,7 @@ import React from 'react'
 import * as R from 'ramda'
 import classNames from 'classnames'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
 
 import Cover from './tiles/Cover'
 import Single from './tiles/Single'
@@ -9,8 +10,39 @@ import SideScroll from './SideScroll'
 
 import '../styles/tiles.css'
 
+const Wrapper = styled.div`
+  padding: 0rem 2rem;
+  @media (max-width: 700px) {
+    padding: 0rem 1rem;
+  }
+`;
+
+const Row = styled.div`
+  width: 100%;
+  border-top: 1px solid #a0a0a0;
+  display: flex;
+  flex-flow: row;
+  padding: 2rem 0rem;
+  @media (max-width: 700px) {
+    flex-flow: column;
+    border-top: none;
+    padding: 0rem;
+  }
+`;
+
+const Col = styled.div`
+  flex: 0 0 ${({ flex }) => flex }%;
+  ${({ bLeft }) => bLeft && `border-left: 1px solid #a0a0a0;`}
+  @media (max-width: 700px) {
+    flex: 0 0 100%;
+    flex-flow: column;
+    border-left: none;
+    border-top: 1px solid #a0a0a0;
+    padding: 2rem 0rem;
+  }
+`;
+
 const PostGrid = ({ posts: blogPosts, galleries }) => {
-  console.log(blogPosts)
   const cover = R.find(x => x.frontmatter.gallery, blogPosts)
   const posts = blogPosts
     .filter(
@@ -21,12 +53,11 @@ const PostGrid = ({ posts: blogPosts, galleries }) => {
       if (a.frontmatter.essay) return -1
       if (b.frontmatter.essay) return 1
     })
-
-  console.log(posts)
+    
   const makeLayout = (layout, posts) => {
     return R.reduce(
       (a, b) => {
-        if (R.isEmpty(a) || window.innerWidth < 700) return R.append([b], a)
+        if (R.isEmpty(a)) return R.append([b], a)
         if (R.last(a).length < layout[a.length - 1])
           return R.append(R.append(b, R.last(a)), R.init(a))
         return R.append([b], a)
@@ -37,13 +68,8 @@ const PostGrid = ({ posts: blogPosts, galleries }) => {
   }
 
   return (
-    <div
-      className={classNames({
-        px3: window.innerWidth > 590,
-        px1: window.innerWidth < 590,
-      })}
-    >
-      <div className="flex flex-wrap border-box">
+    <Wrapper>
+      <div className="">
         {
           // <GridGrid
           //   layout={{
@@ -89,24 +115,16 @@ const PostGrid = ({ posts: blogPosts, galleries }) => {
               </SideScroll>
             )
           return (
-            <div
-              className="flex py3 border-box thumb-row"
-              key={i1}
-              style={{ width: '100%', borderTop: '1px solid #a0a0a0' }}
-            >
+            <Row
+              className="border-box"
+              key={i1}>
               {section.map((post, i2) => {
                 return (
-                  <div
+                  <Col
                     key={post.frontmatter.title}
-                    className={classNames('thumb-tile', {
-                      'c-border-l': i2 > 0,
-                    })}
-                    style={{
-                      flex: `0 0 ${
-                        section.length > 3 ? 33 : 100 / section.length
-                      }%`,
-                    }}
-                  >
+                    bLeft={i2 > 0}
+                    className="thumb-tile"
+                    flex={100 / section.length}>
                     <Single
                       size={section.length}
                       title={post.frontmatter.title}
@@ -115,10 +133,10 @@ const PostGrid = ({ posts: blogPosts, galleries }) => {
                       description={post.frontmatter.description}
                       slug={post.fields.slug}
                     />
-                  </div>
+                  </Col>
                 )
               })}
-            </div>
+            </Row>
           )
         })}
         <p
@@ -134,7 +152,7 @@ const PostGrid = ({ posts: blogPosts, galleries }) => {
           </a>
         </p>
       </div>
-    </div>
+    </Wrapper>
   )
 }
 

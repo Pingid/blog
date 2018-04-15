@@ -15,7 +15,7 @@ export default ({ slug, size, title, image, description, date }) => {
         <h4 className="m0 py2 italic">{date}</h4>
         {image && <Image src={image} className="pr2 pb1" />}
         {description && (
-          <p className="mt0">
+          <p className="my0">
             <span className="nowrap">{description.slice(0, 10)}</span>
             {description.slice(10, description.length)}
           </p>

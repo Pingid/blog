@@ -34,7 +34,7 @@ const ImageGallery = ({ items, style }) => {
     width: ${style.width};
     background-color: #f7f7f7;
   `
-  console.log(items)
+  
   return (
     <ReactImageGallery
       showPlayButton={false}

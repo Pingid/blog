@@ -8,15 +8,18 @@ const A = props => (
      {...props} />
 );
 
+const Wrapper = styled.div`
+  padding-top: 1rem;
+  padding-left: 3rem
+  @media (max-width: 700px) {
+    padding: 0rem 1.5rem;
+  }
+`
+
 class Bio extends React.Component {
   render() {
     return (
-      <div
-        className={classNames({
-          'pt2 pb1 pl3': window.innerWidth > 590,
-          'pb2 pt1 pl1': window.innerWidth < 590,
-        })}
-      >
+      <Wrapper className="pb1 pl3">
         <div className="mt3 flex justify-between">
           <div>
             <h3 style={{ fontWeight: 700 }} className="m0 mb2">
@@ -36,7 +39,7 @@ class Bio extends React.Component {
             </p>
           </div>
         </div>
-      </div>
+      </Wrapper>
     )
   }
 }

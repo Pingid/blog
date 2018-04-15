@@ -5,7 +5,7 @@ module.exports = {
     description: 'Blog containing essays on art, design and cultural theory',
     siteUrl: 'www.danbeaven.co.uk/blog',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
