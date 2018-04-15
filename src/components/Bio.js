@@ -16,6 +16,14 @@ const Wrapper = styled.div`
   }
 `
 
+const RSS = styled.a`
+  padding-right: 1rem;
+  padding-top: 1rem;
+  @media (max-width: 700px) {
+    padding: 0rem 0rem;
+  }
+`
+
 class Bio extends React.Component {
   render() {
     return (
@@ -38,6 +46,11 @@ class Bio extends React.Component {
               Communication.
             </p>
           </div>
+          <RSS href="http://www.danbeaven.co.uk/blog/rss.xml">
+            <div className="pr1" style={{ width: '1.5rem' }}>
+              <img src={require('../assets/icons/feed-light.png')} />
+            </div>
+          </RSS>
         </div>
       </Wrapper>
     )
