@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import Cover from './tiles/Cover';
 import Single from './tiles/Single';
 import SideScroll from './SideScroll';
+// import GridGrid from './GridGrid';
 
 import { routeTitle } from '../utils/utils';
 import blogPosts from '../static/posts.json';
@@ -21,6 +22,9 @@ class Blog extends React.Component {
   render() {
     const cover = R.find(x => x.meta.cover, blogPosts);
     const posts = blogPosts.filter(post => !R.propEq('title', cover.title, post));
+    const layout = [
+      { maxWidth: ''}
+    ];
 
     const makeLayout = (layout, posts) => {
       return R.reduce((a, b) => {
@@ -48,6 +52,16 @@ class Blog extends React.Component {
           </div>
         </div>
         <div className="flex flex-wrap border-box">
+        {
+          // <GridGrid
+          //   layout={{
+          //     large: [1, 2, 3, 100],
+          //     medium: [1, 2, 2, 100],
+          //     small: [1, 1, 1, 1, 1, 100]
+          //   }}
+          // />
+        }
+        {
           <div style={{ borderTop: '1px solid #a0a0a0', flex: '0 0 100%' }}>
             <Cover
               title={cover.title}
@@ -57,6 +71,7 @@ class Blog extends React.Component {
               date={cover.meta.date}
             />  
           </div>
+        }
           { 
             makeLayout([2, 3, 100], posts).map((section, i1) => {
               if (section.length > 3) return (
