@@ -44,8 +44,8 @@ const ImageGallery = ({ items, style }) => {
       items={items}
       renderItem={item => {
         return (
-          <Item className="flex items-center justify-center">
-            <Image src={item.resolutions.src} />
+          <Item className="wfit flex items-center justify-center">
+            <Img outerWrapperClassName="wfit" style={{ width: '100%' }} sizes={item.sizes} />
           </Item>
         )
       }}

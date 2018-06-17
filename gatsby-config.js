@@ -3,9 +3,9 @@ module.exports = {
     title: 'Dan Beaven\'s blog',
     author: 'Dan Beaven',
     description: 'Blog containing essays on art, design and cultural theory',
-    siteUrl: 'www.danbeaven.co.uk/blog',
+    siteUrl: 'blog.danbeaven.co.uk',
   },
-  pathPrefix: '/blog',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

@@ -7,6 +7,7 @@ import ImageGallery from '../ImageGallery'
 
 const ImageWrapper = styled.div`
   flex: 0 0 66.66%;
+  width: 100%;
   @media (max-width: 700px) {
     flex: 0 0 100%;
   }

@@ -43,7 +43,7 @@ const Col = styled.div`
 `;
 
 const PostGrid = ({ posts: blogPosts, galleries }) => {
-  const cover = R.find(x => x.frontmatter.gallery, blogPosts)
+  const cover = R.find(x => x.frontmatter.cover, blogPosts)
   const posts = blogPosts
     .filter(
       post => !R.propEq('title', cover.frontmatter.title, post.frontmatter)
@@ -53,6 +53,8 @@ const PostGrid = ({ posts: blogPosts, galleries }) => {
       if (a.frontmatter.essay) return -1
       if (b.frontmatter.essay) return 1
     })
+    // .sort((a, b) => b.frontmatter.cover ? 1 : -1)
+  console.log(posts)
     
   const makeLayout = (layout, posts) => {
     return R.reduce(

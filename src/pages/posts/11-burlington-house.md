@@ -3,7 +3,8 @@ title: The social effect of the 1935-6 exhibition of Chinese art at Burlington H
 date: "2017-05-25"
 essay: true
 gallery: burlington/images
-description: How China used an art exhibition to garner sympathy and respect from western sociaties
+cover: true
+description: How China used an art exhibition to garner sympathy and respect from the west.
 ---
 
 # The social effect of the 1935-6 exhibition of Chinese art at Burlington House, London

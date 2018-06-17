@@ -41,11 +41,9 @@ export const pageQuery = graphql`
           relativeDirectory
           childImageSharp {
             ... on ImageSharp {
-              resolutions {
+              sizes(maxWidth: 800) {
                 base64
                 aspectRatio
-                width
-                height
                 src
                 srcSet
                 srcWebp
@@ -76,6 +74,7 @@ export const pageQuery = graphql`
             thumbnail
             gallery
             essay
+            cover
           }
         }
       }
