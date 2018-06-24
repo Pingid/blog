@@ -48,13 +48,12 @@ const PostGrid = ({ posts: blogPosts, galleries }) => {
     .filter(
       post => !R.propEq('title', cover.frontmatter.title, post.frontmatter)
     )
-    .sort((a, b) => {
-      if (a.frontmatter.essay === b.frontmatter.essay) return 0
-      if (a.frontmatter.essay) return -1
-      if (b.frontmatter.essay) return 1
-    })
+    // .sort((a, b) => {
+    //   if (a.frontmatter.essay === b.frontmatter.essay) return 0
+    //   if (a.frontmatter.essay) return -1
+    //   if (b.frontmatter.essay) return 1
+    // })
     // .sort((a, b) => b.frontmatter.cover ? 1 : -1)
-  console.log(posts)
     
   const makeLayout = (layout, posts) => {
     return R.reduce(
