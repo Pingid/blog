@@ -1,7 +1,4 @@
-@import "react-image-gallery/build/image-gallery.css";
-
-body
-{
+body {
   margin: 0;
   padding: 0;
 }

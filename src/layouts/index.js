@@ -6,6 +6,7 @@ import { Container } from 'react-responsive-grid'
 import 'basscss/css/basscss.min.css'
 
 import '../styles/index.css'
+import '../styles/image-gallery.css'
 import '../styles/app.css'
 
 class Template extends React.Component {
