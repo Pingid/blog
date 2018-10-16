@@ -1,5 +1,6 @@
-/*@import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";*/
-body 
+@import "react-image-gallery/build/image-gallery.css";
+
+body
 {
   margin: 0;
   padding: 0;
@@ -54,4 +55,3 @@ a:active { color: black }
 
 @media screen and (max-width: 550px) { p { line-height: 27px } }
 @media only screen and (max-width: 550px) { h1 { font-size: 40.44px; } }
-

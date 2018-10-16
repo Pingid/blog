@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import ReactImageGallery from 'react-image-gallery'
 import Img from 'gatsby-image'
 
-import 'react-image-gallery/build/image-gallery.css'
+// import 'react-image-gallery/build/image-gallery.css'
 
 const Image = styled.img`
   width: auto !important;
@@ -34,7 +34,7 @@ const ImageGallery = ({ items, style }) => {
     width: ${style.width};
     background-color: #f7f7f7;
   `
-  
+
   return (
     <ReactImageGallery
       showPlayButton={false}
