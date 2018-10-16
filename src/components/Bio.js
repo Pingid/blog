@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import classNames from 'classnames'
 
 const A = props => (
-  <a className="pr1" 
-     style={{ color: 'grey', fontSize: '1rem' }} 
+  <a className="pr1"
+     style={{ color: 'grey', fontSize: '1rem' }}
      {...props} />
 );
 
@@ -34,7 +34,7 @@ class Bio extends React.Component {
               Dan Beaven
             </h3>
             <div className="flex">
-              <A href="https://www.danbeaven.co.uk">Portfolio</A>
+              <A href="https://www.danbeaven.com">Portfolio</A>
               <A>/</A>
               <A href="https://www.instagram.com/dansgotgrams/">instagram</A>
               <A> / </A>
@@ -46,11 +46,11 @@ class Bio extends React.Component {
               Communication.
             </p>
           </div>
-          <RSS href="http://www.danbeaven.co.uk/blog/rss.xml">
+          {/* <RSS href="http://www.danbeaven.co.uk/blog/rss.xml">
             <div className="pr1" style={{ width: '1.5rem' }}>
               <img src={require('../assets/icons/feed-light.png')} />
             </div>
-          </RSS>
+          </RSS> */}
         </div>
       </Wrapper>
     )
